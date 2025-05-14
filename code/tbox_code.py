@@ -8,8 +8,11 @@ g.bind("research", RESEARCH)
 
 # Define classes with their labels and comments
 classes = [
+    ("Person", "A person involved in research", "A human being who may be an author, journal editor, or conference chair of papers or events"),
     ("Paper", "A scientific or academic paper", "A document containing research findings or scholarly work"),
     ("Author", "A person who writes papers", "An individual who contributes to academic publications"),
+    ("JournalEditor", "A person who edits journals", "An individual who edits academic journals and their volumes"),
+    ("ConferenceChair", "A person who chairs conferences", "An individual who chairs or leads academic events such as conferences"),
     ("Journal", "A periodical publication", "A regular publication containing academic articles"),
     ("Edition", "A specific instance of a publication", "A particular version or issue of a publication"),
     ("Event", "An academic gathering", "A conference or workshop"),
@@ -32,7 +35,11 @@ object_properties = [
     ("has_volume", "Journal", "Volume", "Indicates journal volume", "Links a journal to its volumes"),
     ("affiliated_with", "Author", "Affiliation", "Indicates institutional affiliation", "Links an author to their institution"),
     ("reviewed", "Author", "Review", "Indicates review authorship", "Links an author to reviews they have written"),
-    ("reviews", "Review", "Paper", "Indicates paper review", "Links a review to the paper it reviews")
+    ("reviews", "Review", "Paper", "Indicates paper review", "Links a review to the paper it reviews"),
+    ("has_journal_editor", "Volume", "JournalEditor", "Has journal editor", "Links a volume to its journal editor"),
+    ("has_conference_chair", "Edition", "ConferenceChair", "Has conference chair", "Links an event to its conference chair"),
+    ("edits_journal", "JournalEditor", "Journal", "Edits journal", "Links a journal editor to the journals they edit"),
+    ("chairs_event", "ConferenceChair", "Event", "Chairs event", "Links a conference chair to the events they chair")
 ]
 
 # Define data properties with their labels and comments
@@ -66,7 +73,13 @@ data_properties = [
     ("name", "Affiliation", XSD.string, "Affiliation name", "Name of the institution"),
     ("review_id", "Review", XSD.string, "Review identifier", "Unique identifier for a review"),
     ("comments", "Review", XSD.string, "Review comments", "Textual content of the review"),
-    ("vote", "Review", XSD.integer, "Review vote", "Numerical rating in the review")
+    ("vote", "Review", XSD.integer, "Review vote", "Numerical rating in the review"),
+    ("editor_id", "JournalEditor", XSD.string, "Editor identifier", "Unique identifier for a journal editor"),
+    ("name", "JournalEditor", XSD.string, "Editor name", "Full name of the journal editor"),
+    ("email", "JournalEditor", XSD.string, "Editor email", "Email address of the journal editor"),
+    ("chair_id", "ConferenceChair", XSD.string, "Chair identifier", "Unique identifier for a conference chair"),
+    ("name", "ConferenceChair", XSD.string, "Chair name", "Full name of the conference chair"),
+    ("email", "ConferenceChair", XSD.string, "Chair email", "Email address of the conference chair")
 ]
 
 # Add classes with labels and comments
@@ -76,6 +89,9 @@ for class_name, label, comment in classes:
     g.add((RESEARCH[class_name], RDFS.comment, Literal(comment)))
 
 # Add subclass relationships
+g.add((RESEARCH.Author, RDFS.subClassOf, RESEARCH.Person))
+g.add((RESEARCH.JournalEditor, RDFS.subClassOf, RESEARCH.Person))
+g.add((RESEARCH.ConferenceChair, RDFS.subClassOf, RESEARCH.Person))
 g.add((RESEARCH.Conference, RDFS.subClassOf, RESEARCH.Event))
 g.add((RESEARCH.Workshop, RDFS.subClassOf, RESEARCH.Event))
 
@@ -97,10 +113,6 @@ for prop_name, domain, range_type, label, comment in data_properties:
     g.add((prop, RDFS.label, Literal(label)))
     g.add((prop, RDFS.comment, Literal(comment)))
 
-# Add some additional constraints and documentation
-g.add((RESEARCH.Review, RDFS.comment, Literal("A review of a paper with comments and vote")))
-g.add((RESEARCH.comments, RDFS.comment, Literal("The textual content of a review")))
-g.add((RESEARCH.vote, RDFS.comment, Literal("Numerical rating given in a review")))
 
 g.serialize(destination="../resources/tbox.ttl", format="turtle")
 print("Enhanced ontology has been created and saved to tbox.ttl")
