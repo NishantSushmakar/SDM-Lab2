@@ -9,12 +9,18 @@ research:Affiliation a rdfs:Class ;
 
 research:Author a rdfs:Class ;
     rdfs:label "A person who writes papers" ;
-    rdfs:comment "An individual who contributes to academic publications" .
+    rdfs:comment "An individual who contributes to academic publications" ;
+    rdfs:subClassOf research:Person .
 
 research:Conference a rdfs:Class ;
     rdfs:label "A formal academic conference" ;
     rdfs:comment "A large academic gathering for presenting research" ;
     rdfs:subClassOf research:Event .
+
+research:ConferenceChair a rdfs:Class ;
+    rdfs:label "A person who chairs conferences" ;
+    rdfs:comment "An individual who chairs or leads academic events such as conferences" ;
+    rdfs:subClassOf research:Person .
 
 research:Edition a rdfs:Class ;
     rdfs:label "A specific instance of a publication" ;
@@ -28,6 +34,11 @@ research:Journal a rdfs:Class ;
     rdfs:label "A periodical publication" ;
     rdfs:comment "A regular publication containing academic articles" .
 
+research:JournalEditor a rdfs:Class ;
+    rdfs:label "A person who edits journals" ;
+    rdfs:comment "An individual who edits academic journals and their volumes" ;
+    rdfs:subClassOf research:Person .
+
 research:Keyword a rdfs:Class ;
     rdfs:label "A topic identifier" ;
     rdfs:comment "A term used to categorize research" .
@@ -36,10 +47,13 @@ research:Paper a rdfs:Class ;
     rdfs:label "A scientific or academic paper" ;
     rdfs:comment "A document containing research findings or scholarly work" .
 
+research:Person a rdfs:Class ;
+    rdfs:label "A person involved in research" ;
+    rdfs:comment "A human being who may be an author, journal editor, or conference chair of papers or events" .
+
 research:Review a rdfs:Class ;
     rdfs:label "A paper review" ;
-    rdfs:comment "A review of a paper with comments and vote",
-        "An evaluation of a research paper" .
+    rdfs:comment "An evaluation of a research paper" .
 
 research:Volume a rdfs:Class ;
     rdfs:label "A collection of papers" ;
@@ -74,6 +88,18 @@ research:author_id a rdf:Property ;
     rdfs:domain research:Author ;
     rdfs:range xsd:string .
 
+research:chair_id a rdf:Property ;
+    rdfs:label "Chair identifier" ;
+    rdfs:comment "Unique identifier for a conference chair" ;
+    rdfs:domain research:ConferenceChair ;
+    rdfs:range xsd:string .
+
+research:chairs_event a rdf:Property ;
+    rdfs:label "Chairs event" ;
+    rdfs:comment "Links a conference chair to the events they chair" ;
+    rdfs:domain research:ConferenceChair ;
+    rdfs:range research:Event .
+
 research:cited_in a rdf:Property ;
     rdfs:label "Indicates citation" ;
     rdfs:comment "Links a paper to papers it cites" ;
@@ -82,8 +108,7 @@ research:cited_in a rdf:Property ;
 
 research:comments a rdf:Property ;
     rdfs:label "Review comments" ;
-    rdfs:comment "Textual content of the review",
-        "The textual content of a review" ;
+    rdfs:comment "Textual content of the review" ;
     rdfs:domain research:Review ;
     rdfs:range xsd:string .
 
@@ -105,6 +130,27 @@ research:edition_id a rdf:Property ;
     rdfs:domain research:Edition ;
     rdfs:range xsd:string .
 
+research:editor_id a rdf:Property ;
+    rdfs:label "Editor identifier" ;
+    rdfs:comment "Unique identifier for a journal editor" ;
+    rdfs:domain research:JournalEditor ;
+    rdfs:range xsd:string .
+
+research:edits_journal a rdf:Property ;
+    rdfs:label "Edits journal" ;
+    rdfs:comment "Links a journal editor to the journals they edit" ;
+    rdfs:domain research:JournalEditor ;
+    rdfs:range research:Journal .
+
+research:email a rdf:Property ;
+    rdfs:label "Chair email",
+        "Editor email" ;
+    rdfs:comment "Email address of the conference chair",
+        "Email address of the journal editor" ;
+    rdfs:domain research:ConferenceChair,
+        research:JournalEditor ;
+    rdfs:range xsd:string .
+
 research:end_page a rdf:Property ;
     rdfs:label "Ending page" ;
     rdfs:comment "Last page number of the paper" ;
@@ -117,11 +163,23 @@ research:event_id a rdf:Property ;
     rdfs:domain research:Event ;
     rdfs:range xsd:string .
 
+research:has_conference_chair a rdf:Property ;
+    rdfs:label "Has conference chair" ;
+    rdfs:comment "Links an event to its conference chair" ;
+    rdfs:domain research:Edition ;
+    rdfs:range research:ConferenceChair .
+
 research:has_edition a rdf:Property ;
     rdfs:label "Indicates event edition" ;
     rdfs:comment "Links an event to its editions" ;
     rdfs:domain research:Event ;
     rdfs:range research:Edition .
+
+research:has_journal_editor a rdf:Property ;
+    rdfs:label "Has journal editor" ;
+    rdfs:comment "Links a volume to its journal editor" ;
+    rdfs:domain research:Volume ;
+    rdfs:range research:JournalEditor .
 
 research:has_volume a rdf:Property ;
     rdfs:label "Indicates journal volume" ;
@@ -165,16 +223,22 @@ research:location a rdf:Property ;
 research:name a rdf:Property ;
     rdfs:label "Affiliation name",
         "Author name",
+        "Chair name",
+        "Editor name",
         "Event name",
         "Journal name" ;
     rdfs:comment "Full name of the author",
+        "Full name of the conference chair",
+        "Full name of the journal editor",
         "Name of the event",
         "Name of the institution",
         "Name of the journal" ;
     rdfs:domain research:Affiliation,
         research:Author,
+        research:ConferenceChair,
         research:Event,
-        research:Journal ;
+        research:Journal,
+        research:JournalEditor ;
     rdfs:range xsd:string .
 
 research:number a rdf:Property ;
@@ -251,8 +315,7 @@ research:volume_id a rdf:Property ;
 
 research:vote a rdf:Property ;
     rdfs:label "Review vote" ;
-    rdfs:comment "Numerical rating given in a review",
-        "Numerical rating in the review" ;
+    rdfs:comment "Numerical rating in the review" ;
     rdfs:domain research:Review ;
     rdfs:range xsd:integer .
 
