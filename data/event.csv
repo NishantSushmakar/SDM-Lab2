@@ -1,0 +1,520 @@
+eventId,name,ISSN,url,type
+ad34e82f-f936-47a5-9c78-c4453dff3f60,"International Conference on Trust, Security and Privacy in Computing and Communications",,,Conference
+41bf9ed3-85b3-4c90-b015-150e31690253,Conference on Empirical Methods in Natural Language Processing,,https://www.aclweb.org/portal/emnlp,Conference
+ec37ab61-bda3-4666-b030-93e91de580dd,"International Conference on Advances in Computing, Communications and Informatics",,,Conference
+906a26c6-9eef-4b5d-b6d5-6dcb37e21fc2,International Conference on Information Science and Control Engineering,,,Conference
+528ced1f-e949-4e1a-8fee-2ffbf0be551d,Conference on Innovative Data Systems Research,,http://cidrdb.org/,Conference
+b1596c85-df27-4f9c-aad9-b3d3266a187e,International Conference on Security and Cryptography,,,Conference
+4b1e9464-e30e-4d7b-bc4e-7264830d1188,International Conference on Industrial and Information Systems,,,Conference
+1e33b3be-b2ab-46e9-96e8-d4eb4bad6e44,Annual Meeting of the Association for Computational Linguistics,,https://www.aclweb.org/anthology/venues/acl/,Conference
+ca5cfc75-dc48-4afb-8c26-7ad4d5f518d1,"Asilomar Conference on Signals, Systems and Computers",,,Conference
+289bfdda-eab3-4c9a-97be-ef1e0f9ddfc0,International Symposium on Software Testing and Analysis,,https://dl.acm.org/conference/issta,Conference
+e6904c24-9546-4135-8344-e3999e375558,Network and Distributed System Security Symposium,,http://www.isoc.org/,Conference
+6363ebc9-706a-4203-b804-148cbf8810ce,IEEE International Conference on Bioinformatics and Biomedicine,,http://www.wikicfp.com/cfp/program?id=283,Conference
+a59db0cb-8287-4db4-9378-0eb4c692f830,International Symposium on Service Oriented Software Engineering,,,Conference
+b328bb7b-9f50-4192-9616-e2eb72ef41b6,"Conference on Privacy, Security and Trust",,,Conference
+87ad3a52-6dd9-45bd-a0f2-f87453c491ed,International Conference on Knowledge and Systems Engineering,,http://www.wikicfp.com/cfp/program?id=1922,Conference
+6f5ccf6c-fd96-4a04-9b0e-f1eade928757,International Conference on Applied Informatics and Communication,,,Conference
+5aca6456-76d5-4208-84d8-a6b60228b52b,European Conference on Artificial Intelligence,,http://www.eccai.org/,Conference
+4a0a181c-3807-4883-8ac2-b0ddf5f46497,International Conference on Communication and Electronics Systems,,,Conference
+6336131c-2f71-4f61-bc3b-1bf31ec9fa3d,International Conference on Computing for Sustainable Global Development,,,Conference
+1ec5a55c-414e-4f79-b7dc-48e1dba3618e,IEEE Region 10 Conference,,,Conference
+3696b026-92cc-4f40-b606-b22669179424,Rapid Integration of Software Engineering Techniques,,,Conference
+975e1529-a14b-436f-ad7e-a09d8eabc50d,IEEE International Conference on Multimedia and Expo,1945-7871,http://csdl2.computer.org/persagen/ProceedingByFilter.jsp?filter=I,Conference
+46990654-eb6c-4674-96bc-ba905dab2a86,International Conference on Conceptual Structures,,http://www.wikicfp.com/cfp/program?id=1321,Conference
+cf6b5e76-9274-46e6-a2dd-7c190ec2ec5f,International Conference on Computer Graphics and Interactive Techniques,,http://www.siggraph.org/,Conference
+a36dc29e-4ea1-4567-b0fe-1c06daf8bee8,International Conference on Software Engineering,,http://www.icse-conferences.org/,Conference
+9213b848-c171-4f98-8c0b-e69f0b41941b,International Conference on Computing Communication Control and automation,,,Conference
+540f1ce2-26a1-4402-95c5-f25226e5dc8c,IEEE International Conference on Signal and Image Processing,,,Conference
+87fc9c3c-cc7f-42aa-ba71-2700729a6788,ACM Asia Conference on Computer and Communications Security,,https://dl.acm.org/conference/asia-ccs,Conference
+0d6f7fba-7092-46b3-8039-93458dba736b,"IEEE International Conference on Acoustics, Speech, and Signal Processing",,http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000002,Conference
+b3167983-71bc-4445-b0d2-bb1fa53c32f6,"International Conference on Innovations in Information, Embedded and Communication Systems",,,Conference
+8aa2db06-28c9-4f0d-ac2e-f4ae6053587c,International Conference on Crowd Science and Engineering,,,Conference
+f80ba4a3-7aed-4021-b4d8-e4f50668847a,IEEE International Joint Conference on Neural Network,,http://www.wikicfp.com/cfp/program?id=1573,Conference
+8113a511-e0d9-4231-a1bc-0bf5d0212a4e,Symposium on the Theory of Computing,,http://acm-stoc.org/,Conference
+d50167dd-c59d-48c7-98a9-928f7f8c3223,"IEEE Advanced Information Management, Communicates, Electronic and Automation Control Conference",,,Conference
+bdc2e585-4e48-4e36-8af1-6d859763d405,AAAI Conference on Artificial Intelligence,,http://www.aaai.org/,Conference
+b02cf974-33be-46bd-9cbc-022db6cb7151,IEEE International Conference on Software Maintenance and Evolution,,http://conferences.computer.org/icsm/,Conference
+ffa223d8-026b-4e03-9fa4-eece826c31ae,International Conference on Innovations in Information Technology,,,Conference
+b189dec0-41d0-4cea-a906-7c5186895904,Global Communications Conference,,http://www.ieee-globecom.org/,Conference
+abcfade0-4cdd-4b9f-bac3-fa13022b0a51,International Workshop on Ant Colony Optimization and Swarm Intelligence,,http://www.wikicfp.com/cfp/program?id=184,Workshop
+67f7f831-711a-43c8-8785-1e09005359b5,International Joint Conference on Artificial Intelligence,,http://www.ijcai.org/,Conference
+cb55f70b-f8f9-4ae0-8b67-0f0105672b4b,International Conference on Communications in Computing,,http://www.imaging.org/,Conference
+92e50051-bc20-49bb-9a4a-24dd922b146f,IEEE Systems Conference,,,Conference
+66e8920f-d30a-439b-9e9c-bcfb052b0cfa,International Conferences on Biological Information and Biomedical Engineering,,http://www.wikicfp.com/cfp/program?id=282,Conference
+47c47088-7640-441b-85ba-375fe8f5c3a4,International Conference on Computing Communication and Networking Technologies,,,Conference
+768b87bb-8a18-4d9c-a161-4d483c776bcf,Computer Vision and Pattern Recognition,1063-6919,https://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000147,Conference
+49bb481c-95dc-4e09-a921-95f6c7f78ab8,Conference of the Open Innovations Association,,http://fruct.org/,Conference
+ab066af1-bfee-42da-84bb-42f7e199d0d0,IEEE Conference on Decision and Control,,http://www.wikicfp.com/cfp/program?id=403,Conference
+51227d50-1d22-48c8-ac32-5466d5c3d16b,SMART,2460-6294,https://blasemarang.kemenag.go.id/journal/index.php/smart/index,Conference
+99db3270-3deb-4e55-91ee-b248735ea59b,Confluence,1933-0057,http://www.confluence.ou.edu/,Conference
+f00743e8-9418-493d-9c35-af74f28884ce,Workshop on Algorithms in Bioinformatics,,https://link.springer.com/conference/wabi,Workshop
+6cc5a7d1-3d71-45a3-b369-4934294e7f16,European Network Intelligence Conference,,,Conference
+625842ea-b2ac-4832-aa41-6bd142cfc9d9,Annual Conference of the IEEE Industrial Electronics Society,2162-4704,http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000352,Conference
+ae4fe9dd-c7f0-4f70-b475-92e2f98d3029,International Conference on Automatic Control and Dynamic Optimization Techniques,,,Conference
+294911be-9099-4a8f-9b8e-832d1916ba08,"Ubiquitous Computing, Electronics & Mobile Communication Conference",,,Conference
+663c675d-9f77-4858-afcd-97de12155854,International Symposium on Parameterized and Exact Computation,,http://www.wikicfp.com/cfp/program?id=1642,Conference
+d7907408-25bc-4816-a81d-4e0f2f6482c8,IEEE Working Conference on Mining Software Repositories,,https://dl.acm.org/conference/icse/proceedings,Conference
+73f7fe95-b68b-468f-b7ba-3013ca879e50,Conference on Computer and Communications Security,,https://dl.acm.org/conference/ccs,Conference
+b8d8437f-4a22-4452-9d2c-60d7d9d14eac,International Conference on Intelligent Systems Design and Applications,,http://www.softcomputing.net/isda.html,Conference
+7f92b1d2-f2b3-454d-adbe-ff02c83fe404,IEEE Conference on Computer Communications,,http://www.ieee-infocom.org/,Conference
+553a8429-d8e0-4f8b-9721-d6d193c55853,International Conference on Virtual Reality and Visualization,,,Conference
+72a6d50c-86ae-47c7-9a0e-54e5746aacee,International Conference on Mobile Ad-hoc and Sensor Networks,,,Conference
+71826259-dbc2-44dc-9ffa-abf8abd1514e,International Conference on Network and System Security,,,Conference
+be878dd3-3184-4e2d-8d9b-d406ee70a099,IEEE International Conference on Communication Software and Networks,,,Conference
+8de18c35-6785-4e54-99f2-21ee961302c6,Conference of the European Chapter of the Association for Computational Linguistics,,https://www.aclweb.org/anthology/venues/eacl/,Conference
+ba1e9488-a629-4abe-a0c2-ec2c79c91616,IEEE International Conference on Tools with Artificial Intelligence,,http://www.wikicfp.com/cfp/program?id=1488,Conference
+a0edb93b-1e95-4128-a295-6b1659149cef,Knowledge Discovery and Data Mining,,http://www.acm.org/sigkdd/,Conference
+1dd57490-36c0-4706-a939-6ba41a501209,International Conference on Fuzzy Systems and Knowledge Discovery,,http://www.wikicfp.com/cfp/program?id=1095,Conference
+3f2626a8-9d78-42ca-9e0d-4b853b59cdcc,IEEE International Conference on Robotics and Automation,2152-4092,http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000639,Conference
+a966c5e8-76dc-45c0-942a-3c7e41ac9b1a,International Conference on Computer Supported Cooperative Work in Design,,http://www.cscwd.org/,Conference
+e84bb5a1-8f79-42cc-8eb1-3a52f7c73d63,"IEEE International Conference on Systems, Man and Cybernetics",,,Conference
+9b87904d-1bdd-434f-8107-477813adc7d2,International Conference on Cyber-Enabled Distributed Computing and Knowledge Discovery,,http://www.wikicfp.com/cfp/program?id=631,Conference
+aaa9c845-192a-4560-bcb5-aa56da10b9ff,International Carnahan Conference on Security Technology,,http://sites.ieee.org/iccst/,Conference
+8e348218-34aa-4df5-a662-0a4b194b489c,IEEE International Symposium on Sustainable Systems and Technology,2157-5258,http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000254,Conference
+1c2ab05c-7d69-465e-929d-0920857aedce,International Conference on Automated Software Engineering,,http://ase.informatik.uni-essen.de/,Conference
+1e517cb2-1ca1-45b8-964a-456366bdcdc1,Pacific-Asia Conference on Knowledge Discovery and Data Mining,,,Conference
+53c5c62f-c80f-431a-8dd5-a99b18a8dc4c,International Conference on Computability and Complexity in Analysis,,http://www.informatik.fernuni-hagen.de/import/cca/index.html,Conference
+00e31f26-8a90-465e-8962-9ff3fa9d6f0c,IEEE International Conference on Web Services,,https://conferences.computer.org/icws/,Conference
+486ba741-dd9b-4d83-8b85-730cdb6b0d84,International Conference on Current Trends in Engineering and Technology,,,Conference
+764e3630-ddac-4c21-af4b-9d32ffef082e,IEEE International Conference on Data Engineering,,http://www.wikicfp.com/cfp/program?id=1331,Conference
+9aa57e01-2dc2-4422-93b7-2b628326f78c,Information and Communication Technology Convergence,,,Conference
+3e98d46b-64ac-4093-8f47-44da65ebf02a,Workshop on Mobile Computing Systems and Applications,,http://www.hotmobile.org/,Workshop
+0bddd5d7-2897-495a-a961-465abe6e04de,European Symposium on Research in Computer Security,,http://www.wikicfp.com/cfp/program?id=923,Conference
+6cbed6ad-fb46-4c9a-8477-75227ff3a47e,International Conference on Blockchain Computing and Applications,,https://ieeexplore.ieee.org/xpl/conhome/1839124/all-proceedings,Conference
+9c458056-3a41-495e-9950-29b463d5dfac,International Conference on Awareness Science and Technology,,https://link.springer.com/conference/icast1,Conference
+d732841e-83f9-49ec-95ca-389e5568634b,Annual Conference on Genetic and Evolutionary Computation,,http://www.sigevo.org/,Conference
+af941ce7-e210-4891-93b2-3d5154cc37e9,IEEE International WIE Conference on Electrical and Computer Engineering,,,Conference
+77b9ddc5-d0cc-4243-b011-f93090ddf584,Online International Conference on Green Engineering and Technologies,,,Conference
+7654260e-79f9-45c5-9663-d72027cf88f3,IEEE International Conference on Computer Vision,,https://ieeexplore.ieee.org/xpl/conhome/1000149/all-proceedings,Conference
+d17c802c-e89b-4bcd-81b1-22f8921283fe,International Conference on Signals and Electronic Systems,,,Conference
+a5c58053-0673-4cdb-b2b8-b6b0ad6911d1,Very Large Data Bases Conference,,https://www.vldb.org/conference.html,Conference
+8dff82c6-607a-4f61-9efa-a66d43226f8f,International Conference on Communication Systems and Network Technologies,,,Conference
+ef3e0f36-d48c-476c-b829-4e1eab47c7a4,International Conference on Intelligent Cloud Computing,,http://icc-conference.org/,Conference
+844ba2bc-245b-4273-ab1f-060ffe511ebe,International Conference on Recent Trends in Information Technology,,,Conference
+d8655d54-1311-417a-91f7-c5c6daf8fba2,"IEEE International Conference on Software Analysis, Evolution, and Reengineering",,http://www.informatik.uni-stuttgart.de/ifi/ps/reengineering/,Conference
+4144b5fb-0a80-4663-8ebf-80ca0c47231a,Vision,0917-1142,http://www.e-helvetica.nb.admin.ch/directAccess?callnumber=bel-1000285,Conference
+890c63fa-e5f7-4a31-b830-c416160ec6f7,Conference on Algebraic Informatics,,http://www.wikicfp.com/cfp/program?id=343,Conference
+8c36c300-10f5-4008-ae53-6371fcc3030d,International Conferences on Information Science and System,,http://www.wikicfp.com/cfp/program?id=1400,Conference
+611df23c-afb1-43b3-87c8-c41fdaec9fde,IEEE International Advance Computing Conference,,,Conference
+6be078fe-e448-4123-8096-25493e7a2502,ARES,2554-2656,https://ares.hypotheses.org/,Conference
+80bdf04b-f7c5-452d-ace3-3960483ffdfa,"International Conference on Wireless Communications, Networking and Mobile Computing",,,Conference
+06c79cb1-7f7e-420d-ab66-a6d73964a1fc,International Scientific Conference Information Technology and Management Science Riga Technical University,,,Conference
+a974eaab-748d-4fd3-8b41-72831ed1df6b,International Symposium on Antennas and Propagation,,,Conference
+74f47cf8-2839-4a56-959a-524dd0ed9e3e,International Conference on Extending Database Technology,,http://www.edbt.org/,Conference
+b8290a90-8929-4fb0-9578-a387f538f211,Conference Series,2747-2981,,Conference
+333df530-ff5e-429a-9f4b-cab7db29df98,International Conference on Electronic Computer Technology,,,Conference
+e795213e-9a07-4d48-a477-6c05448b9a72,IEEE Symposium on Computational Intelligence in Bioinformatics and Computational Biology,,http://www.cibcb.org/,Conference
+d6dd0471-263c-45b1-8c75-ca4c683398e2,International Conference on Information and Software Technologies,,,Conference
+0cb0dcea-43f4-4a34-a1c3-ac211434f660,International Conference Computing Methodologies and Communication,,,Conference
+593344cb-eda4-42fe-aed3-468969e4a676,International Conference on Software Engineering Research and Applications,,http://www.acisinternational.org/,Conference
+0e6e8f0a-455b-4be7-9d4c-5d6f93bd25a8,IEEE International Conference on Engineering of Complex Computer Systems,,https://ieeexplore.ieee.org/xpl/conhome/1000271/all-proceedings,Conference
+4559e74f-92df-4525-ac13-753b41649604,International Conference on Transparent Optical Networks,2162-7339,http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000766856,Conference
+ffe5bb5c-04ed-488e-985d-d3a7b39542cf,IEEE International Conference on Distributed Computing Systems,,https://ieeexplore.ieee.org/xpl/conhome/1000213/all-proceedings,Conference
+e99415ea-f28f-4d26-b81b-630e82b5681e,Brazilian Conference on Intelligent Systems,,,Conference
+bce97c16-ce21-4e56-ab0e-0060085c0d85,International Conference on Computational Intelligence and Security,,http://www.wikicfp.com/cfp/program?id=470,Conference
+fc0a208c-acb7-47dc-a0d4-af8190e21d29,International Conference on Machine Learning,,https://icml.cc/,Conference
+316506ad-c672-4283-9b3e-3f126d973e85,SDM,0049-0016,https://archive.siam.org/meetings/archives.php,Conference
+d6283871-df25-4880-9c85-46e9830f0d22,"International Euromicro Conference on Parallel, Distributed and Network-Based Processing",,http://www.euromicro.org/index.html,Conference
+e574da12-4e4c-4b78-a203-ae3719c0c4f7,Annual International Computer Software and Applications Conference,,http://www.wikicfp.com/cfp/program?id=548,Conference
+4076610c-1337-43ac-8695-42d7e74ee8f0,IEEE International Symposium on Robot and Human Interactive Communication,,,Conference
+0c7ffaf9-74fc-4c66-a398-d5f8bff2d79d,IEEE International Conference on Granular Computing,,http://www.wikicfp.com/cfp/program?id=1149,Conference
+22466e99-8720-4629-9169-4469e385e4d8,IEEE International Conference on Emerging Technologies and Factory Automation,,http://www.wikicfp.com/cfp/program?id=937,Conference
+1b767051-ba1f-457e-bd23-1b483c7029c7,E3S Web of Conferences,2267-1242,https://web.archive.org/web/*/http:/www.e3s-conferences.org/,Conference
+29df4b17-9a16-4a4c-94a6-002f52e628b4,International Conference on Parallel Processing,,http://www.wikicfp.com/cfp/program?id=1447,Conference
+72b1619c-55d6-4f98-9218-23cd8aa74091,"IEEE Uttar Pradesh Section International Conference on Electrical, Computer and Electronics Engineering",,,Conference
+406d9f60-417a-4dc5-a6b7-1fe4689a4ff7,IEEE International Conference on Cloud Computing,,,Conference
+1666219b-23e8-4300-acf2-d044d744a3f7,International Conference Control and Robots,,,Conference
+eeb4c8ae-6323-4654-be94-5218b2153b98,"International Conference Advances Computing, Communication and Automation",,,Conference
+c56116d3-225c-47c9-a4d9-f935e32f846c,IEEE Vehicular Technology Conference,,http://vtsociety.org/,Conference
+ede12bac-98d4-4fd6-823d-e8a6c578a52d,AIP Conference Proceedings,0094-243X,http://proceedings.aip.org/,Conference
+86c43745-31d9-4c1a-b33f-ce3aa0042dbb,USENIX Symposium on Operating Systems Design and Implementation,,,Conference
+2a7ac430-c70b-4147-b72a-237f8cba9f27,USENIX Conference on File and Storage Technologies,,http://www.wikicfp.com/cfp/program?id=1011,Conference
+f1c5ab66-e090-4fac-abc2-5ae31b06c484,International Symposium on Security in Computing and Communications,,,Conference
+91785da4-7c6a-4e13-936c-0a801a1ef895,International Conference on Advanced Information Systems Engineering,,https://link.springer.com/conference/caise,Conference
+69abe422-ea90-45e0-a2e2-3aa1f126bf22,National Conference on Communications,,,Conference
+d4610af5-85e0-480b-8773-5c71d92a7b99,International Conference on Architectural Support for Programming Languages and Operating Systems,,http://www.acm.org/sigplan/,Conference
+8828f201-af6c-4f3f-bb4c-0f6cd74f913a,International Conference on Big Data Computing Service and Applications,,,Conference
+da625a67-4bac-4737-81b6-af5459021b72,Embedded Systems and Applications,2745-8393,http://esa-symposium.org/,Conference
+04704eac-c56a-4ebc-ab79-086ff502261f,"International Conference on Advanced Computing, Networking, and Informatics",,,Conference
+1d72e5bc-120e-47cd-8320-4b474c2821da,IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering,,,Conference
+0c1420a4-aa9b-44f9-b264-ba3ac5c37050,"International Conference for High Performance Computing, Networking, Storage and Analysis",2167-4337,http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1000729,Conference
+e07422f9-c065-40c3-a37b-75e98dce79fe,The Web Conference,,http://www.iw3c2.org/,Conference
+e1ce0fed-d655-40bd-b678-9adc73f2e582,International Symposium on High Performance Computing Systems and Applications,,,Conference
+7cd7bf33-3c9a-4b3f-8b1a-177673c6ca73,Consumer Communications and Networking Conference,,http://ieee-ccnc.org/,Conference
+0942fb86-c16f-4084-9902-10ddcfe18180,Micro,0271-9002,http://www.microarch.org/,Conference
+1da7d7d7-0481-489f-b27d-98cce1ebdf43,ACM/IEEE Joint Conference on Digital Libraries,,http://www.jcdl.org/,Conference
+fe4d09f8-d278-4bfb-b73a-1a6a0e22f6a3,American Control Conference,2767-2875,http://a2c2.org/conferences/american-control-conferences,Conference
+e4f51561-5050-4b9c-87c2-c49957677fbf,European Conference on Computer Systems,,http://www.eurosys.org/,Conference
+9181819e-530e-4408-9917-93c5f58d7fce,International Congress on Information and Communication Technology,,,Conference
+1d75cba9-b818-43c5-86d6-73946f6e0b9c,IEEE International Conference on Electronics Information and Emergency Communication,,,Conference
+66ed40aa-947b-43ac-9a6b-57d7871c83c6,International Conference on Applications and Techniques in Cyber Intelligence,,,Conference
+7431ff67-91dc-41fa-b322-1b1ca657025f,International Conference on Information and Knowledge Management,,http://www.cikm.org/,Conference
+255a371e-2a0c-42d1-b4e7-c3cf3e21c89a,International Conference on Advances in Social Networks Analysis and Mining,,http://www.wikicfp.com/cfp/program?id=239,Conference
+72017ba4-9cc9-45cc-89cb-ced49936b1c0,"International Conference on Computing, Communication and Automation",,,Conference
+ec847398-e836-408a-a7f4-f18380315baa,International Design and Test Workshop/Symposium,,,Workshop
+0597d0e9-7b01-49cc-817d-8eb0725b464b,International Conference on Data and Software Engineering,,,Conference
+75c320af-0c2c-4aeb-a9e3-fc88ce815ac9,International Conference on Signal and Image Processing Applications,,http://www.wikicfp.com/cfp/program?id=1469,Conference
+5dfdcc5e-f28b-42bd-9832-bf3894169b1c,International Conference on Information Control Systems & Technologies,,http://www.wikicfp.com/cfp/program?id=1483,Conference
+0b633ca7-6ee5-4042-8a7a-a38d8892ec16,International Symposium on Mathematical Morphology and Its Application to Signal and Image Processing,,http://www.wikicfp.com/cfp/program?id=1729,Conference
+4bbf5bf8-63dd-44c7-a46b-00949c8026bd,International Conference on Agro-Geoinformatics,,,Conference
+deedf64a-dd5c-4b33-b345-ff83bfb93d71,International Symposium on Computer Architecture,,http://www.cs.wisc.edu/~arch/www/,Conference
+68728e39-569f-412d-9bb9-59150b16b45c,Proceedings of the Design Society,2732-527X,,Conference
+9846de51-dadf-4086-9e40-62466a7e2c87,International Conference on Fog and Mobile Edge Computing,,,Conference
+b55b50b1-aae7-47a7-b042-8aecc930073d,International Conference on Human Factors in Computing Systems,,http://www.acm.org/sigchi/,Conference
+a00a1a4f-16c6-4360-a8b3-a3f88d2fe78f,ACM-SIGPLAN Symposium on Programming Language Design and Implementation,,http://portal.acm.org/proceedings/pldi/,Conference
+914d4734-285a-4cd8-bba1-eec0db26a512,International Conference on Supercomputing,,http://portal.acm.org/proceedings/ics/,Conference
+5ea3b256-b7b3-4ce5-b0cb-a6bee512e027,International Conference on Field-Programmable Technology,,http://www.icfpt.org/,Conference
+1124d164-490d-4da9-b0c2-ce8a8dc98202,BigData Congress [Services Society],,,Conference
+7fb4b106-3313-4a90-b54a-848bcd62f1a6,International Conference on Digital Signal Processing,1546-1874,http://www.dspconferences.org/,Conference
+2b05540e-d9fa-4b45-9aac-08c1090f1c16,"IEEE International Conference on Application-Specific Systems, Architectures, and Processors",,http://www.asapconference.org/,Conference
+0dc0e794-53db-401d-bd8f-8da9165b2865,International Conferences on Contemporary Computing and Informatics,,,Conference
+27b93d96-c4b9-4a23-a3a0-061ad54deebc,IEEE International Symposium on High-Performance Parallel Distributed Computing,,http://www.hpdc.org/,Conference
+6c6fcaa9-fd25-488b-8050-995227ac671c,Symposium on Operating Systems Principles,,http://sosp.org/,Conference
+49699a88-4f79-403d-9250-6b3f361e5d7b,IEEE/ACM International Symposium on Code Generation and Optimization,,http://www.cgo.org/,Conference
+e3577b87-36a2-4ea4-ad53-88a885af1223,International Symposium on Recent Advances in Intrusion Detection,,http://www.raid-symposium.org/,Conference
+c740bd8c-4ce5-4d9a-9df4-2df9d5c104f5,International Computer Society of Iran Computer Conference,,,Conference
+83590463-9fd2-4622-8d0a-326495565a58,International Conference on Control and Intelligent Robotics,,,Conference
+e29f3ae1-4574-4fd4-9f5b-498495cb7952,USENIX Workshop on Hot Topics in Operating Systems,,http://www.wikicfp.com/cfp/program?id=1213,Workshop
+070a8b94-9234-4a39-bff0-23e0c6b74464,International Conference on Statistical and Scientific Database Management,,http://www.ssdbm.org/,Conference
+62ece4be-f643-40a5-af47-abedd995a7cf,International Conference on Computer and Information Technology,,http://www.wikicfp.com/cfp/program?id=480,Conference
+be267cb9-6411-4126-8b64-4847025171ee,Conference on Computer Communications Workshops,,,Workshop
+d2e111a6-dd60-474c-ae8a-2b5773cca07d,International Conference on Parallel and Distributed Systems,,http://www.wikicfp.com/cfp/program?id=1443,Conference
+e32cab02-4d88-4945-8420-be6395e5ed81,AEIT International Annual Conference,,,Conference
+e02accb9-dacc-43fd-995e-92fe9a825cc4,"Design, Automation and Test in Europe",1530-1591,https://ieeexplore.ieee.org/xpl/conhome/1000198/all-proceedings,Conference
+cccf07c4-330a-4c98-9bf0-6155373ae7ca,Summa,2711-0788,https://aunarcali.edu.co/revistas/index.php/RDCES/index,Conference
+c4de751b-08c4-4e16-91c3-f9be8698841c,International Conference on Computational Photography,,,Conference
+b63861a6-ab0a-47a4-9f6c-accf03b5a180,Iberian Conference on Information Systems and Technologies,,,Conference
+ca8e29a4-b8d6-469e-a148-2156149cddfb,International Conference on Advanced Learning Technologies,,http://lttf.ieee.org/,Conference
+9f85bbc2-3af7-4e44-82b8-96f23a223db3,International Conference on Distributed Computing Systems Workshops,,,Workshop
+17b6641a-6ee7-414d-8de5-997ba376f619,International Conference on Intelligent Transportation Systems,,,Conference
+4bc338bd-725e-4afe-8343-4cc6c2df27bc,IEEE/IFIP International Conference on Very Large Scale Integration of System-on-Chip,,https://link.springer.com/conference/vlsi-soc,Conference
+67d15a94-d523-4b5f-be58-03fe2ef9dcfb,Industrial Conference on Data Mining,,http://www.data-mining-forum.de/,Conference
+770f1d88-52c2-43dc-a897-6881e70b2f32,International Conference on Data Science and Advanced Analytics,,,Conference
+187dde4a-2b59-491b-b6cf-1a8618878cdc,International Conference on Mobile Data Management,,,Conference
+ecd62c4a-8e40-49ae-92f9-679e273f8bf2,International Symposium on Combinatorial Optimization,,http://www.wi.leidenuniv.nl/~verrynst/frisco.html,Conference
+9b12daea-e3b6-4d55-92a5-6803ca0d3e3d,Asia and South Pacific Design Automation Conference,,http://www.aspdac.com/,Conference
+12b499eb-56c9-4d88-b792-6d90ceff3485,International Conference on Emerging Technologies,,,Conference
+88074ded-7e19-4755-8097-fd1b71b6c8be,International Conference for Internet Technology and Secured Transactions,,http://www.icitst.org/,Conference
+bbdd88c4-fb38-40a7-9a05-df99e3d1eee2,"International Conference on Information, Intelligence, Systems and Applications",,,Conference
+265922c3-a861-444a-90b0-6190d69a59cf,"International Conference on Electronics, Information and Communications",,,Conference
+9ecde534-710d-4bbd-beec-eafdc165405f,SPIN,2010-3247,https://www.worldscientific.com/worldscinet/spin,Conference
+0a4491c0-572b-484b-b6d1-191b75b000fe,International Conference Civil Engineering and Architecture,,,Conference
+8ffee4a9-9078-4b52-9e43-b5adb39f1f34,IEEE International Workshops on Enabling Technologies: Infrastracture for Collaborative Enterprises,,http://www.wikicfp.com/cfp/program?id=3053,Workshop
+730e1936-0c14-4ca4-ab8c-edc0c6b0b4b2,International Conference on Computer and Knowledge Engineering,,,Conference
+9cb29d4c-aff5-4a8d-8ae4-6a2cd440519d,International Conference on Advanced Communication Technology,,,Conference
+589ed020-784b-47ac-884d-9c6ae29fd509,International Conference Intelligent Computing and Control Systems,,,Conference
+97a677bb-0fa7-4c1d-a54e-24db1fb98dd5,International Conference on Computational Intelligence and Communication Networks,,,Conference
+018dbcc4-52fa-4865-9b2f-6af96b2ca317,"International Conference on Engineering, Technology and Innovation",,,Conference
+60e737d0-e64d-4944-87e4-2ea36a2a73f2,Conference on Control Technology and Applications,,,Conference
+7f99aef4-3884-410c-87f7-ddfb686835e9,International Workshop on Intelligent Networking and Collaborative Systems,,http://www.wikicfp.com/cfp/program?id=1600,Workshop
+383fa7b6-a189-40d4-b5b0-e1970c6376e4,International Conference on Information Technology Systems and Innovation,,,Conference
+4d42a284-43a6-48d5-a743-0cb2af9616d2,Symposium on Computer Animation,,https://dl.acm.org/conference/sca/proceedings,Conference
+11e94c04-6b12-41c9-963d-1a08cdbc306d,ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming,,http://www.acm.org/sigplan/ppopp.htm,Conference
+ba675c4e-f2dc-454e-9e38-d195732ed2b6,IEEE International Conference on Fuzzy Systems,,,Conference
+70ad7990-ecc7-4d62-9a54-b1fac46b4570,IEEE International Conference on Service-Oriented Computing and Applications,,,Conference
+03335338-b34c-473a-86a8-42ae9227ac0d,International Conference on Intelligent Data Acquisition and Advanced Computing Systems: Technology and Applications,,http://www.wikicfp.com/cfp/program?id=1518,Conference
+443b907e-306a-41c3-bca4-b35f1da4bb38,International Conference on Cloud Computing Technologies and Applications,,,Conference
+4802a885-b293-4af7-b45f-fabb2d74652a,International Conference on Information Management and Technology,,https://ieeexplore.ieee.org/xpl/conhome/1817505/all-proceedings,Conference
+36949878-72e1-4ce8-8c7e-444cf4922345,Computer Science in Cars Symposium,,,Conference
+ed2ab707-f82e-4684-84d9-3327a4372889,Conference on Business Informatics,,,Conference
+99026156-eedd-4e3c-9797-a7eca6658ad3,IEEE International Conference on Cognitive Infocommunications,,,Conference
+3454cd32-76b1-4baa-88f8-7faa8c04abd1,Advanced Industrial Conference on Telecommunications,,http://www.wikicfp.com/cfp/program?id=101,Conference
+ac650ef9-6a98-4689-85b7-f9d91dedf5e0,IEEE International Conference on Industry Applications,,,Conference
+f2565195-d1b6-4c16-a085-763516ef0872,International Conference on Advanced Computer Science and Information System,2086-1796,,Conference
+9ec28b59-afd2-4d10-9a97-44d984123c30,IEEE International Conference on Information Reuse and Integration,,https://ieeexplore.ieee.org/xpl/conhome/1001046/all-proceedings,Conference
+6064dbc1-afde-4d04-bece-348066a5a0f3,International Enformatika Conference,,,Conference
+64c0e3be-ec7c-424d-bf61-495e56d9da6d,Proceedings of the International Conference on Industrial Engineering and Operations Management,2169-8767,http://ieomsociety.org/ieom2017/,Conference
+b877cd38-7f65-4f61-aa13-3413da5de430,MATEC Web of Conferences,2261-236X,https://web.archive.org/web/*/http:/www.matec-conferences.org/,Conference
+6864fc0f-dd47-4798-a829-ac53dd78862f,International ACM SIGACCESS Conference on Computers and Accessibility,,https://dl.acm.org/conference/assets,Conference
+e1afedcc-2543-4f61-b797-bc52344438e7,"International Conference on Social Networks Analysis, Management and Security",,,Conference
+54c34256-7049-4afc-ad8d-f2b68cca0a45,"SouthEast European Design Automation, Computer Engineering, Computer Networks and Social Media Conference",,,Conference
+9039088a-b047-49bc-b12a-3334017ad93d,Asia-Pacific Conference on Communications,2163-0771,,Conference
+c50b33b8-657f-4073-9058-bb7726302d92,International Conference on Cyber Security and Cloud Computing,,,Conference
+3bc59e53-8413-4f2a-b739-d2b155898833,International Conference on Contemporary Computing,,http://www.wikicfp.com/cfp/program?id=1263,Conference
+b6907ba5-9cb2-46e3-be2f-b35e0fd2ba61,International Conference on VLSI Design,,,Conference
+63d63e9e-8717-432f-90cb-ce806be05cd4,International Conference on Signal-Image Technology and Internet-Based Systems,,,Conference
+3b3de2d6-b889-4a6a-a93a-df4147cbcb4b,Student Conference on Research and Development,,,Conference
+4ee942df-8fd9-437c-a9a6-e82a7cfdfb33,International Conference on Data Science and Information Technology,,,Conference
+d03a5bfe-db75-4dc9-95f3-ae92b081f42c,International Conference on Utility and Cloud Computing,,,Conference
+18d0cd32-678c-491d-a7f9-126274365043,International Conference on Emerging eLearning Technologies and Applications,,,Conference
+a9382755-e9fb-4e39-b66f-6456c9c5f8b3,BIO Web of Conferences,2117-4458,https://www.bio-conferences.org/,Conference
+b7696878-9521-4592-8205-198d53528bd2,Euromicro Symposium on Digital Systems Design,,http://www.wikicfp.com/cfp/program?id=762,Conference
+e50754cf-360c-4e22-a321-30a44fe1c457,International Conference Electrical Bioimpedance,,,Conference
+1bfd71fd-457d-4dba-a367-b837371c4831,Future Technologies Conference,,,Conference
+a25d5cf7-75bd-4479-8c50-5683f7d1d509,Latin American Computing Conference / Conferencia Latinoamericana En Informatica,,,Conference
+7bcf4c5c-f6c0-4f78-b561-806ec0f68d6e,International Conference on Informative and Cybernetics for Computational Social Systems,,,Conference
+05173752-2c8b-4d3e-b2d5-81e27c400524,International Conference on Service Oriented Computing,,http://www.icsoc.org/,Conference
+45153c2d-728b-40e7-b147-2ac0912a916e,ACS/IEEE International Conference on Computer Systems and Applications,,http://www.arabcomputersociety.org/,Conference
+092c8d02-6070-40a6-8cf5-5a24bb36507c,Wireless and Mobile Networking Conference,,http://www.ifip.tu-graz.ac.at/TC6/events/MWCN/index.htm,Conference
+4cc151d1-e28c-4fdf-a570-77c73d5ab813,"International Conference on Behavioral, Economic, and Socio-Cultural Computing",,,Conference
+094f3ff3-fb67-4573-9f00-0852f0409d13,International Conference on Smart Cloud,,,Conference
+27235614-bd3e-4d6b-be38-5ede18f4e209,IEEE Wireless Communications and Networking Conference,,http://www.ieee-wcnc.org/,Conference
+9d83259d-8d79-4e98-a9e5-6237469bc057,"IEEE International Conference on Networking, Architecture and Storages",,,Conference
+66c268f7-ba60-443f-919d-e2c297910401,International Conference on Computational Collective Intelligence,,http://www.wikicfp.com/cfp/program?id=1302,Conference
+86daa573-0639-4ad6-a9c9-eb62790ca310,"International Conference on the Internet, Cyber Security and Information Systems",,,Conference
+2194778f-4fb6-471e-b2ff-5ad194635f72,Measurement and Modeling of Computer Systems,,http://www.acm.org/sigmetrics/,Conference
+925b7d4e-af4e-4a09-9da2-f3237c258a9f,"International Conference on Intelligent Transportation, Big Data and Smart City",,,Conference
+e23ca26c-bd38-43f5-b5e0-a169c90c6774,International Conference on Information Systems and Computer Aided Education,,https://ieeexplore.ieee.org/xpl/conhome/1826984/all-proceedings,Conference
+f6752838-f268-4a1b-87e7-c5f30a36713c,International Conference on Machine Learning and Applications,,http://www.icmla-conference.org/,Conference
+ab0ea0d9-ab60-449f-ac5e-9cbc0e3d5a6e,International Conference Intelligent Data Communication Technologies and Internet Things,,,Conference
+021b37d3-cef1-4c12-a442-257f7900c23d,Design Automation Conference,,http://www.dac.com/,Conference
+ecd69639-52a0-4d29-af57-21bca9e0a66b,IEEE International Conference on Industrial Engineering and Engineering Management,2157-3611,http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1001598,Conference
+dc54f07f-65a0-4bc5-8a67-953ed5e659ac,International Conference on Cyberworlds,,http://www.wikicfp.com/cfp/program?id=630,Conference
+0d376427-d6ad-4e1e-b1fc-9c5517de3bdc,Electrical Power and Energy Conference,,,Conference
+2972ac86-391b-48ef-8cba-d08904538c96,International Conference on Societal Automation,,,Conference
+5758d639-a450-4152-901d-7a78c8715aa7,International Conference on Innovative Computing and Cloud Computing,,http://computationalcreativity.net/,Conference
+d43f0f26-43c9-4009-a1ed-63624522c166,International Conference on Intelligent User Interfaces,,http://www.iuiconf.org/,Conference
+cfead4d8-3068-43a7-b07a-627c0132a98b,International Conference on Knowledge-Based Engineering and Innovation,,,Conference
+63eef59e-ca60-4a73-b9db-5653624b61e7,International Conference on Advances in Information Communication Technology & Computing,,,Conference
+d65e8b4a-f9c2-45ae-9b87-090db7e872f1,International Conference on Parallel Architectures and Compilation Techniques,,http://www.pactconf.org/,Conference
+e6c69c0c-190f-4f10-b33e-a957d13670b5,IEEE International Conference on Mechatronics and Automation,2152-7431,http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1002791,Conference
+e76223aa-7a0c-4d86-a764-cdcbb08b85cd,International Conference on Wireless Information Technology and Systems,,,Conference
+b3401b10-fe21-48a8-9412-08aeb04bb2d6,World Conference on Complex Systems,,,Conference
+b246de49-a93e-443a-a22e-79ce41629548,International Conference on Information Technology in Medicine and Education,,,Conference
+a2f3e710-3f36-46fc-bf88-c40f1356cd43,Canadian Conference on Electrical and Computer Engineering,,http://www.wikicfp.com/cfp/program?id=387,Conference
+a4f30d5d-eda9-47ef-adc5-accd6c401486,"International Conference Electronic Systems, Signal Processing and Computing Technologies [ICESC-]",,,Conference
+0846f41f-c23f-4c3e-9237-673180f1c44d,"International Conference on e-Health Networking, Applications and Services",,,Conference
+8a31511d-7523-41b6-8d81-565373827b19,International Conference on Systems and Informatics,,,Conference
+c1a3f23d-e3de-40a3-8d2d-187b921b61c8,"IEEE International Conference on Software Quality, Reliability and Security Companion",,,Conference
+77bd93b1-91df-4192-9b10-d7698cca4768,ICCD,2622-5611,http://iccd.asia/ojs/index.php/jiccd/index,Conference
+f8e385ef-b52f-4337-ab3b-e09080aec353,International Conference on Edge Computing [Services Society],1923-4996,https://journals.library.mun.ca/ojs/index.php/ate,Conference
+1542bfb1-9065-4dc1-917c-ddb37aa7f6b2,International Conference on Advanced Communication Control and Computing Technologies,,,Conference
+703cd559-ca4a-4e45-8eae-6a41ce7a126f,Innova,2500-2937,http://innova-journal.ru/,Conference
+d7d7587f-a1e9-46a4-9db5-54c95787c6f1,Annual International Conference of the IEEE Engineering in Medicine and Biology Society,2529-7856,https://www.inscribepublications.com/journal/josa,Conference
+ffa77b48-003c-4377-b323-1e4308d73011,"International Conference on Software, Knowledge, Information Management and Applications",,,Conference
+605ba0f7-8c61-41e3-a9aa-abdbc393ec4e,International Conference on Software Technology and Engineering,,,Conference
+ec3cb38e-a1c4-483c-9426-89ac6d05c5c4,International Conference on Big Data Science and Engineering,,,Conference
+8affea11-6a75-4512-b5fc-84533f6c0650,Journées Bases de Données Avancées,,http://bdav.org/,Conference
+0b538033-7a3a-4d7a-8a78-6933bbc07e02,IEEE International Conference on Electro/Information Technology,2154-0357,http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1001285,Conference
+0be0e7dd-a7b1-46dc-abb3-5226ed0e2289,IEEE International Conference on Cluster Computing,,http://www.clustercomp.org/,Conference
+4f02ac59-1046-4afe-981b-6f33122b2014,Swiss Conference on Data Science,,,Conference
+c714c0c6-6a1a-4eb3-a7a6-337b6303efac,Middle East and North Africa Communications Conference,,,Conference
+04936387-1b87-4ce0-93e7-767cb352e9c8,International Conference on Unmanned Aircraft Systems,,,Conference
+b17f439d-f13b-4720-875e-b9c982709761,Mexican International Conference on Computer Science,,http://www.wikicfp.com/cfp/program?id=889,Conference
+31c6e511-cc0b-42e2-901d-97b4b6f6605e,International Conference on Field-Programmable Logic and Applications,,http://www.fpl.org/h/,Conference
+b0f32794-b6c9-414c-b208-f48488188f0f,International Conference on Networking in Education and Research,,https://events.roedu.net/event/2/page/3-conference-history,Conference
+d2423c06-c1fe-458d-bf8a-cc24aefe3f59,International Conference on Future Internet of Things and Cloud,,,Conference
+23f8fe4c-6537-4027-a334-6a5863115984,Cybersecurity and Cyberforensics Conference,,http://computationalcomplexity.org/,Conference
+42717d98-b15f-4d72-9faa-f433c208b494,Radar,2049-4327,http://eprints.hud.ac.uk/journal/radar/,Conference
+74f72915-6d78-48b3-85dc-5f79881ab60b,International Conference on Data Science in Cyberspace,,,Conference
+8dce23a9-44e0-4381-a39e-2acc1edff700,Annual International ACM SIGIR Conference on Research and Development in Information Retrieval,,http://www.acm.org/sigir/,Conference
+61973ca8-3b8f-477d-ad1b-0bf78dea16ef,Annual IEEE International Conference on Pervasive Computing and Communications,,http://www.percom.org/,Conference
+e37581a5-dfe0-4f8f-8068-b423503fce67,International Conference on Smart Computing,,http://www.smart-comp.org/,Conference
+231d2432-8f0e-4232-8b06-3a8c52d34fb1,"International Conference on Humanoid, Nanotechnology, Information Technology,Communication and Control, Environment and Management",,,Conference
+1cd3bfde-5c48-4d85-96a5-75c0f27a5c06,International Conference on Cloud Computing Research and Innovation,,,Conference
+3f8f23e5-1006-4d87-95b1-150322a678ad,"ACM SIGPLAN Conference on Languages, Compilers, and Tools for Embedded Systems",,http://www.wikicfp.com/cfp/program?id=1950,Conference
+ef88faef-fc8b-40fd-baec-a23dd3b7c247,International Conference on Systems Thinking in Management,,,Conference
+8c56af24-beb5-4199-9502-b9e939db354f,International Conference on Computational Intelligence and Computing Research,,,Conference
+2cbf9479-e1fa-4c75-81f6-7103e18156ca,Chinese Control and Decision Conference,,,Conference
+6190896d-fefe-4852-946c-33759039973a,"International Multi-Conference on Systems, Signals & Devices",,,Conference
+6c1a00cb-4b59-44d6-a887-bfd7c5b3768f,International Conference on Industrial Technology,,,Conference
+6c3a9833-5fac-49d3-b7e7-64910bd40b4e,Adaptive Agents and Multi-Agent Systems,,http://www.ifaamas.org/,Conference
+f481a326-d4fa-4842-b75d-3a073f8ba87d,Conference on Blockchain Research & Applications for Innovative Networks and Services,1861-1680,http://www.brains-minds-media.org/,Conference
+da18ef0b-933e-4678-b2fa-4290baf6970a,"International Conference on Communication, Computing & Security",,,Conference
+04c27a39-9b93-4b31-961a-c38ec6b40bbc,"IEEE Annual Information Technology, Electronics and Mobile Communication Conference",,,Conference
+aed28225-90cc-4515-b403-569c6f2b995d,International Conference on Universal Village,,,Conference
+7a0ab88e-224a-475b-9ea6-e66a6b3448c8,Conference on Network and Service Management,,http://www.cnsm-conf.org/,Conference
+3135e927-19b0-4f97-bc60-65972a0bf849,International Conference on Computer and Information Application,,,Conference
+d86fc550-8020-4944-9006-dd3f3642e0e2,International Conference on Communications and Information Technology,,https://ieeexplore.ieee.org/xpl/conhome/1800348/all-proceedings,Conference
+2c9ecac6-f875-4a9b-acc2-10bd9f6782df,Technical Symposium on Computer Science Education,,http://www.sigcse.org/,Conference
+6a7544ec-28bf-4f81-92a4-f33b3562f11f,IEEE India Conference,,,Conference
+8fb9dbeb-ccee-4192-8549-ccfdf8c5706b,"International Conference on Image, Vision and Computing",,,Conference
+ec322614-98be-46cf-ba3d-efc87d0175ae,International Conference on Conceptual Modeling,,https://web.archive.org/web/*/http://www.er.byu.edu/,Conference
+a720325d-33fa-4ab3-9435-9bc1e7d7b57b,International Conference on Adaptive and Intelligent Systems,,http://www.wikicfp.com/cfp/program?id=1276,Conference
+2e7913cf-49f3-4c19-9a51-68860c6d73f9,IEEE International Conference on e-Business Engineering,,http://www.wikicfp.com/cfp/program?id=1344,Conference
+4c82b394-c401-4ce2-982e-7ab79de2bd24,IEEE International Conference on Healthcare Informatics,,,Conference
+a4fd48dc-49eb-4e85-98bf-c3c9db61e6ed,"International Conference on Automation, Quality and Testing, Robotics",,https://ieeexplore.ieee.org/xpl/conhome/1001746/all-proceedings,Conference
+7e280d98-c90c-428c-baba-a46e4abde912,Youth Academic Annual Conference of Chinese Association of Automation,,,Conference
+b1846822-6c7a-4679-979a-246fbd7388c3,"International Conference on Information, Communications and Signal Processing",,http://www.wikicfp.com/cfp/program?id=1385,Conference
+0494ff27-05ac-47ae-b916-8f6179a0cde5,International Conference on Models and Technologies for Intelligent Transportation Systems,,,Conference
+f212abee-58c5-46ad-ae8f-b6d733e0715b,International Conference on Computing and Information,,,Conference
+1981260f-d0bb-4414-9470-7683389919d0,International Green and Sustainable Computing Conference,,http://www.green-conf.org/,Conference
+4bb92bad-912d-41ad-8249-a81483c297c6,"Conference on Research, Innovation and Vision for the Future in Computing & Communication Technologies",,,Conference
+2b218edb-a8e3-4776-9505-28129095ff02,International Conference on Advances in Computing and Communication Engineering,,,Conference
+6ffd3030-fbaa-4915-9ec8-888f211c7b73,International Computer Science and Engineering Conference,,,Conference
+55899451-b8ad-4bdb-9db0-eba418d791f7,International Conference on Computer Communications and Networks,,http://www.wikicfp.com/cfp/program?id=1303,Conference
+e37dd43d-80e9-4659-9799-3bee98bb4e81,IEEE International Conference on Cognitive Informatics and Cognitive Computing,,http://www.wikicfp.com/cfp/program?id=1308,Conference
+68ae8b4a-daf7-4164-96f4-def7eb56b601,International Conference on Sampling Theory and Applications,,,Conference
+ebcbaf26-62a6-4cb2-b637-b29091ca04d6,European Signal Processing Conference,2076-1465,https://www.eurasip.org/index.php?Itemid=89&id=80&option=com_content&view=article,Conference
+1c1a7c8a-c391-431c-934b-cf74458f9e6c,"International Conference on Natural Computation, Fuzzy Systems and Knowledge Discovery",,http://www.wikicfp.com/cfp/program?id=1428,Conference
+28a83bf1-b6e5-416f-8c5a-fdc53e54f3a1,International Conference on Automation and Computing,,http://www.wikicfp.com/cfp/program?id=1269,Conference
+7175646f-9a56-40bb-8834-eefa48e5c83a,European Solid-State Circuits Conference,,http://www.wikicfp.com/cfp/program?id=924,Conference
+6682f507-bba1-49f1-a361-cf7f43ab432b,International Conference on Robotics and Mechatronics,,,Conference
+3b0c38e5-6886-45d2-ad7b-6cb7dcb3c210,International Conferences on Data Science and Engineering,,,Conference
+bfdaa902-daba-44e2-9de0-df4e61fe2f80,International Conference on Ubiquitous Information Management and Communication,,http://www.wikicfp.com/cfp/program?id=1499,Conference
+b96248c1-022a-4515-bae1-4ca0a18cc65d,IEEE International Conference on Multimedia Big Data,,,Conference
+e15ba297-92fa-47c7-b7d3-edafbd9b8e5b,IEEE Joint International Information Technology and Artificial Intelligence Conference,,,Conference
+c26d629a-34d5-4e9b-960a-9cc5eea60f18,International Conference on Smart City and Systems Engineering,,,Conference
+e5bfb038-10b2-4e43-b1e6-fea5aae180cf,ITM Web of Conferences,2271-2097,https://web.archive.org/web/*/https:/www.itm-conferences.org/,Conference
+e98ceee9-85f3-4656-a8af-803806c9d7b4,National Aerospace and Electronics Conference,,,Conference
+2b17ce45-3b55-4be1-a978-fddecf5311de,"Automation, Control, and Information Technology",,,Conference
+804fd380-52e4-4dad-9650-b3106b8ed31b,International Conference on Electrical Engineering and Information Communication Technology,,,Conference
+9d8ef1a6-70f7-4a89-8fc7-913258eb0471,International Conferences on Computing Advancements,,http://www.wikicfp.com/cfp/program?id=1295,Conference
+e3b1672f-7753-4ca1-8a8b-586d2b4392ba,IEEE International Conference on High Voltage Engineering and Application,,,Conference
+6616207f-96f2-4427-927a-95d6e9b16252,IEEE International Symposium on Compound Semiconductors,,,Conference
+b6369c33-5d70-463c-8e82-95a54efa3cc8,International Conference on Information Photonics,,,Conference
+809f6dd1-7dd8-4d79-a46d-4726c3a67128,European Conference on Information Systems,,https://aisel.aisnet.org/ecis/,Conference
+79ad93e3-8152-45a5-a97c-d6c327592c09,"IEEE International Conference on Electrical, Computer and Communication Technologies",,,Conference
+b56fce7a-4388-4ecb-b974-3c79c261b01b,Iranian Conference on Machine Vision and Image Processing,,,Conference
+a8f26d13-e373-4e48-b57b-ef89bf48f4db,Asian Conference on Computer Vision,,http://www.cvl.iis.u-tokyo.ac.jp/afcv/,Conference
+bea6dbb8-4367-4c35-8e28-e749f3ad107c,International Conference on Database Theory,,http://alpha.luc.ac.be/~lucp1080/icdt/,Conference
+5b924e1a-30f3-4275-bdb8-5a15517c0fde,Asia-Pacific Signal and Information Processing Association Annual Summit and Conference,,,Conference
+60c45ccc-5528-42eb-85a9-7606a3d9b220,International Conference on Interaction Sciences,,https://web.archive.org/web/*/http://www.aicit.org/icis/,Conference
+2f5b84b3-aa20-451e-9579-e25d1e750644,International Conference on Robotics and Artificial Intelligence,,,Conference
+5498472a-b1bd-4a52-9687-734cdd3ed74c,"Autonomous Infrastructure, Management and Security",,http://www.aims-conference.org/,Conference
+e12d355b-ad1e-428d-ba3e-8373fd3a7bd8,Sai,1975-7743,http://www.koreanst.org/,Conference
+c5f8f5c8-58d0-46aa-bbb5-44ce60315635,Signal Processing and Communications Applications Conference,,,Conference
+f51ff783-cdff-4e22-94fb-28e6336d17b3,International Conference on Computational Linguistics,,https://www.aclweb.org/anthology/venues/coling/,Conference
+9012153e-aed6-447e-bccf-4aaf6f4bf52f,IEEE International Conference on Consumer Electronics,,http://www.apsce.net/,Conference
+63410070-a9b9-46ac-bdec-92b016246795,International Conference on the Software Process,,http://www.ece.utexas.edu/~perry/prof/ispa/index.html,Conference
+b82ca0e9-eb48-4c67-b21c-a9f711521b1b,Conference Information and Communication Technology,,,Conference
+d0d8b615-5903-4da5-bfdf-4c06972ccf7a,International Conference on Innovative Mechanisms for Industry Applications,,,Conference
+2a690a3e-4851-4fec-9602-44d1d477ffe8,"International Asia Conference on Informatics in Control, Automation and Robotics",,http://www.wikicfp.com/cfp/program?id=358,Conference
+8ee71e17-421e-43db-ad2d-cc8af6217a0d,European Conference on Information Retrieval,,https://en.wikipedia.org/wiki/European_Conference_on_Information_Retrieval,Conference
+7bf51cb8-4a54-4bc9-919c-8f67d9f7d0ae,International Conference on Information Security and Cryptology,,http://www.wikicfp.com/cfp/program?id=1397,Conference
+134cd1b3-6509-4002-bf0e-cd84d4bf358d,International Conference on Digital Health,,http://www.wikicfp.com/cfp/program?id=863,Conference
+8ba4a725-4a85-42ed-9476-46e9112d63f2,IEEE International Conference on Condition Monitoring and Diagnosis,,,Conference
+0df6d80d-a5cc-4ae5-b93f-d608fcf78796,Biomedical Circuits and Systems Conference,,,Conference
+0cfa7e7b-f037-415d-b447-2e200458ab0f,Conference on Advanced Computer Architecture,,,Conference
+651ffdd6-0649-433b-8890-3a3ef1a51f55,"International Conference on Control, Automation and Information Sciences",,,Conference
+7eadf6d0-2d35-410f-ad53-2635d1f830d7,"IEEE Advanced Information Technology, Electronic and Automation Control Conference",,,Conference
+5604cd6c-f153-45e7-a8e5-d75d4ab2d8d3,International Workshop on Artificial Intelligence and Cognition,,,Workshop
+8f83be5d-9857-4772-ba0a-0cd7aa18e467,International Conference on Electrical and Electronics Engineering,,,Conference
+47e4f61e-9b0e-431f-bd17-e534b53c655b,International Conference on Intelligent Computing,,http://www.wikicfp.com/cfp/program?id=1382,Conference
+993f3f1d-c231-4a43-8ff0-53c0810c7f7c,"International Conference on Systems, Signals, and Image Processing",2157-8702,http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1002415,Conference
+e0174555-0649-4c3e-b2d8-519443892039,International Conference on Artificial Intelligence and Soft Computing,,http://www.wikicfp.com/cfp/program?id=1277,Conference
+a67bb5d4-0964-47dd-a5d5-a00ec2810400,International Conference on Electrical Materials and Power Equipment,,,Conference
+0fba290a-7320-4b1d-9c6f-c67cc1967ca9,IEEE International Conference on Solid Dielectrics,,,Conference
+50f05842-47b7-4c4e-8b23-85545a41a930,International Conference on Computer Aided Design,,http://www.iccad.com/,Conference
+5513d05f-d4ea-4f12-a6b9-3c91cb4c1b6f,"IEEE International Conference on Electronics, Computing and Communication Technologies",,,Conference
+7daa16f8-90cb-40b8-ae76-26266fbdc556,International Conference on Artificial Intelligence in Engineering and Technology,,,Conference
+2756e173-d599-4a50-8d52-df1b9492f924,Digital Signal Processing and Signal Processing Education Workshop,,,Workshop
+3cf3e697-2894-4c70-ae49-e5e8d3ca7a83,"Proceedings of the LACCEI international multi-conference for engineering, education and technology",2414-6390,http://www.laccei.org/index.php/publications/laccei-proceedings,Conference
+f03c3213-e668-40cd-b587-ff27557e55e9,"International Conference on P2P, Parallel, Grid, Cloud and Internet Computing",,,Conference
+e8a9d604-3288-409f-b8a7-825adb420333,IEEE NW Russia Young Researchers in Electrical and Electronic Engineering Conference,,,Conference
+758a0f31-b417-4b39-80ee-88180490b2dc,Journées Francophones d'Ingénierie des Connaissances,,,Conference
+d26d5cce-b198-4af1-9e61-dc08cd8d7a12,"International Conference on Automation, Robotics and Applications",,http://www.wikicfp.com/cfp/program?id=1285,Conference
+599e6250-6a91-467e-91eb-c0db66ff7224,"IEEE Conference on Systems, Process and Control",,,Conference
+505bd3de-b1ce-4c78-bbc5-b6f47dc42c4f,"International Conference on Software Quality, Reliability and Security",,,Conference
+b90284bf-6b62-4bc6-8c99-5a70beb23193,International Conference Communication and Information Systems,,,Conference
+98dfa984-d80f-4d6e-aab8-2a392e65c813,International Conference on Advances in Electronics Computers and Communications,,,Conference
+b198f59e-0da6-4b35-b995-a02322b9dada,IEEE International Conference on Services Computing,,https://ieeexplore.ieee.org/xpl/conhome/1001209/all-proceedings,Conference
+6514cc81-db1c-4551-bb94-8f80cb99e085,International Conference on Intelligent Tutoring Systems,,https://link.springer.com/conference/its,Conference
+38741664-9b84-47df-819c-2472bdd0977e,Conference record of IEEE International Symposium on Electrical Insulation,1089-084X,http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1380363,Conference
+9a58e222-f9d9-4a50-ae92-c687cc5918ec,International Conference on Information and Communicatiaon Technology,,,Conference
+8bae9e1d-2df9-4ece-99bc-4e68368d40f2,International Conference on Advanced Computing,,,Conference
+51adf220-1bb7-488c-9ecb-75fd5dab790e,International Conference on Orange Technologies,,,Conference
+a1c1b2d2-5629-4b8f-b764-20ea10fa588c,Conference on Intelligent Text Processing and Computational Linguistics,,http://www.cicling.org/,Conference
+7fa5e337-9dff-4cee-94ea-442a758a28b7,International Conference on Computing and Convergence Technology,,,Conference
+43c7aeb6-f28a-4524-8ef4-55113b16aa85,International Conference on Electrical Information and Communication Technologies,,,Conference
+8ae277fb-3346-4eab-9e31-c719d1d8bb3f,Fusion,0148-0537,,Conference
+838325ea-4fed-4f41-bf9a-7b569d3700ab,"International Conference on Power Engineering, Energy and Electrical Drives",2155-5516,http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1001897,Conference
+0cc7f44d-3b26-48af-97d2-08c5a364f8a0,"International Conference on Technological Advances in Electrical, Electronics and Computer Engineering",,,Conference
+5a284490-40a3-4a14-a5c1-51a423dffad6,ACM International Conference on Embedded Networked Sensor Systems,,https://dl.acm.org/conference/sensys,Conference
+1d8d1e5b-972b-4809-bf00-64e9da59fdb2,International Symposium on Computer Vision,,,Conference
+41929b26-d887-42cf-97f1-1217a0a9e315,"ACM SIGMOBILE International Conference on Mobile Systems, Applications, and Services",,,Conference
+d1ccff36-fb09-45ac-9078-cb0225b06c19,Impact,0300-4155,https://issuu.com/orsimpact/docs/impact_1_2/5?e=0/31377521,Conference
+7b6a98e2-3c5c-4a3c-a790-8b0256f0c569,International Universities Power Engineering Conference,,,Conference
+37275deb-3fcf-4d16-ae77-95db9899b1f3,IEEE/RJS International Conference on Intelligent RObots and Systems,,http://www.iros.org/,Conference
+87739c1f-6199-4545-b7e6-4fa8d0af534e,"International Conference on Service Operations and Logistics, and Informatics",,,Conference
+8c75e6eb-e194-4c70-922f-623ee68bb497,International Conference on Advanced Infocomm Technology,,,Conference
+8c7fd839-36e4-4261-a5c2-846c243dbbb5,International Conference on Pattern Analysis and Intelligent Systems,,,Conference
+6358253c-7d52-4c0c-9e03-4acfaad1bd74,Discover,0274-7529,http://discovermagazine.com/,Conference
+a30271f2-1619-44e5-a1fb-b1c91b224898,Image and Vision Computing New Zealand,,http://www.wikicfp.com/cfp/program?id=1807,Conference
+33972815-e17a-4d6d-af1c-5417cb2fabb0,International Multi-Topic Conference,,,Conference
+6d2e7607-dbff-464e-b89f-54b8b7785b1b,MS,0091-5394,,Conference
+b364caaf-d684-439b-bff1-0dece7f87033,International Symposium on Image and Signal Processing and Analysis,,http://www.wikicfp.com/cfp/program?id=1738,Conference
+680ae59c-60f6-4b3f-baa0-f7e895a8e578,Information Technology Trends,,,Conference
+18cb41bf-d23d-4c47-a30d-3f1ef6abfb1b,IoT,2624-831X,https://www.mdpi.com/journal/IoT,Conference
+8270ced8-ed85-4519-9ef7-bf1c9c316434,Conferences on Next Generation Computing Applications,,,Conference
+7fbf5fc7-3fd7-4c0a-bebd-fd82ef6ec9f3,Industrial Cyber-Physical Systems,,http://www.wikicfp.com/cfp/program?id=1450,Conference
+d7086d2b-86b6-4371-a442-97da4b3396e3,International Conference on Security of Information and Networks,,http://www.sinconf.org/,Conference
+1908b4f6-3f86-4f57-a6e1-169166fa8142,International Conference on Virtual Reality,,,Conference
+f63e4bb3-0e34-4ab9-8bf1-45fa94f94fe1,International Conference on Recent Advances and Innovations in Engineering,,,Conference
+d1b69d7d-e3ab-4c62-ba16-ab4974a0df98,International Conference on Fog Computing,,,Conference
+acd15a6d-3248-41fb-8439-9a40aabe5608,IEEE Workshop/Winter Conference on Applications of Computer Vision,,http://www.wikicfp.com/cfp/program?id=2993,Workshop
+d0fd9a2e-7924-417b-8a2f-9f85acf31330,International Conference Innovation Engineering and Technology,,,Conference
+6eabe15b-7f42-4133-9233-dfbc0e3f212d,International Conference on Electronics and Information Engineering,,,Conference
+e82485bc-2195-4cf5-9f9a-012501918b2f,Annual Conference on Innovation and Technology in Computer Science Education,,https://sigcse.org/sigcse/events/iticse/,Conference
+c72ad70b-4925-4b59-ab69-2bb16b43753a,Information Security Practice and Experience,,http://www.wikicfp.com/cfp/program?id=1744,Conference
+0e129215-7c25-46c9-b04b-a0e9faabf021,International Conference on Information Networking,,http://www.icoin.org/,Conference
+4b35ee80-d1e5-4553-a923-33d9fd531473,International Conference on Power Electronics Systems and Applications,,,Conference
+d13e941e-4cac-4f1d-bdca-77d927e31f1b,ACM Symposium on Cloud Computing,,http://www.ieee-socc.org/,Conference
+5e07a437-469d-4072-9d25-ea2d144e1601,"Conference on Innovation in Clouds, Internet and Networks",,,Conference
+d78de075-022a-45f3-9061-45340a59a0fd,International Conference of Distributed Computing and Networking,,http://www.wikicfp.com/cfp/program?id=1329,Conference
+58c057a8-5760-4108-b223-e276334bb8cd,European Control Conference,,,Conference
+eb35da90-3350-4969-9944-7744cb0bf6fb,Conference on Multimedia Information Processing and Retrieval,,,Conference
+e27c1a12-37ca-4b72-bb77-352a151f78e9,IEEE International Enterprise Distributed Object Computing Conference,,http://www.edocconference.org/,Conference
+ef00f0de-a7e5-443a-9a2d-c78502a4b598,Conference on Computer Science and Information Systems,,https://fedcsis.org/,Conference
+5f9127e9-2d7b-4a9c-b0c6-fd3cb456d431,Mediterranean Conference on Embedded Computing,1800-993X,http://ieeexplore.ieee.org/xpl/conhome.jsp?punumber=1801788,Conference
+b8e3fb18-a48d-49f0-96bd-38cca7124b0d,International Conference on Cloud Computing and Intelligence Systems,,,Conference
+b7d074f5-1bcc-4125-b99e-d2a858472c1f,"International Conference on Industrial Engineering, Applications and Manufacturing",,,Conference
+1d2c7a35-82d0-41d7-8df3-d900f292008e,International Symposium on INnovations in Intelligent SysTems and Applications,,http://www.inista.org,Conference
+be1301a4-812c-4d88-bc36-7764d7f5b5e7,International Conference on Multimedia Computing and Systems,,,Conference
+966ed49f-abb2-4051-a7e7-c966d9426b85,International Conference on Network of the Future,,,Conference
+60275282-b076-42f7-99dc-8757c2064681,Informatics,2227-9709,http://www.e-helvetica.nb.admin.ch/directAccess?callnumber=bel-390272,Conference
+7180f721-a356-48cc-b6cd-dd3ab90a3566,International Conference on Advanced Information Networking and Applications,,http://www.aina-conference.org/,Conference
+6afe5f5f-0d54-4e3a-aa07-ed4778cf1405,International Conference on Communication Systems and Networks,,http://www.comsnets.org/,Conference
+d7900be7-29f5-4643-a2e9-c16c908db39f,"Global Power, Energy and Communication Conference",,,Conference
+ad0ecbd8-4574-46e0-bf99-ba2af9139bb6,INNS Conference on Big Data,,,Conference
+e247eac1-f527-41a3-af6d-bc6a6fc69de9,IEEE Conference on High Performance Extreme Computing,,,Conference
+7aa22c43-e4fd-4d59-9336-4e45935c379a,IEEE Latin-American Conference on Communications,,,Conference
+c00492c7-e775-4f0a-a843-9f5bbb219dbe,International Conference on Artificial Intelligence Circuits and Systems,,,Conference
+aefcf093-f5b1-41e9-b2c3-6ab33c37397b,IEEE International Conference on Software Architecture Workshops,,,Workshop
+c203a840-9a39-4e55-a7ab-d7c250f942e8,International Conference on Autonomic and Autonomous Systems,,http://www.wikicfp.com/cfp/program?id=1288,Conference
+5ee8b68e-99f1-49de-a9e3-9812485d33f4,European Conference on Networks and Communications,,,Conference
+2f13a0cf-1f52-4a93-817d-ba85e25ad45a,"International Conference Advancement Data Science, E-learning and Information Systems",,,Conference
+d6a6ad38-f367-410f-b3e0-423df12cefa1,International Conference on Telecommunications,,http://www.wikicfp.com/cfp/program?id=1485,Conference
+f2cc63fa-90cb-413d-92ce-003d5244a1e8,EPJ Web of Conferences,2100-014X,https://web.archive.org/web/*/https:/www.epj-conferences.org/component/issues/,Conference
+c85e7d0a-25c2-4202-8c24-42d0293761fd,"Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing",,http://www.acisinternational.org/,Conference
+b8e1c2e0-1b74-4058-baa7-54f0bb392eba,Computing and Communication Workshop and Conference,,,Workshop
+265e5461-e186-46e6-b95b-6767e39326db,Conference on Network Function Virtualization and Software Defined Network,,,Conference
+5daf2ed1-4d60-4098-865d-528545a79597,"International Conference on Electronics, Control, Optimization and Computer Science",,,Conference
+1df1928c-d75e-4d86-89bc-5a1be8a503d3,IEEE International Conference on Network Protocols,,http://www.ieee-icnp.org/,Conference
+537b4f76-bc99-4d19-8786-bf5851198a14,International Conference on Speech Technology and Human-Computer Dialogue,,,Conference
+7a0ba079-512a-4741-a719-8504ea3974a0,Asia-Pacific Conference on Intelligent Robot Systems,,,Conference
+8f125553-3fd5-4370-a175-f7179db29048,"IEEE International Performance, Computing, and Communications Conference",,http://www.ipccc.org/,Conference
+88cc76ce-f486-46c4-bfa1-a31809d402d7,International Conference on Big Data and Smart Computing,,,Conference
+6ba93f5f-3944-4e86-9942-ddd29146c7d4,"International Conference / Workshop on Embedded Computer Systems: Architectures, Modeling and Simulation",,,Workshop
+0dd78530-c3bd-42b4-8654-280b824ad05c,E-Health and Bioengineering Conference,,,Conference
+87013407-c886-4cc5-b38a-7cad24226538,Conference on Information and Knowledge Technology,,,Conference
+943a5e2c-9f11-46d7-b720-a9043b79f650,International Conference on Hardware/Software Codesign and System Synthesis,,,Conference
+5545566b-c0b8-418c-83a5-a986a4657572,ACM-SIAM Symposium on Discrete Algorithms,,https://en.wikipedia.org/wiki/Symposium_on_Discrete_Algorithms,Conference
+4ea9acaa-f1dd-44c5-b610-0063b1266df1,Smart Grid Conference,,,Conference
+3dd02f07-587a-4deb-a8a2-f018007411d5,International Conference on Ecological Vehicles and Renewable Energies,,,Conference
+73df6053-f5c6-46a6-aefc-8a109c2edd9d,EUROMICRO Conference on Software Engineering and Advanced Applications,,http://www.euromicro.org/,Conference
+9585edc6-6f54-4869-b257-036b7e7f7580,International Conference on Human System Interaction,,,Conference
+8fed6a83-b08e-4ee7-933b-b819a375960f,International Conference on Intelligent Data Science Technologies and Applications,,https://ieeexplore.ieee.org/xpl/conhome/1838964/all-proceedings,Conference
+44ef8268-da50-4cec-852a-8cad7e9dfa7a,International Conference on Electrical Machines and Systems,,,Conference
+69951de1-74d3-4924-8e43-73f48a3d006a,IEEE Congress on Evolutionary Computation,,https://en.wikipedia.org/wiki/IEEE_Congress_on_Evolutionary_Computation,Conference
+3f002cdd-1f5d-4196-a0dd-3f51f63c53bb,International Conference on System Reliability and Safety,,https://ieeexplore.ieee.org/xpl/conhome/1817684/all-proceedings,Conference
+d79c0d2a-37de-4287-87e7-1e57576dcae7,International Conference on Machine Learning and Computing,,http://www.icmlc.com/,Conference
+839c8539-577b-4d33-b13d-d8cfdcdd5788,International Conference on Health Information Science,,http://www.wikicfp.com/cfp/program?id=1195,Conference
+3b65266a-205e-491f-be30-8828272af13e,"IEEE International Conference on Compatibility, Power Electronics and Power Engineering",,,Conference
+74deb45a-ec57-4368-8178-b3f3947e4d89,"International Conference on Circuit, Power and Computing Technologies",,,Conference
+61bd66d8-e4bb-433e-a110-a2eaaeb2cf28,IEEE PES Power Systems Conference and Exposition,,,Conference
+afcb4916-f807-4d46-be8e-5d0930d50c4b,International Conference on Information Security and Cyber Forensics,,,Conference
+b6bfb00b-1430-4b28-aba8-c0b1d3541c9c,International Conference on Computer Application and System Modeling,,,Conference
+6bf48d72-eba2-4918-b9a0-153280062513,International Computer Science Conference,,http://icsc.eecs.uci.edu/,Conference
+c3ce05d6-e4ad-4754-8b97-866cb227dba3,"International Conference on Advances in Electrical, Electronics, Information, Communication and Bio-Informatics",,,Conference
+177c6304-7683-4881-bc71-3c1811df53f0,"International Joint Conference on the Analysis of Images, Social Networks and Texts",,,Conference
+e251322f-1b8a-43c4-ae82-44aaa356cd4f,"International Conference on Cryptography, Security and Privacy",,,Conference
+f276563a-4ccc-47fc-b959-9658e1434dfd,International Conference Inventive Communication and Computational Technologies,,,Conference
+44c0ff6c-a932-4aa7-a43a-efc58d3cf13f,International Smart Cities Conference,,,Conference
+a2d7cc4c-3328-47b5-9af5-cf607b252cb2,"International Conference on Global Trends in Signal Processing, Information Computing and Communication",,,Conference
+2bfcbbbc-2a16-4bd2-aaa2-e9cacd28da9a,IEEE International New Circuits and Systems Conference,,,Conference
+8236bbcc-f11a-44f3-97bb-61f9655061cd,"International Conference on Information Technology, Computer, and Electrical Engineering",,,Conference
+75e51d12-f9f2-449e-aa89-de142b508f0e,International Conference on Digital Information Management,,http://www.icdim.org/,Conference
+fa58de48-8452-4533-82ff-e645adbb99c1,"IEEE International Conference on Recent Trends in Electronics, Information & Communication Technology",,,Conference
+5440268e-4691-4fc0-8d0e-dcd6df18e77f,ACM/IEEE International Conference on Mobile Computing and Networking,,http://www.acm.org/sigs/sigmobile/,Conference
+2c6c3ddb-0d21-4837-85aa-0cc6d06b79f6,"International Conference on Modeling, Simulation, and Applied Optimization",,,Conference
+6d057924-f9a5-4071-a0ff-82d5678fee9e,IEEE International Conference on Data Science and Data Intensive Systems,,,Conference
+b9e36e5f-4dcf-49ee-a99d-8dbeaca2e84e,Climatic Change,0165-0009,http://www.kluweronline.com/issn/0165-0009/contents,Conference
+0a05a451-a2de-4e8e-bade-704b9857926a,Distributed Event-Based Systems,,https://en.wikipedia.org/wiki/Distributed_Event-Based_Systems,Conference
+236c4514-bfcb-41ab-ab55-d976865cc0cf,Control,1049-5541,,Conference
+d8ec66ab-0083-4a4d-bf44-ce85d2daad69,Hawaii International Conference on System Sciences,,http://www.hicss.hawaii.edu/,Conference
+89e3e057-7225-4670-a146-a760f46fcda8,International Conference on Robots & Intelligent System,,,Conference
+6dd05db1-df4c-4237-bcc7-46e0d2cc7266,International Conference on Parallel and Distributed Computing: Applications and Technologies,,,Conference
+67128bf0-cf99-46bd-8915-1d9a05820d0a,International Conference on Information Technology,,,Conference
+5ba115b2-444a-476a-ae16-66bf1b83372f,International Conference on Ubiquitous and Future Networks,,,Conference

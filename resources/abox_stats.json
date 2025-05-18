@@ -1,0 +1,34 @@
+{
+  "classes": {
+    "Paper": 15199,
+    "Person": 104778,
+    "Author": 77614,
+    "JournalEditor": 15522,
+    "ConferenceChair": 11642,
+    "Journal": 2667,
+    "Conference": 504,
+    "Workshop": 15,
+    "Edition": 969,
+    "Volume": 7711,
+    "Keyword": 6683,
+    "Affiliation": 952,
+    "Review": 35633
+  },
+  "properties": {
+    "wrote": 94403,
+    "corresponded_by": 15166,
+    "cited_in": 397702,
+    "related_to": 30947,
+    "published_in": 13012,
+    "has_edition": 969,
+    "has_volume": 7711,
+    "affiliated_with": 1144,
+    "reviewed": 35633,
+    "reviews": 35633,
+    "has_journal_editor": 7711,
+    "has_conference_chair": 969,
+    "edits_journal": 31067,
+    "chairs_event": 17434
+  },
+  "total_triples": 1437855
+}

@@ -1,0 +1,970 @@
+editionId,edition,location,year
+bb4ef8f3-6eac-4f7e-8429-259c32f28bbb,4.0,Lopezshire,2021.0
+6e15ce2f-dbc2-4511-af72-c1526d1a285a,7.0,West Dianefurt,2024.0
+a6d1d0e9-d1e9-457f-952d-e0e40625e61a,5.0,East Michaelfurt,2017.0
+7e315c56-1d8d-4725-8280-86bedf5ff63f,3.0,East Stephen,2018.0
+2f470c2d-bed7-4e81-8b8a-67a3b29b5fb6,3.0,Port Bryan,2017.0
+20fada34-727c-4ec2-bac4-664c5d723b01,5.0,Lake John,2022.0
+94c0cc01-c577-4d5d-b102-2fcb6512a46c,4.0,Calderonside,2013.0
+1b756811-9ff9-4a45-8bf0-1ad9ebe4bf20,3.0,South Rickyhaven,2018.0
+028fc032-0b1e-476e-9b47-fc17a71c999b,4.0,North Francisco,2022.0
+fd7cd9c3-05b3-4aa7-be8d-3ae12e8146f0,3.0,Andreaview,2015.0
+5cf4ca49-dc84-4302-b0b0-55b10df8f3e3,3.0,Burtonshire,2017.0
+b9c74f04-bd23-4b93-b4ab-662b695fe449,4.0,Cochrantown,2024.0
+64e6ba4e-87f0-46a2-8ae7-1f55a05f3eaf,3.0,Port Jeffreyshire,2013.0
+ba1cb414-003d-4313-a4ca-c55436d0db66,6.0,Shanebury,2018.0
+d3c484e3-fc60-4e73-94cc-ca8285ebfe11,4.0,Randybury,2023.0
+3cc353d2-8540-440a-a952-cd42bb2045bc,4.0,Dennishaven,2022.0
+48aee7d3-ea4e-4416-84eb-ff20d7b88f94,4.0,Contrerasbury,2023.0
+ef90fca3-8d13-4120-92bc-80e900aa931b,4.0,North Paulmouth,2025.0
+83c3f94e-9b46-480c-a659-0c5daf7b3b9f,3.0,South Austin,2017.0
+6021684d-8596-49d3-b02b-fbace93a86dc,6.0,North Sara,2023.0
+e051bac0-e18a-4b26-90aa-e751a93eee93,7.0,South Markland,2022.0
+253d8255-2a89-4607-a93c-a612bedce60c,4.0,Lake Moniqueville,2016.0
+d320e9e3-41e5-4c4f-89a6-6774f571614c,3.0,Port Vickiport,2009.0
+a1ecbc56-fdff-400b-b5ef-2f5dbfa540eb,3.0,Hamptonbury,2017.0
+96ad007f-3479-4aec-ad78-582f692ccc8d,3.0,Robertstad,2014.0
+4d369177-d251-4123-85a3-f08e6ae48640,3.0,South Miguel,2019.0
+a576bc87-cb6f-4542-b24a-aff5c36beeff,3.0,Saraview,1987.0
+69575fb2-34a6-454f-b1f3-61c04f6bf654,3.0,New Katherinefurt,2023.0
+085f8374-5b41-44f5-ae91-7d7b2e93c672,4.0,Zacharytown,2018.0
+03f38b13-8558-450e-9cd7-29b284f3e7aa,3.0,Port Wendymouth,2020.0
+0351d8f9-75b9-4aca-885b-c01c40af99d6,4.0,North Nicoletown,2015.0
+6f962ecd-82fe-4032-bf55-a59faf59bdd0,5.0,New Ann,2009.0
+1088ac66-0110-4112-8eed-3f424720b905,3.0,North Cynthiaview,2017.0
+ca965d44-f5e9-49d4-83b8-4a3c6a64e576,3.0,Schmidtborough,2015.0
+92255d44-2ce2-4a0c-af25-61e2085a1b01,6.0,Ronaldfurt,2023.0
+5baef818-3e72-4a25-9a4c-2242317cf153,4.0,North Christopherton,2023.0
+5f01d6e9-22c0-443c-ba76-d0c27e319304,3.0,Jonesborough,2019.0
+b2b4c2cb-6e56-4a28-8a84-80ab566d7f8b,5.0,Allenside,2021.0
+f4f490f0-1f24-4605-91ea-ad1805ec766a,4.0,Port Justin,2022.0
+e7d6cbb9-f5a8-4727-96fa-2e0e92e9ab77,5.0,New Brandiport,2020.0
+8ea396cf-144f-4858-a0fa-3f98e912cea5,9.0,Robinsonfurt,2023.0
+7490a3b8-fe09-49a9-ad03-bd19d97090af,5.0,Quinnborough,2023.0
+30df5c89-7bfa-42d9-bf42-77533a936615,3.0,North Michaelburgh,2023.0
+c8ba3bf3-0957-47a7-922b-d0749ed938d0,6.0,North Adamchester,2023.0
+bccafab1-de7e-46fc-8a82-4be7e853f280,3.0,Port Kristinaton,1981.0
+c76d2c0e-6b11-4d50-b3e2-be209a91c379,5.0,East Nancyside,2018.0
+57ecd68d-e31b-4720-988d-1bd9a86b574c,5.0,New Melissa,2023.0
+9648753a-bed2-44cf-8b45-10276917fae3,4.0,West Jacobhaven,2023.0
+a4e2607b-9590-4bfe-b592-1b84d3c0b066,3.0,South Michael,2018.0
+1c7bb804-267b-4049-90a7-106a6b3aa5d9,3.0,Shahshire,2018.0
+638666b5-28b4-4954-bb44-13ae32af8d06,3.0,New David,2015.0
+3b5bd6a5-8370-4ad2-978c-6b50de154653,5.0,Gibbsmouth,2020.0
+9cb5f935-43a7-479d-ba56-2ff911fde4e4,4.0,North Marytown,2010.0
+ff8338fb-9fb5-4247-824e-5cdab2491ca7,3.0,New Savannah,2014.0
+b22d0d73-4dd9-45c8-a524-e43822e49153,5.0,New Corey,2024.0
+f23caebc-8e63-46d0-9a7b-04199132f360,4.0,East Laura,2019.0
+837aeb5c-d6dc-43df-8eb7-5073c52e024f,3.0,South Douglasbury,2003.0
+e3c13484-f1ee-42d8-b435-75af1095ce5d,3.0,Rodriguezton,2014.0
+f0ee443a-59c1-4e34-9b15-b895e6852e37,3.0,East Kristinatown,2019.0
+6a22c83b-720c-40ac-b127-cc752fb18085,8.0,Johnsonport,2023.0
+a363d44f-0340-4978-b667-b521de4fedce,3.0,Huntertown,2016.0
+ed9a3386-4aa3-4aef-bb64-3d03f206ba35,5.0,Savageburgh,2019.0
+ef611ad0-5bfa-4e0a-b6a8-af6f4bfbb453,4.0,North Mariaside,2024.0
+c824f020-5394-499a-92ef-0442ff684ad5,3.0,Danamouth,2016.0
+906155f3-cfca-4d29-ab83-1e33af2bcd24,3.0,New Joshire,2022.0
+7f810a66-0d1c-43e1-8489-3c38d005dd9c,3.0,Paulmouth,2022.0
+6c2ca620-d11b-441f-9401-2b54f3b0c061,3.0,Lake Barbara,2018.0
+9367be5c-b225-4e58-ad0d-591816af0ad0,3.0,West Jason,2010.0
+edef7b0f-1acb-492d-850f-b1ee9fd13859,4.0,West Amy,2020.0
+553a8233-b278-428f-8034-0738875a2399,3.0,Bairdbury,2013.0
+1a35141c-49dc-401d-8723-8f91cadc7f16,4.0,New Michael,2017.0
+60057d69-1c24-4730-bcbe-d77b0c3c372e,3.0,New Joshuabury,2017.0
+4aa4257a-8275-490a-869a-9149eecc2cdb,3.0,Teresashire,2015.0
+749b0914-f8d0-448b-8b4d-27c5d627efdc,7.0,Alexisville,2023.0
+760bb69d-db6c-4327-b796-3d92ef9882a2,3.0,Moonville,2017.0
+8094bbd7-f978-4346-8be8-05e3edcaeb2b,3.0,Josephburgh,2011.0
+d5105156-a43d-42c8-84bb-a5ca0553e6ed,7.0,Shawborough,2024.0
+fea45742-7a40-446b-b167-324294469a5a,3.0,North Beth,2014.0
+0bf1ee10-a228-4363-a71e-08512c096d44,3.0,Gregorychester,2024.0
+2684c246-227c-4df0-811e-3d50230718dc,3.0,Howardfurt,2020.0
+f4248227-62c2-40a5-9a89-3473825a98ee,6.0,South Terrimouth,2024.0
+fab8a660-7d26-4116-9261-a914eb333d85,3.0,West Paul,2010.0
+a4820f34-489c-4ce3-acb8-4a87c6826a65,3.0,Gibbshaven,2011.0
+797c41af-364e-44b6-a3f5-97e22f8daaf9,3.0,Jessicashire,2013.0
+5591ccec-6862-42ab-9c7b-21ba67cdd330,8.0,Kiddstad,2022.0
+841f9bee-1cf1-4635-9c49-84d18aeda18c,6.0,Lake Valerie,2024.0
+231e155d-c09d-47cd-85d2-2178d89e5f3b,5.0,Lake Justinhaven,2017.0
+a58374ea-abcf-45a9-b2a6-d4f30aa0955a,4.0,Cameronfort,2024.0
+4011f50b-fd81-42f3-8b4c-8f8b97ba6cf1,3.0,Conwayville,2013.0
+f9adaf4a-b6cb-43f1-a256-9fc7d973c44f,4.0,North Kellymouth,2017.0
+56e76585-df3a-45b7-9507-c6af87306fdb,3.0,Port Kimberly,2022.0
+d32c29b1-7b30-4ac9-9b4b-00aa5cd19fd2,3.0,Nicoleview,2020.0
+42002d24-9d21-408d-887c-0cfdeaacce80,4.0,New Marcus,2023.0
+81367517-74a6-4e1d-8a99-5c99169e1bc1,4.0,North Lisa,2012.0
+4d5f876b-9913-4dd1-b2ec-df8af41381aa,4.0,South Shawn,2016.0
+8c5796d8-b6f8-4581-9bb0-1ec8e9ca7f54,3.0,Port Markmouth,1991.0
+56cff075-05bc-42a4-9f11-25c5c42f1c3a,6.0,Katelynfurt,2024.0
+3fee01c2-3f3e-4904-aae5-336cdc8bef97,6.0,Mariastad,2023.0
+6ab0cb3c-574a-486a-93cf-db560d235b4b,3.0,North Patricia,2015.0
+66694cb0-ced3-4d8f-9392-9abca176e93e,3.0,North Katherine,2014.0
+12f22332-86f2-427f-ac83-030f79f320c0,8.0,Sanchezstad,2020.0
+064b7c50-3c3f-4e29-8a16-5a3e4241c39b,5.0,West Melissaport,2022.0
+4edfb8b4-1153-463b-8b74-7c68dda4303c,3.0,Lake Mia,2017.0
+9c7a4417-57ea-4722-a6af-fabc9629ac2c,3.0,Daleport,2011.0
+f58dd7f8-8556-4394-b558-c8b6394c7377,4.0,Reidburgh,2023.0
+363be3a9-375b-480a-a4e8-0ea82c3373d6,5.0,Port Johnstad,2019.0
+c4986927-ea36-4f0e-bf23-eecf1384bb28,6.0,South Aaron,2021.0
+db8c7db0-1ccd-46e6-a102-b67dc9592c77,3.0,New Davidborough,2011.0
+3add2063-f2de-44ea-8181-e75e3e0e411d,3.0,Jameshaven,2019.0
+ff3e7bf3-cf7a-4353-b94c-7a58f98dabea,3.0,Lake Roberthaven,2015.0
+50e36986-f877-4903-98cd-bd2fb73247e0,3.0,Chanside,2015.0
+f01ece23-b6cc-4ae5-bbad-a3122ef7e48d,3.0,Port Benjamin,2015.0
+f1a230a0-2d15-4cce-aaed-6bec100b1e03,4.0,South Stephanieborough,2023.0
+0afc29e0-8092-4cb6-9ed7-ab5ed177cbbd,4.0,South Bethanyside,2021.0
+d8907338-d8b0-4420-90f7-6d1c9ca074f8,3.0,Lake Randyberg,2017.0
+b25079a6-c538-4aaa-9e5a-6b8502aaf19a,3.0,Sharonside,2007.0
+dcaa00ad-4b7c-4cce-9ad3-f5d4cddd55ac,3.0,Gutierrezville,2020.0
+07f1ab29-eb49-4a69-9b84-123b52384310,6.0,Johnsonton,2024.0
+43db2057-214e-4058-8668-ea262b42e6af,3.0,Petersentown,2020.0
+3f338a41-8d8e-4d08-81e4-48e3cd1e6d02,3.0,East Melissa,2017.0
+aac666cb-9f85-4839-87c0-17e303d75807,3.0,Tinaton,2014.0
+69a19efe-a4cb-4cf9-a8a5-11f6de0917e1,3.0,Hessfort,2023.0
+b54dbc77-dc91-404f-9f6b-5212f03ea35d,3.0,Allenview,1993.0
+e8d56828-cfc9-47b8-b55d-fd160c9ccb00,4.0,Chenland,2016.0
+b596805b-3859-43ef-ab97-0a7ba4af4577,10.0,Port Amanda,2023.0
+467343e2-7eae-4089-bfd6-514896ab9aae,3.0,Amytown,2024.0
+3cdd69f2-3ccc-4ce4-8751-d6f10841407b,3.0,Jeffreyland,2017.0
+a8660214-785a-4848-a921-ca0bc2d543e0,3.0,Lake Heather,2017.0
+d9a4435c-a999-4657-b3d8-66fb24d5ba3f,3.0,North Ronaldville,2017.0
+4b9e81e0-1f0b-4eca-9006-a3087f9c53c8,3.0,North Alexandria,2010.0
+6b459e1c-dd94-42e6-8a7a-a88c4e40f697,3.0,Port Sharonmouth,2010.0
+35d10b6c-1ffb-42f3-91d4-b62cd2594047,5.0,Sarahfort,2023.0
+354e80ad-371c-45db-84cc-81566b97a60d,3.0,Jenniferfurt,2011.0
+95db53c6-f8a9-4519-8a56-f8dfe407682d,5.0,South Michaelton,2021.0
+1df7b16a-5d17-4c0d-91cc-eedd645969b2,3.0,Jacksonport,2024.0
+41934685-f3de-46aa-ad2e-cfc6ab99ab38,3.0,Kendraview,2019.0
+18896698-4c21-4af8-a8ec-d3fd4f770fd1,7.0,Brandonmouth,2023.0
+d89d45f4-a0f6-4251-897e-59a4e51dd87e,6.0,East Diane,2024.0
+c9cc8417-f48e-4434-9df0-b1fa929111f2,3.0,Lake Laurenbury,2020.0
+2cfeba21-075b-4cc8-bb5d-2f1cf4861c69,3.0,South Markburgh,2011.0
+1d3eb10e-7bde-4c18-9401-951010a6d4d9,3.0,Donnaburgh,2017.0
+4553a840-d398-4421-a1c2-97688609b466,3.0,Lopezton,2022.0
+2b8ed035-56ac-434b-aa50-31f21146c387,5.0,Paulmouth,2024.0
+8780249c-0e1e-4c14-ab92-56355a4789a6,3.0,Port Mark,2021.0
+c1f92837-73de-4ed6-b919-56f2a7a11a77,4.0,Rangelville,2019.0
+eac4c471-a107-4690-b1ac-c6c48fb9b71e,4.0,Jamesberg,2007.0
+5a3f98a8-31e9-49f9-9ac4-df3b70ebad0a,4.0,West Dylanshire,2023.0
+a80949ed-d045-4866-8a21-7ae20ee5c0b9,3.0,New Wayne,2016.0
+a58581e9-3d86-4569-ada2-e0e7b1e8b8bf,6.0,Ashleyshire,2018.0
+4368efd2-f39c-444c-aa2a-242880ca2466,5.0,Lake Ana,2016.0
+d57904bd-7378-46fe-87e7-9a339c3199f9,3.0,North Martinfurt,2024.0
+19de3382-1966-4c10-8105-a34b26e74dd4,6.0,Tinamouth,2023.0
+95a73b51-b148-40bb-95a1-a928da2538be,3.0,Millerhaven,2016.0
+9868586c-f651-459a-8cbd-ae60a86f14d6,8.0,North Tiffany,2021.0
+a3d7da54-d57d-42bc-a0e5-98b5355a5560,3.0,Lake Sarah,2009.0
+80d85f5d-d295-4fb0-97a3-015092db28d4,3.0,Port Todd,2011.0
+02732534-8787-41cc-89a3-8d47ba6acab3,4.0,North Michelle,2019.0
+2b5affd6-4eb8-4724-9e66-fb27abdf988b,3.0,Medinaport,2013.0
+df8d44c0-ff26-4272-ab2d-191fd838dae3,3.0,South Tiffany,2018.0
+a271a98e-8bd0-40ef-8acc-f2a840b97e61,3.0,New Jillian,2016.0
+1c2deb82-3a12-4dd0-a551-b380b509de9f,3.0,Brownchester,2023.0
+5edb6be2-63df-4dc9-95b6-85b926d0d87f,5.0,Adamschester,2021.0
+ed1954cf-3d5e-4dbc-853c-1710fe0faa80,3.0,Ramirezton,2008.0
+cf421a05-5402-4621-952a-e8b3aa53dc67,5.0,Jeffreyshire,2023.0
+d737b2bc-92b9-4d09-8f7b-18d90723a59e,4.0,Stephenberg,2023.0
+b0b6b5a5-a261-4e9c-8785-b3382f018d7a,5.0,Ginaview,2019.0
+5d19c715-d67e-45e3-a62a-da2a572345e3,6.0,Hernandezburgh,2022.0
+746a8251-2a9c-4caf-9f5f-d94b2f06575b,3.0,North Grantside,2023.0
+ee21d237-11c9-4ff5-aa6f-450c4cbe0de9,4.0,South Brian,2018.0
+4f9f40c7-f214-408f-bba2-ab61940a691c,6.0,Bennettmouth,2025.0
+0a8e8369-f14d-49b4-9685-3a473b6d635f,4.0,Jenniferview,2024.0
+2c5327b3-a577-4045-a277-416734bbdf21,3.0,Jamesbury,2018.0
+ce327f4a-871b-46f6-a3ab-c155b055ff61,3.0,Lake Vincentview,2023.0
+e929ae93-3b14-4f5a-8111-9dc499e6b3e4,4.0,Nicholasstad,2024.0
+e653fb17-c21c-40a6-bd12-78f55a47521f,3.0,Whiteville,2020.0
+0e2a959a-feb5-4098-b931-637dd1726bd6,4.0,Wallacemouth,2022.0
+cd35539a-28d9-4c51-9015-d88b8a83ab9e,3.0,East Donna,2018.0
+be09e7fb-47fa-47d6-8c52-d2630836e46b,3.0,Martinmouth,2019.0
+4e3e7b35-85a5-4587-b8af-74f3721b944c,11.0,Meyerhaven,2023.0
+e2f793c6-eb39-415a-906d-5c4387aaab8a,12.0,Joestad,2024.0
+4dc5910f-cc00-4e37-81fc-38781c9be6bb,3.0,Andrewburgh,2018.0
+7da53faf-36e0-4416-9bb6-9bd0f50c2837,7.0,East Darrylfurt,2023.0
+efbeec43-0afe-4708-a67c-efeec6dcb816,6.0,Jordanland,2018.0
+35eb9211-ee57-4a6b-b323-2b1a9849547b,5.0,Curtisport,2024.0
+ff744f05-5103-4c6b-a0ec-167b11047442,3.0,Port Sharonborough,2017.0
+760ed92f-a592-406e-8d91-161eff52032e,10.0,North Jamesview,2022.0
+4ed69868-6bf7-40f9-a5ab-008cb7e5738e,6.0,Amandaburgh,2021.0
+7b7c7036-8d99-4a98-b67b-41477f45bc36,3.0,Lake Diane,2022.0
+1e35852e-2fea-46e0-bc52-b0004307edd7,3.0,Bradleystad,2018.0
+6e5a81f1-1c4d-4394-b626-5c5ab0d12c9c,4.0,Clarkberg,2022.0
+561cebc2-e686-4431-8aa7-83ee910a345c,4.0,Gibsonmouth,2021.0
+97ffffec-0e18-43e6-9f91-9bc5f847d56b,5.0,South Elizabeth,2022.0
+14fc3a47-ea59-4eb3-a077-00a92e0e117e,3.0,Pittmanstad,2020.0
+9f9c40c0-1034-49ac-99ca-c216844cf587,6.0,West Amberview,2022.0
+514308b2-00d2-4e0e-ade3-281e1d70cff6,4.0,Johnsontown,2018.0
+2be4a363-dbbe-4df6-a9fb-a28ef5d6b257,3.0,Lake Sandrahaven,2018.0
+3d3fc7c2-ce3d-4377-a923-fc2276eb8a5e,3.0,East Joseph,2018.0
+d028821e-607e-4a95-9082-b0e8076c36be,3.0,Port Bryanton,2020.0
+32b8547a-ae6a-4fee-bffe-e9dec71a90ac,3.0,West Taylorbury,2019.0
+0b306800-3fde-4197-9f6d-046e769004b5,5.0,Kaitlinville,2020.0
+a855967b-0036-4c92-b1e8-9bbb3cd926e7,3.0,Mcdonaldberg,2017.0
+54a0c822-12b3-4094-9702-3352f20c10fa,3.0,Jeremyhaven,2018.0
+dcbe51f5-79e0-47fb-ae2a-3569d3a9cc1c,9.0,Port Davidfurt,2021.0
+f0af7c3d-0e75-4907-b074-1e0860aa11b7,5.0,Stewartton,2021.0
+c2021086-1f99-4e5c-80b7-da6c1949d586,4.0,North Brent,2017.0
+fb0dfbf9-d902-4322-8850-25c101dbb283,3.0,Johntown,2019.0
+f04de9d6-b6d9-443a-8c48-ea34e46be528,3.0,Ryanhaven,2021.0
+7e809d70-ae66-4e7e-b58b-bff1ac19f90b,8.0,Bauerside,2022.0
+4fda8d84-9b93-4532-99b9-b6b308a982a1,7.0,Robynton,2021.0
+3834cff8-506a-483b-97a4-b9c87bceb490,5.0,Martinezstad,2022.0
+69c13091-83a7-4979-bf74-e69cc7668110,6.0,West Johnside,2023.0
+4668ff64-11ca-4e7b-aed0-7720026959bc,3.0,Keithfurt,2019.0
+c24b415d-3d5e-4f2b-9486-7b27a152f60e,4.0,East Vickieview,2018.0
+81d1cbe5-8d5f-4500-b975-e43318b7da23,3.0,Jefferyville,2023.0
+f0035711-9dae-4049-aeed-dc306e5b9767,3.0,New Jamesfurt,2022.0
+6a524010-8d4b-45cf-843c-52c5d493f71e,3.0,New Keith,2019.0
+ba91ac96-b6cc-4bd4-b2a7-44bf8b4eaa33,3.0,West Melissa,2018.0
+58d43d4d-1801-4132-b925-6e192c7a8761,4.0,Aprilport,2020.0
+f1ecc46b-5477-4262-9d0b-0502aa598ad7,3.0,Lake Karachester,2017.0
+b0bfc454-2dd0-4487-a1e7-34dcf86a4518,4.0,West Petershire,2022.0
+0c691267-7753-4f7d-a493-317574148dc9,3.0,Jennifershire,2017.0
+a99e0041-7196-446e-b1d0-8aa2cef4423d,7.0,Wuberg,2023.0
+7a692ead-2878-4c11-a7b7-b18f4135013b,3.0,New Matthew,2022.0
+b5184f98-4916-47b9-9bb3-af80dca81104,3.0,North Elijahburgh,2017.0
+26e2c1df-3dc6-4434-beb6-4359478ad77e,3.0,East John,2019.0
+7d774965-51f6-4945-a357-e05b062bc2b1,4.0,Cynthialand,2024.0
+c40784e2-86d1-4708-b8e6-efbece11b8ce,5.0,Schaeferport,2021.0
+3ee0275c-7ef5-47cb-a6af-753627d971f5,3.0,Ramoston,2018.0
+c969d384-8c03-41e7-ac17-4d934983d29c,4.0,Fosterfort,2023.0
+ced6ff28-5e84-40aa-b7e9-8c6460f15319,7.0,North Jennifer,2024.0
+159ede0e-384c-4659-8904-cdc1ca758f0d,3.0,New Mariahaven,2022.0
+7df30e45-2bd3-4352-a71e-e477bf70c415,8.0,Melindaton,2023.0
+699e7f48-4c29-4b47-8ea0-2f6521b59dd8,5.0,North Juliamouth,2022.0
+dda3ccbe-b381-4296-9095-4a3ab9a816e0,4.0,South Kristieview,2017.0
+4cb59219-5510-45ca-9ed9-f0975c37c264,5.0,West Anthony,2023.0
+33dafe97-d8d6-4621-8be8-3d1d6d45a20d,3.0,Smithshire,2020.0
+ab473c29-e8af-494a-9958-162a7c99a234,5.0,Lake Larrymouth,2024.0
+96ba2ce1-f8d9-412e-a51a-9df09f8b20cc,6.0,Lake Michele,2022.0
+99cc37e3-a820-4657-a0ab-56724e65dc4b,6.0,Millsstad,2023.0
+5b6c8c11-c4b6-4260-89ed-59f9a05d8707,5.0,Gilbertland,2021.0
+0a8919a2-b48c-4973-9843-145c606a30e3,4.0,Kimberlytown,2024.0
+f139c72e-1dd0-4116-9881-8c76aa546935,3.0,Dannyshire,2018.0
+3f9eb62a-183a-4317-9f9e-caf9fc12a457,6.0,Brandonville,2019.0
+bbe28836-eaad-4696-98e5-04e42326ee74,3.0,Marshtown,2019.0
+4949654e-c83a-4ca1-a378-89569248e16c,4.0,Andersonshire,2023.0
+e65d5ac3-1667-483a-bbca-6e32b93ad284,7.0,New Mary,2021.0
+3ae98f39-8d4c-4a9a-ab4e-a497b65ffa05,3.0,Rileyfort,2016.0
+f1083d87-d374-4035-b08f-0470b9a83197,3.0,Ashleyland,2021.0
+11c24058-b5bc-4737-991b-083103dd0c1d,3.0,Jenniferland,2020.0
+2ce4ec2e-6b09-4121-88d9-64d143ed7de9,3.0,Lindaville,2020.0
+8be90c8b-5c87-48ce-9b4d-aedbed529871,3.0,Andreamouth,2021.0
+29b60eac-d51e-40d3-82cb-0bf418f6af91,3.0,Lake Jessica,2023.0
+ccd17ef1-0505-4cd1-b75c-c9b329ab01ef,3.0,Allisonshire,2017.0
+894feae7-9461-41a7-a0a1-ede66f85e1bc,5.0,Perryton,2018.0
+0ecea8de-654d-49a1-b171-714fe4dc0806,3.0,New Nathan,2016.0
+6c38db0a-bea1-45c8-86c3-771a32e011ae,4.0,South Austin,2020.0
+1ddb1c14-008c-48b2-92de-166e6d52bd06,3.0,Lopezmouth,2019.0
+40d5e94d-d104-4b91-ae56-94427ec9e18d,4.0,New Codyport,2019.0
+981d9168-99c5-49f1-9c62-59b31291c5a3,6.0,Port Rebecca,2023.0
+6c7a4de2-c327-4615-a209-4e6285fd1856,5.0,Humphreymouth,2021.0
+1666e77a-3d13-44da-832c-aed947030e65,3.0,South Jeffreyton,2017.0
+919a3f78-6dd4-4eac-9e80-0df85b43488c,7.0,Chambersborough,2022.0
+07b5c116-7a3e-4c68-9470-772beeb0b1e5,6.0,East Sandraport,2020.0
+3b596c69-287a-4acd-867e-a0c7a72834df,6.0,Darrellmouth,2019.0
+067f6575-9361-4f6d-8512-1a8f35046a09,4.0,West William,2018.0
+06ac4eb2-9eac-489f-93d1-7d92d3ccc3a5,3.0,North Brianburgh,2023.0
+e3811048-d34a-4325-a826-c34d78ea42f8,7.0,North Jilltown,2023.0
+8254da8e-f912-41e2-90c2-722106215a55,3.0,Patelport,2020.0
+710154bd-ea0f-4803-a959-b37eee78dfac,3.0,Blakebury,2019.0
+bbbf6548-6eef-4ad7-bc36-4489d3e19624,4.0,Brandonhaven,2020.0
+f65c8f9b-8c8c-4168-b421-26ef94a1243f,3.0,West Edwardfort,2020.0
+ef2c2d4e-878f-4ce8-9b50-2467d43e2080,4.0,Forbesborough,2019.0
+eb1b6f3b-ef04-4ec5-abf0-720f9bc00a65,3.0,Patriciamouth,2023.0
+ee01a546-a65b-4dad-9855-0cf1ba9b3488,7.0,Alexchester,2019.0
+1bde7de7-d92a-4c81-b3bd-1f9039260d3a,3.0,Melissaport,2018.0
+344b2b80-81ad-4510-ad33-ef50ffac4240,8.0,South Karenport,2024.0
+9b0df002-dbbe-47a7-9bd3-98c3f85442b1,5.0,Mitchellbury,2021.0
+e07c3044-0b7d-4da5-9da6-436c1076e0e7,4.0,East Alexis,2020.0
+ed7ea3c6-ffe8-4d41-a9db-f77ba95ca866,3.0,East Zachary,2020.0
+886c0bca-939c-489a-9266-e0880e5a272c,5.0,South Timothyside,2023.0
+36d516a9-4012-4749-a66b-04c9f5f66a64,3.0,Port Gerald,2024.0
+5a64b5ce-377c-48db-949f-bbce5438b7e0,5.0,North Wanda,2022.0
+c9b4d022-9a3e-4102-aacf-a30560cdb5c3,3.0,Tiffanyside,2017.0
+c9901544-0ada-4003-ab6d-b675983b8403,4.0,East Alyssa,2017.0
+71dbf6ec-8eac-409a-8b5e-e5c6fbfb8744,7.0,Peterstad,2019.0
+e34ef03d-72eb-46dd-8d27-ed9674ac5149,3.0,Gardnerside,2015.0
+51027d20-4883-43a3-bbda-5151a19a9943,3.0,East Debbie,2022.0
+206d8229-2819-40b6-8257-1ddfaca87ab1,4.0,Allisonville,2016.0
+7ebc0e8a-02d8-4ca1-ad62-7f12d3aebaa3,3.0,Lake Allison,2017.0
+01ea8c42-1666-4f2f-a749-14a4cbe74b63,4.0,East Jessica,2017.0
+046da32e-e074-476b-b851-655a71c812d7,3.0,Meganberg,2023.0
+a30fb720-d7cb-479c-8bd4-4b30132ee46c,4.0,Wilsonmouth,2020.0
+c1590495-a3bb-448b-bd78-afd11e2e7d60,4.0,Christinahaven,2020.0
+54c6cc59-a0cb-48a2-946c-82819234f4c2,6.0,Ericahaven,2024.0
+f92bbb39-c367-49cc-ba01-4249b20a90ee,3.0,Barberview,2024.0
+f426044c-6cce-4548-bfda-15ba1d2667aa,4.0,Smithville,2021.0
+fed76eb9-5907-4dbf-bcf7-987ea4438dbd,3.0,Aguilarfurt,2016.0
+c889c85f-6f9c-467d-8177-e03e256d0538,8.0,Shannonshire,2024.0
+2e40d288-59ed-4102-8f2d-a9d8554cc69d,6.0,Mahoneychester,2023.0
+561b99c6-6929-4334-b5e1-536c32fe19c5,5.0,Port Davidhaven,2021.0
+85b5357c-a11c-49d5-8d59-efda2f48e927,4.0,Hurstport,2020.0
+7580f835-ffb5-4be8-9a26-55e93ca19ab3,3.0,Levyville,2017.0
+1c371ffd-eaf6-4260-9785-170211406de0,3.0,Proctorfurt,2020.0
+2997c9b6-47a5-4f77-9a52-9d812fb9985c,3.0,Harriston,2019.0
+213c5d9d-b670-41b9-a56c-1e9bc3c6eaa4,4.0,Taylorview,2020.0
+7eba33ad-c486-4e03-82c6-1551f13a4436,3.0,Angelachester,2018.0
+64d995eb-0bef-49f3-ab96-dc617cfc8764,4.0,New Tonyaborough,2016.0
+b119f867-0615-46da-bd4a-49f7e9d4a3aa,5.0,Nicholasmouth,2022.0
+bfb9dcf4-41c7-4248-bcc1-541a642e6060,4.0,Lancefurt,2024.0
+7f80f075-fff1-426c-8232-551143d9785a,3.0,South Dennis,2018.0
+b8d5a789-af48-456e-b373-023d444abd24,8.0,Leahstad,2021.0
+d63a7902-3129-4555-aa22-7f0e78901da1,3.0,Lake Jonathan,2017.0
+114d6fcd-749f-4435-8a6f-f1bfa03f2960,3.0,Wrighthaven,2022.0
+95f47afd-36c0-4f85-a60d-0ef35c722ebe,6.0,North Courtney,2021.0
+3187f71e-3b44-4c73-855b-c75d918da21d,3.0,South Brucemouth,2017.0
+eb424a2f-923e-4c1b-ad1d-c33d176c862e,7.0,Port Melissa,2024.0
+69767b21-db59-4ee4-a9da-d8b590e6825b,7.0,North Debbieshire,2020.0
+b7c6e45a-5b53-42d1-801d-daa239e7c90b,4.0,Lake Lauren,2023.0
+f88f4ff3-e45c-4d84-b4c7-c28e017b2508,4.0,East Zachary,2020.0
+6f626bb6-4c3e-4ac8-984b-83d3c3a8b178,5.0,Marissaport,2023.0
+c66afb62-a4a5-4d55-b6c6-a92a6f05f477,3.0,Mercadomouth,2018.0
+e2a610f7-03b4-4af3-a4c8-c6b7602e2913,4.0,East Jennifer,2019.0
+249e1f71-7a4a-4dc1-887d-98b9b8aeb25a,5.0,Mortonport,2021.0
+8d665f88-02cd-44c0-979d-d61fa78d2263,3.0,Port Elizabethview,2019.0
+31adb325-3100-4a46-8147-e8a38de30c29,3.0,Lake Elizabethfort,2020.0
+7e7f585f-2b32-465d-b124-640de6e8ca50,9.0,East Christopher,2023.0
+3e46ad33-d3be-4d06-864c-d38e36b6842c,4.0,South Brandonburgh,2021.0
+57daf6a1-0322-4c66-b8cc-79061c668719,6.0,North Alyssa,2021.0
+02d8bb23-70f7-4320-9e4c-baf34672b1dd,6.0,Port Rebeccaberg,2022.0
+199ffca4-2d84-41b6-a8e6-aba8377c1e90,3.0,Port Dean,2019.0
+f5d2529a-6836-40ac-b52d-7f4a6b6dfa16,4.0,New Lauraborough,2019.0
+956ecb4b-de59-4094-b58e-b485613dc637,3.0,Lauraside,2017.0
+54ce5ad7-c774-4866-937a-59eb99a340a9,3.0,South Richardside,2020.0
+97fa03c7-b950-408e-8d39-7250c202b310,4.0,Mendezview,2020.0
+c9235991-f2f7-488b-bd07-4e28684116d1,3.0,Lake Christinefort,2023.0
+122aa8fc-9efd-439f-9b20-b518f4cdb717,3.0,Port David,2022.0
+f14e0a69-696a-40a9-83b1-1446884118f4,5.0,West Laurie,2024.0
+0ea03f39-70ae-48ea-bd7d-e070baae9026,3.0,East Nancyview,2017.0
+9b725a1d-9b25-4bd5-a0eb-a32e29079684,3.0,Lake Crystal,2017.0
+385c9fe6-f132-4539-9af8-4857306835e2,5.0,Frederickshire,2019.0
+8f8f2713-e229-4e97-bfbf-fabf2b37ff5b,3.0,West Michaelland,2023.0
+bff13a2d-1f68-4009-8828-d386e48d0bb5,3.0,Lake Anthony,2023.0
+90c7ceeb-17a6-4842-bee3-f69caf40f25e,3.0,Lake Timothy,2024.0
+216ec456-0bda-4588-a1c1-562f4420aa18,3.0,Erinhaven,2020.0
+3be8938e-5b04-4bb4-8436-71bf1389d125,4.0,Lake Teresa,2023.0
+1ededa68-153d-44b1-884c-3b044a47a5ba,3.0,Donovanport,2023.0
+3184d49f-ec72-417b-b3b7-d37dad8067f9,4.0,Sancheztown,2017.0
+f56b669d-b740-4aa0-919f-e94916a82d0e,3.0,Jeannemouth,2017.0
+a195fd39-116e-4158-9316-2db6a1687aa8,3.0,Wrightside,2021.0
+aa3448a0-2595-468e-9d15-abb0b0552ae6,4.0,East Ericland,2018.0
+0f0abd7a-ecec-428c-98cd-32aa2b3bc449,4.0,Lake Patrickberg,2018.0
+d54b48eb-8ec1-4beb-b93b-7fd365c0271f,8.0,North Jon,2024.0
+2cc7abab-ebcb-4fe0-a623-2f71a1a99453,3.0,Sarahport,2017.0
+4905d20f-0954-472d-8e55-033e9e2b03af,3.0,West Cynthiaport,2019.0
+4f1390b2-999b-4488-a348-fa19b1320386,3.0,Wallburgh,2018.0
+a3fbcd07-d6e3-4719-8c95-b50b5f53571f,3.0,Jamesmouth,2020.0
+9fe68f10-150c-4c96-982d-7871cee3c640,4.0,Port Paul,2019.0
+ac759ab9-684c-4e3e-a688-ce036069f158,3.0,Wilsonland,2023.0
+77298d3d-9050-4e25-84bc-1a4a6ac1fcdb,4.0,Davisfort,2020.0
+18eefc2c-4fd8-4c4c-94ad-49640ed105f8,3.0,South Robertchester,2022.0
+21775910-8197-4d8b-ab5a-0fadac41c43f,9.0,Lake Todd,2024.0
+48f89bdd-f338-4683-8e02-e124935c1d8b,8.0,South David,2022.0
+fd5946ee-f2c4-47d0-89cd-dfd0881fb55f,4.0,South Lindabury,2022.0
+f508fc91-4452-43ac-9145-b1f088990202,10.0,Jessicaberg,2024.0
+f948553a-c9f3-4fd2-8695-2f36b7f867b6,3.0,Ronaldside,2016.0
+3fc0bb49-584e-4508-89ed-42af19469069,3.0,New Natalieton,2019.0
+4a9a23d3-40f4-44af-bf97-a17edfd5f456,3.0,Jonbury,2024.0
+eeffcbf6-dc76-4e5d-8c74-90096678e3a9,5.0,Jonathanside,2020.0
+ddde4817-2e0b-46e9-bd45-b372098a5cb4,3.0,Browntown,2018.0
+2be34137-9151-44a0-a241-86a84bf21e6e,6.0,Leeshire,2022.0
+79ccaf62-ee22-4ec8-b7ad-f6fd8aa8473d,3.0,Whiteview,2023.0
+63b034dd-d3b8-4d38-9a3d-69a2788efc69,5.0,Garystad,2022.0
+3a25498a-8828-4186-ab7a-cf4c38b4c229,3.0,Harriston,2018.0
+9008acb3-853b-479a-bbdf-3b8431174e4f,4.0,Garrettborough,2018.0
+83e38287-9a5d-4c16-9865-e1585ad2e3db,4.0,New Anthony,2021.0
+8cbb697e-3247-4dc8-93a5-079701765601,4.0,Weaverland,2019.0
+f2386a71-7b79-410c-8ca3-30d2508a80fc,3.0,Burnettside,2017.0
+7879092e-661b-47fb-ae9f-3658e734063b,3.0,Kevinmouth,2023.0
+6b42a3e5-d25b-4290-9092-5311ffdf04d2,4.0,Escobarview,2023.0
+274b5e7c-9474-44c8-b3c6-c0dbf6aa5b9d,6.0,South Timothyfurt,2021.0
+f9929acb-a403-4eb5-813f-b74154653981,4.0,Lake Adamfort,2023.0
+506db7ba-a83d-4baf-a89a-d03c65758782,6.0,New Noahside,2024.0
+72130ae5-342d-4c59-a757-b2ccd29c8bb5,3.0,Port Joseph,2024.0
+894bb810-3a62-4899-bf70-af38bd7a777e,4.0,Cruzport,2019.0
+45d4afce-c75a-4632-a003-7f1381351d26,3.0,Coxland,2017.0
+39d12dea-ec2f-4985-a2fa-1c094b9c2a71,3.0,South Carla,2017.0
+d723f953-5e8a-4bc5-a62f-4ebd43b59570,4.0,Lake Ashley,2024.0
+14f56778-5b87-4f20-88fc-2bbcaf4c7f89,3.0,Port Loritown,2017.0
+bbc51a4f-c626-47a6-b15a-7e812696d935,5.0,Port Jack,2023.0
+2ba21445-123a-4148-ae60-a026471ee8bf,5.0,Lake Amanda,2023.0
+c07a0a2b-162b-4c55-a330-dc4a62641ec4,5.0,Toddberg,2017.0
+f73ae992-6dda-4ded-848e-7d6268d94e1d,9.0,West Raymondport,2025.0
+ac163760-96a8-43a6-a64c-b165e1927477,3.0,New Debra,2023.0
+a5c44e72-bd8a-46ee-9b52-50019843b63e,3.0,Hartborough,2022.0
+19fac3ea-b421-464f-8ea1-f0e6505181e7,3.0,Davidview,2021.0
+cf9eb054-2a86-4fdb-b367-e2fbea6f1a61,4.0,Martinburgh,2020.0
+19c551b1-9bc6-4350-ad02-2a1e712290ab,4.0,Marieview,2023.0
+b7478ba0-1fd0-47f4-bcdb-322c6915a552,4.0,Williamview,2023.0
+980ab968-2e96-4a71-ab14-0177e39c3fec,6.0,Raymondbury,2024.0
+4d361dc3-43dd-48cc-b68b-4b25ae76fd10,3.0,West Lucaston,2015.0
+367b4a9b-dcf1-4cee-9e73-77767409cdd5,4.0,Port Elaine,2024.0
+753ccd4d-924b-4ee8-a05e-4033eaf0a8a4,3.0,Emilyshire,2018.0
+5cc146b2-3392-4210-b89f-ca10b78bf8b6,4.0,South Matthewview,2020.0
+ba98d391-386d-4397-ac96-1b3d1e199456,6.0,Ashleyburgh,2021.0
+dba5795e-2fa9-448e-8df2-c5e4b3c98336,6.0,Clineburgh,2023.0
+cd849064-42e9-430a-ae29-c993983de4ef,5.0,Rodriguezshire,2018.0
+436faabb-cb10-46e2-abbe-ba6609934700,11.0,West Micheal,2024.0
+ce0ef268-fdd0-45de-a7f4-94cf93c8ea92,5.0,Patrickfort,2020.0
+aee40e04-86a8-4c34-985f-22f646d2b136,5.0,New Billland,2022.0
+88009f3b-22bb-4886-8d7e-ea5bf5a1627f,6.0,New Joshua,2024.0
+9e7e6d46-dcfb-408e-b7b4-3b0bdb7dff25,4.0,Lake Jamesland,2023.0
+05674f1d-a4fa-4064-90f8-32cbd1e6fe79,5.0,East Davidberg,2023.0
+8a70eed1-3165-4c9b-8ba4-20bbb33db29b,6.0,New Jennifer,2020.0
+358ec5b4-5387-4328-be01-3407f18b74ab,4.0,New Shannon,2020.0
+32feabed-fa62-4ab0-9507-b96c85324407,4.0,New Danielbury,2024.0
+c6927019-3773-433b-8934-a0e88cca3f38,3.0,Lake Joseph,2023.0
+3c24f6d9-73ca-4e6f-9c03-093298ed50d3,3.0,New Josephborough,2022.0
+e0116faf-67d9-43c9-ba06-317aac7d7b82,7.0,Hawkinsburgh,2023.0
+6d2e6905-652b-42b9-99dd-0425d56f81a4,3.0,North Thomasside,2019.0
+27051db6-8b6d-47b2-89a8-4cd1bb2ca763,6.0,West Kristen,2022.0
+3d5f8699-78e8-4b59-b57a-0d6272418d67,3.0,Palmerberg,2020.0
+8808db4b-3f66-4f8e-ba56-37e0202c2106,4.0,Josephbury,2019.0
+50a04d82-5acd-4a40-a226-2a720ab6e1a8,4.0,Johnbury,2021.0
+5104fb86-08cb-4f2f-87a7-c92306b19319,4.0,Douglasmouth,2019.0
+30d9be67-bd36-4ea6-93cc-4fda6db1eea3,3.0,Sandrashire,2019.0
+e5024c1a-74ec-43bd-a56d-7289ab582026,8.0,Josephtown,2023.0
+304965db-fd87-4e5b-9157-2ddfc77677a9,6.0,East Stevenshire,2020.0
+36cd8e84-8d53-4d3f-a079-821837b63392,3.0,Kristenborough,2024.0
+aaaeb6b6-9abc-495e-a841-894b7b83373b,5.0,Riceton,2024.0
+f532722b-da58-427c-abf1-ae7f64f58cd8,4.0,Port Erinhaven,2019.0
+511a1a91-2fe9-4a85-9b8c-b52ff7aef359,3.0,South Christinaview,2016.0
+249ac313-f812-475e-9302-a1307a28bb98,3.0,Port Anthonystad,2017.0
+85e6e01e-6f3a-4365-be4d-cefa9a287d20,3.0,Lambertville,2016.0
+4f7e715c-d5f5-42b0-9a2e-f2f734abc131,5.0,West Paige,2020.0
+499e427e-e957-4e6d-94c3-304bcf26f2ad,3.0,Lake Raymond,2018.0
+239a5b97-c0e8-4b33-8461-635044989207,3.0,Mendozachester,2019.0
+2d011fb5-eca1-46a4-8fff-61789852cbe7,9.0,Morrisview,2024.0
+91ca6815-341b-4db5-a578-6f757ad9cee9,3.0,South Jason,2016.0
+69f49efc-ba6b-480a-9ff8-076a34383cab,6.0,Port Katherine,2023.0
+c541f771-2248-4045-bc8d-8d03ff95d748,10.0,Port Francesside,2024.0
+8d3c7cc3-4235-41cd-876e-21855534c4f1,4.0,Roberthaven,2019.0
+5302a0a3-62fc-49e1-8eaf-54cb44bf9385,3.0,West Richard,2019.0
+072e4bb4-fea4-438f-b8a4-2705660f037c,5.0,West Jaredview,2018.0
+dbc60e33-b9e7-4699-9c06-93436faf8af5,3.0,Rangelstad,2016.0
+89608e27-d6d9-444c-b759-d1acc0f21ad3,4.0,Port Matthewstad,2018.0
+ea9a4773-4c59-40ff-8ca7-cb1f47e8df81,4.0,Greenshire,2020.0
+3d9f272f-53fa-4000-b154-92ed418d431f,3.0,Hernandezberg,2017.0
+cc24f7aa-79c0-495d-b3d3-d42f2812ac78,3.0,Sheilatown,2023.0
+9fc1dcfc-7db1-4eb1-9889-813f5b40838b,3.0,Kathrynhaven,2016.0
+6aedcc29-b73c-4742-b64f-f5b3fc0e09ee,4.0,Christinaborough,2020.0
+5e0ab8f7-b7fc-44c3-8b76-0e99e3aadb7b,4.0,Lake Lisa,2019.0
+80381790-736a-4335-bb69-7db1221faaf4,6.0,West Roger,2024.0
+a8865948-7e05-48d7-ae73-20dbe465165e,4.0,North Ashley,2023.0
+945bcc35-8e37-41c9-8b60-2c7f0261bd28,3.0,Friedmanview,2016.0
+8da122ce-ce00-49ef-8db6-d3044dd9569e,4.0,Moralesfurt,2023.0
+711ac618-be68-45d7-b85e-13464ddfb438,5.0,Owensmouth,2024.0
+2536ccce-8f58-4eae-b8f1-85cf8fc83f4b,5.0,New Jessicafort,2024.0
+b96e770f-267f-410a-8efb-12112bb056f5,3.0,Evansfort,2017.0
+ec5601c0-404e-4e02-b75d-c03422ed7f2b,7.0,Rodneybury,2022.0
+8ffba443-70a9-4b6c-9a55-243c6689fdae,3.0,Heidichester,2019.0
+f5839f8b-180a-4baa-88a2-896210926472,4.0,West John,2018.0
+0a3fc326-a984-43a6-9831-7bfe7cbec16e,3.0,Marktown,2019.0
+7293ce06-0a20-4ff6-ad71-67ca66434417,4.0,Vanceville,2023.0
+8fedbe21-abab-4338-a267-9fb3409c6233,3.0,Ericaville,2017.0
+84844fb3-500a-4fdf-89fc-19b82ff5d2a6,3.0,Pinedaport,2020.0
+68de4c09-7334-4e73-9606-030f7488c23b,4.0,Padillachester,2018.0
+609c4806-3e8f-4e12-a100-457bb60b2962,3.0,West Melanieborough,2016.0
+487c659b-aada-44a5-81d3-7c96dc7bd1d9,3.0,Kelseystad,2022.0
+2108ef0c-3bd0-4ffb-9fd8-727f0d8b5e4a,3.0,East Brianshire,2024.0
+ba3036ee-c698-4c0b-b29b-e217ff9fccfd,7.0,Port Kaylaberg,2022.0
+bc98212d-5a3b-4120-9a0c-a30483b8010a,3.0,Kyleland,2023.0
+73a66b75-ceb8-443c-ada6-2905ab161819,8.0,Davidchester,2024.0
+995edec2-4965-438d-9f4e-5ecc3d85098d,3.0,Cherylland,2019.0
+8a59a647-0f26-48e0-b59f-5efcc7b672cc,4.0,New Christopherstad,2018.0
+e9a52c65-2428-4172-a821-18e68e9c1554,3.0,Kathleenville,2024.0
+b9374ffb-3d4f-4958-9c37-8716978b138e,4.0,Wrightshire,2024.0
+f6e6a84b-883a-487d-ba90-2bf2464de0ae,3.0,Hallfurt,2020.0
+3fc18eb1-ccc5-4c68-8685-b11f73be07dd,3.0,South Veronicaton,2022.0
+551b0c58-16db-4a4b-8cfc-fbd92570c410,3.0,Davidstad,2018.0
+445521f0-1938-4b7a-895b-058f40903840,3.0,Port Margaretmouth,2016.0
+054d151a-df08-4c5a-b311-3eafde899d02,4.0,New Eric,2021.0
+6f5c1fd8-1720-417a-8300-1858fdcd0967,3.0,West Michaelside,2018.0
+8075f552-ad6c-485b-a1ee-221f940ddce4,3.0,Garciastad,2019.0
+38309d98-85da-43e4-ae0f-4e61b7bd944b,5.0,Ericashire,2023.0
+a54671d4-69d1-468a-b383-34b4457c45e8,4.0,Mosesshire,2025.0
+16b50656-8af9-488c-a121-0eb073dabe04,3.0,Matthewland,2020.0
+ac935b34-7749-4aa1-8378-1c16a7075ae6,3.0,New Christinafurt,2019.0
+1a02a6c6-6914-45ef-a633-78ea5d85ffe4,3.0,Port Laurashire,2022.0
+ffca778d-0531-46c6-a89c-a7625b613afe,4.0,Lake Michele,2020.0
+d3caa342-9ec5-4860-8c6c-6b673132baff,4.0,Lake Janetview,2015.0
+9f461631-e525-46cb-8f04-b1bc31294a24,3.0,Patriciafurt,2018.0
+5df25c2a-b83e-4d17-b5c6-f779653987b3,4.0,Dodsonberg,2020.0
+ab36dbb5-e477-49f9-a7bc-532f6785fc2a,3.0,Lake Jenniferview,2020.0
+556bba28-11f6-4b8d-bf20-dcbfec36edd8,3.0,Bryanport,2017.0
+53e2786a-719e-45ba-ab88-a99a8455e2ff,4.0,Sueton,2018.0
+9cba2f80-3d52-41c1-8844-a027042d21ef,4.0,New Melissa,2019.0
+f1d34f78-b788-44ef-af9f-7238573b7f36,3.0,North Brandonmouth,2020.0
+07e332e1-3800-4a4c-b3b2-e9430dec9302,3.0,Lopezmouth,2023.0
+bbfd8b26-124b-4ddf-a18a-648621f54984,4.0,West Laura,2020.0
+81575e52-dc27-47f6-ac22-b91e28b4cdec,4.0,South Kaitlin,2023.0
+28e35d90-90ec-4e70-a38b-84694cba5a77,5.0,Port Caitlin,2023.0
+c12162d6-f1c5-42b0-949b-dde41f8136a3,3.0,West Mary,2022.0
+6dddcc19-e97c-43e0-9848-4293df8f9359,4.0,Andrewhaven,2020.0
+a77032b4-7710-4f93-aa49-d6458f533205,4.0,South Christine,2020.0
+8fe9dda0-90fa-405a-b164-4f8661954feb,4.0,Williamsmouth,2017.0
+4b1fea54-aa4a-48a0-9ee6-ae6ae713db64,5.0,Lewisview,2022.0
+24f4dc9f-581a-4c04-9751-a0e436e91100,3.0,New Amandashire,2023.0
+17b8a240-28b9-43bf-a9b5-3fcd1ee9c4d8,3.0,Villarrealfurt,2015.0
+6cbfee40-2faa-482a-a692-b9a8206119df,5.0,East Danielle,2022.0
+85371128-f650-4ef4-81b6-6c478c25a270,5.0,Jacquelineside,2020.0
+55c520f6-4370-467b-91d0-197b6c2c9ddf,3.0,East Nancyton,2021.0
+e01a9ce5-2ff1-4a0f-8196-1972f90b3b49,3.0,East Andrealand,2017.0
+5b2fe990-ce64-4121-a308-45b094b0d8ec,3.0,Norrisfurt,2016.0
+00cf4d83-a8b4-45e9-9a44-6a35e0f0c869,3.0,Cameronborough,2021.0
+8ebf0112-6170-48c3-91ec-0da94aa863fa,5.0,Port Michael,2021.0
+eefd47bb-3b03-4f3c-9744-a4ef99a876a5,4.0,Tuckerland,2022.0
+b61517ff-e0c4-4a66-843b-0065f672f79b,5.0,Matthewview,2024.0
+7e539437-80ec-4322-b5bb-f8aa8bfe5ab0,4.0,Lake Tara,2019.0
+41d0f43d-5bff-4b18-b2a6-df67e2408462,4.0,Aliciashire,2019.0
+48bf7324-e88b-4867-9e89-e26fe6209ad4,3.0,Brownville,2018.0
+dfe480d7-3366-46a5-91e0-7a695a346431,5.0,Ashleyview,2023.0
+9ea3bd4e-d73f-455d-a865-1ba26e0f37d9,3.0,Markshire,2019.0
+2b45dbda-99cd-46c0-96ff-b2be82bd63cc,5.0,Ramseyville,2020.0
+d00f7d53-5393-4994-b201-082f95ccfddb,3.0,Frenchborough,2023.0
+b145c0d9-1c16-4967-80c1-b7a7cbefd77f,3.0,Bethmouth,2024.0
+3899c0d3-d0e8-484b-af5a-fbfd3cbd9bae,3.0,Williamstown,2019.0
+7c2f383f-9152-4f67-9449-ef498afe7c37,5.0,Beckyview,2019.0
+e0f85950-8df8-4948-8837-e4f502af02f2,3.0,Martinberg,2019.0
+26993bb6-2267-4121-8821-9d42e5ddb8f9,3.0,Nguyenhaven,2016.0
+616395a2-1377-4ae6-b63f-15198fcb0fad,4.0,Spencemouth,2020.0
+814fe3dc-3118-424b-bee9-4f7c079941c4,3.0,North Rick,2018.0
+6cf35c92-cc0a-4561-865c-6e3eb55f995c,3.0,New Jenna,2020.0
+497292f6-1574-4eba-b776-a56d07eed347,3.0,Charleshaven,2015.0
+28ad3aba-a236-4065-8a32-c8c47d16b4fd,3.0,South Dorothymouth,2019.0
+7ccae74d-4102-4b94-9a6d-3cdfa556e0b5,3.0,West James,2018.0
+67b87c02-2d3f-4057-a2ee-1ade51ae7f38,5.0,West Scott,2024.0
+08272e7a-0052-49c6-8f1b-ac3d76c31f7f,3.0,Walkershire,2022.0
+653bed8f-f430-4676-b345-354a1e56285b,4.0,South Seanfurt,2024.0
+69c6c898-56cb-4902-930a-ca9f35992140,5.0,Robinberg,2023.0
+f991389d-5fff-44e6-a2f5-22b2abcca77a,3.0,Adamstad,2018.0
+f2132bc6-3d71-4899-84ec-9d37aba9e7cd,3.0,Lake Micheal,2017.0
+ebc91ca2-af49-486f-8e25-0f4f411e25cd,3.0,Simsburgh,2020.0
+cdecfada-065c-4eba-96bd-77cee6d4c612,3.0,East Jeffreychester,2021.0
+a1df8b80-fdfa-45ee-9bf5-1a584dcee020,6.0,Jeremyborough,2024.0
+973a427b-41d8-47aa-8247-df4e3cabe036,4.0,Hillchester,2023.0
+e0e6062f-b349-47be-891c-d1ab6886d269,5.0,North Jennifer,2023.0
+4fe96e51-e6a1-4123-8cc8-3b2ab79c7cbe,4.0,Kingchester,2018.0
+c0078143-ee4b-4582-98dc-cf982cf153e1,4.0,South John,2020.0
+dc5a3682-bb03-4f25-bfb5-c4e0bf71d862,5.0,Russellberg,2022.0
+0fc83018-70a5-4ebb-a643-042b11227abd,4.0,New Thomas,2022.0
+4eeec55c-ab7e-4b33-b3cb-e42bd8d62531,3.0,West Nicolefurt,2018.0
+09b77684-57ec-41bb-baeb-b4eecdabfb22,3.0,Ashleyhaven,2022.0
+8ad865bf-8bf1-4580-a8a2-c98154c29302,3.0,East Sherryside,2017.0
+ec569bd2-1232-4108-a78a-1e4863c8154d,4.0,East Donald,2023.0
+03dcab17-356b-420a-b67d-190e4e828a8a,4.0,Mcdanielport,2019.0
+4c3a34be-30ab-4f0c-bb03-b3dd76befecc,5.0,Daniellehaven,2023.0
+98ec7593-9273-4291-b556-65e6a9ef7abc,4.0,Francisport,2023.0
+8ff558bc-6d6c-4461-83e8-8f69bee366a7,3.0,Thompsonville,2022.0
+9008f162-eadc-47d2-ad45-0ea6276948cc,6.0,Lake Micheleport,2022.0
+22288cab-0c2f-462d-9a23-9f5b35b2ca21,3.0,Nguyenmouth,2023.0
+6e292f4d-4a92-4a85-a5e9-82dcf638e99c,3.0,East Crystal,2020.0
+a2dd716a-4d69-40ff-a387-c7bd69325d31,5.0,New Melissa,2019.0
+4eb36f9b-f204-4912-9aa7-b6ce76b3c871,3.0,South Andreaton,2019.0
+098b04a0-230a-48ae-af57-9474efab3ab4,3.0,Teresafurt,2020.0
+ff4bf7e8-4251-487f-af62-715f02ab106c,5.0,Heatherstad,2023.0
+d98ec703-f257-415c-8181-7138565fedc1,8.0,Poncestad,2023.0
+e76316ec-bf9c-4542-8d1e-d9845290a1b1,3.0,Edwardsborough,2018.0
+20b59063-10de-4bd8-837e-a00f89734d48,7.0,North Kaylaburgh,2024.0
+7a085a14-2a7f-488e-ac98-e06a6b42a79f,3.0,East Franceschester,2016.0
+d36f7f04-ed9f-43d7-8da9-fa0b79be6ed9,3.0,Matthewfort,2018.0
+d6d8dad6-40a0-4f72-8853-ee142fa1782b,3.0,South Tylertown,2022.0
+a001674a-7290-40ef-b34a-2f25047c55ce,3.0,Mitchelltown,2018.0
+af90719d-9b2b-487c-8603-1fe6dfbfab97,3.0,New Lauramouth,2019.0
+46e1c927-de8c-4799-a9f8-94d8e950cd74,3.0,North Justin,2021.0
+fd8478c4-dace-4e08-be80-587ac82d6bfc,3.0,North Barry,2016.0
+8012454c-b428-439d-9117-f8bf793e34a2,3.0,Lake Wendy,2017.0
+495e0b05-00c9-4ee0-a8fb-d4217c2146a6,3.0,South Thomas,2017.0
+d5cd97f0-7b6f-4d69-93c2-d4e0f65d6047,3.0,Davishaven,2019.0
+9c4ed3b5-1e85-4a07-ad71-3d102ad9253c,3.0,Tuckerburgh,2019.0
+78a5f46b-a662-43f4-a827-fe42f5a4af14,5.0,Travisside,2019.0
+bff6dd52-2bc0-4d3f-a7cd-a78e0ffc25c6,4.0,Millermouth,2021.0
+19e76933-8d14-4606-9043-daef7c251c8f,11.0,Lake Ricardo,2024.0
+c008aead-ce23-460c-a634-3555c0d226d2,3.0,New Marybury,2017.0
+ff7fe34e-d7b8-4c79-8a08-033d4eeb087b,5.0,Johnsonview,2022.0
+50a1b4f7-f5e3-4636-9ba2-67deff38d5ea,3.0,Port Paulfurt,2021.0
+8dc472e0-1d55-4f39-aa55-278bf00dc55b,3.0,Reginaton,2022.0
+c5369b45-bb96-46a1-9f81-f5a1c4f1e683,3.0,South Scottberg,2018.0
+059b4e96-0c69-4945-8c3f-06438e8bb2d8,3.0,Ryanshire,2024.0
+2b02d8ea-17a6-469e-b714-08d443cbea78,3.0,Cameronborough,2019.0
+db5dc779-faeb-4452-a62b-d8cbc896e5ef,7.0,Port Jennifer,2024.0
+56306594-20c5-411a-9dbb-341a3402fe55,3.0,New Melissa,2021.0
+1a156987-6a30-43e9-b947-a4db6c6c082f,7.0,Shortchester,2020.0
+f0bcc9d4-9467-4810-bd9a-e7a157e5082a,4.0,North Briannaberg,2019.0
+1d703e12-2184-4361-813d-2db1e8a54f18,4.0,North John,2022.0
+63003a3f-607c-464c-85a3-59d327e8d165,3.0,East Jessica,2019.0
+a23a25ed-ee47-4a96-8077-ee3550d3fc68,3.0,North Tonyburgh,2018.0
+9524b782-3f41-42db-a2c5-f7b28ca98863,3.0,Lake Brianberg,2018.0
+853763f2-149f-4a34-962c-41f360854211,5.0,North Richardbury,2024.0
+906dd0aa-302d-476d-aba1-fe4c9ccb0a6f,7.0,Georgebury,2023.0
+e0dca427-05b0-4dc0-8b74-5896a1c47281,6.0,Lake Kimberlyhaven,2020.0
+bd9f23cc-ef11-415c-be9b-715782c7aa4f,3.0,Jonathanport,2022.0
+b01a84f9-7a3f-44cf-b22c-df4508b42ca7,3.0,East Deniseside,2015.0
+28dcc96a-98ec-4618-805f-fbdcda78bf22,5.0,East Nancy,2023.0
+8fb42cc2-f857-4293-b9df-6f421b0b029e,3.0,Nathanstad,2016.0
+a81f7261-3c0b-4293-8e66-f26f25378a9e,6.0,Wallerside,2022.0
+150d50e4-de42-4359-a1aa-1b8a8a86f4ec,5.0,Walkertown,2021.0
+421faa1b-608d-483a-a54a-9d89616f6154,3.0,Perkinsmouth,2024.0
+4815e24f-f1cf-4797-860b-70a45c7107bc,4.0,Tiffanyborough,2024.0
+80963fb1-b5aa-4f63-ae6e-71736a3de345,3.0,Lewisshire,2024.0
+675da10d-5b20-4aae-89ad-c4e9b0212e47,6.0,Melissaton,2022.0
+d001b234-727a-444c-83d0-074c4d173295,4.0,Crystalborough,2012.0
+4e0def64-f604-4a7b-acb1-75ea1ad9b7d0,3.0,East Michael,2023.0
+47f38187-15a7-4d8f-a7a2-e9490e7e543a,4.0,Leslieview,2024.0
+7b1f0ed3-8d09-410c-94fd-90ca1cef15c8,7.0,Jacobview,2022.0
+b8beb7ee-f99b-4e03-9a8c-eb11da61cd54,4.0,Micheleland,2021.0
+79c36802-5175-44db-af11-cfd3562a58b7,4.0,South Brianhaven,2023.0
+a66e9cd8-ab39-4778-a124-9ffe1a808de0,10.0,Jodiberg,2024.0
+6544b586-73b0-417d-b379-291ea6c313c5,3.0,New Kendrastad,2022.0
+2b792e67-277b-4114-8291-2e4d9b388b7c,3.0,Wellsborough,2021.0
+d587f4f8-4529-4072-9e77-870dfa0a3d8c,4.0,North Robert,2021.0
+aabdfbc2-dfc8-4a60-944a-7e2b9c8e6361,4.0,Dunlapshire,2019.0
+41ff2b15-3046-49be-ae70-7953f4722f21,4.0,Carrieside,2020.0
+29059ba5-3a40-471f-8a9b-4d7933ddb748,3.0,Jacksonberg,2024.0
+8995a8b4-e3bf-44b8-bf96-bf4e71fa8ac5,3.0,Guerrabury,2023.0
+6e0fd4fb-8c75-4f3d-aada-58671ccd6dbb,6.0,Josephburgh,2021.0
+67b30bb7-3a09-4c2f-90a2-27fd4ec0fc27,3.0,North Adrianamouth,2023.0
+7d7fe875-4017-485b-873b-534d9005ca8f,3.0,Autumnstad,2024.0
+02287f2e-658e-44d0-a3e3-96fbefb63c8b,3.0,Hollyside,2007.0
+3323c2e7-2cdf-4c06-8e31-727a39cf7d05,3.0,North Brandi,2024.0
+9eb05d05-0e38-4a85-895e-a4639b6d9048,3.0,East Charles,2023.0
+fa9e5221-f5dd-403b-808a-8ea60e8fae73,5.0,North Danielchester,2021.0
+9836aded-9755-4ed8-93a7-d54cfc7214c0,3.0,Loganport,2023.0
+473a6da9-8816-48a4-959d-6cc3e200cb77,3.0,Austinport,2022.0
+b0eaac8f-e5f0-4c7b-b7c0-7b0722915d6e,3.0,Karenborough,2024.0
+69bab291-0764-4def-b3ed-cfd557a57204,3.0,South Brian,2013.0
+0dc0d9ee-8719-404e-95fb-cb983551eab5,3.0,Holmesmouth,2020.0
+14899776-8fee-4a88-afa5-10c9e8950a82,3.0,New Jennifer,2017.0
+d21fc549-b210-44d7-b3fd-72a35dee9b3a,3.0,Lake William,2022.0
+6cc8714c-39e2-4fc9-9718-ab76ca80d3cf,5.0,Port Tyronefort,2022.0
+f0f698cf-087b-47b5-94a6-6fb05e87f8e3,3.0,Rodriguezshire,2023.0
+21fd01fc-a7e6-4c2b-b5b5-dacd2161eddb,3.0,Georgemouth,2015.0
+55d59f76-1e8a-42ab-af6d-472fa719a598,3.0,West Michelle,2021.0
+7466dcd7-7320-40ba-8adb-5d1c28720905,3.0,Lauraside,2020.0
+fdaefe13-ebdb-4715-b6d2-73dcf4cbda3b,3.0,South Joseph,2020.0
+5cdc5ce7-9ce2-478c-8f98-09b833df6844,3.0,South Larry,2010.0
+d2023eef-6d82-4293-9126-f851b96f7199,7.0,Burtonberg,2022.0
+ef76dd94-5bc1-436a-b15c-0188ac34b7de,3.0,Penaport,2024.0
+5a36be0e-5351-4337-b5ae-8ace20e9edc1,7.0,North Katiefurt,2021.0
+1a3290d4-b2ba-484b-9d65-ce2d75e16f2f,3.0,Danielberg,2024.0
+47019c05-58fd-4948-85b6-8773895381e9,6.0,West David,2023.0
+6a4557ba-ad84-4a77-8717-a3e090ae9656,5.0,New Chadhaven,2024.0
+571578f4-2262-4b8d-930c-2cb518db2c80,4.0,Williamstown,2024.0
+7731ce23-cebd-4043-99f0-31bd6a216936,5.0,Hudsonstad,2020.0
+8b7c81a9-95da-46d4-97c3-3ce56a672c06,7.0,Port Marymouth,2023.0
+a480ca51-be60-4665-9f1d-458361099a1f,6.0,Reedfort,2024.0
+146ec542-f860-498a-8260-68d130e2291b,3.0,Rodneystad,2020.0
+85e11ba1-e46c-4eec-8ea2-f29416612898,3.0,Lake Thomasside,2023.0
+d4d6a1fd-366d-4a3b-904f-15922b7866b0,3.0,Antoniofurt,2021.0
+1c03cc35-08b0-4105-b06f-de7b052c2336,3.0,West Craig,2020.0
+00808ed6-3f1c-4545-94dc-f0101c7c50e0,3.0,Port Leslieport,2018.0
+0b2eeea2-4d7f-40b0-9429-611a4a4b0c8d,5.0,South Savannah,2024.0
+99379721-b05f-4b1b-8b77-57e04a3718ce,7.0,New Davidstad,2024.0
+77791440-8b5f-478f-ab50-ee02b9edfe12,5.0,Garytown,2022.0
+438bfc15-42a7-4d17-b922-18a3a9a25d0a,8.0,Clarkborough,2022.0
+92eaf4da-ba23-444d-8f29-0d1609b3a7a7,3.0,South Meghanport,2023.0
+55a9b605-0c8b-4821-8a26-31f97e36b88f,3.0,Melissaville,2019.0
+df23379d-01aa-452a-b918-8247482d9ed6,4.0,Port Sandra,2020.0
+8284847e-f62a-4bad-ab46-92819dfdbf03,4.0,Martinezbury,2021.0
+a6aee90d-487d-4133-9c7a-c91c7bfb682e,4.0,Lake Matthew,2024.0
+023d49fb-933e-454a-b684-146e65a3a3c4,4.0,East Kyleborough,2024.0
+2efda79b-9629-48b4-acef-03c607e3e172,3.0,West Steven,2023.0
+e0bbfe13-5222-4bcb-8173-5a61c3f0ae9c,3.0,West Thomasborough,2020.0
+7f9ff403-e658-4da4-b177-8c2845baa982,3.0,Bryanside,2018.0
+02f1d18a-ddc8-4168-aaa3-a5f4fd06dc26,3.0,Jamieshire,2019.0
+2d9eba13-b8f4-4be8-a37b-44799e00f616,3.0,Paulmouth,2023.0
+706abe71-9a7d-4165-bb53-de1839b74f9f,4.0,Paulhaven,2023.0
+df652e1a-c5f8-4d00-9c46-0d54e591e9ff,3.0,West Samantha,2017.0
+08a9e54b-c868-41d9-9337-f6104d1b35a1,3.0,Pereztown,2021.0
+99cda9a9-c166-4b74-906b-6290a71fbd04,3.0,Lake Morganfurt,2024.0
+7a2a87f9-6c93-42c8-bffc-4c8f45e45bbf,3.0,Peterfort,2024.0
+bbe2eaee-0eba-4f48-bd1c-fa6bb0b7a240,4.0,Briannaborough,2024.0
+5dcbf8ad-4e58-45de-90dd-b07536a0a11f,3.0,Lake Andrewmouth,2021.0
+86ce7100-be2b-4ec3-a394-33082aaa1695,4.0,Melissachester,2020.0
+b5d6970c-87c1-432a-9f32-75eb26a28980,3.0,West Christopher,2022.0
+a5704b2c-96b3-4ef1-9957-16c44cc0e273,3.0,West Philip,2023.0
+b556481d-41e3-48ce-8039-36f11ad9ef79,4.0,Smithberg,2023.0
+2a5e9278-b6ce-4905-92d8-fa2b9b226a57,3.0,South Molly,2021.0
+20d6c6f6-e826-47e9-a21d-4401ef1b4f02,8.0,Mindyshire,2023.0
+82e26902-9e19-4ea8-84dc-e73bbe102d3e,3.0,Donnaton,2010.0
+5118616d-e59c-486e-88bf-4fa31e1d55d3,4.0,Stephaniehaven,2024.0
+50d5486e-8256-4850-a1b9-8ca57a0b8e19,3.0,Ramireztown,2010.0
+2fce5853-dd89-447f-8709-c1fecd63f98c,3.0,Port Annaview,2016.0
+2d6fe348-035b-4df0-aa0a-676592b0e3c2,4.0,Smithshire,2022.0
+113d5378-0bb5-43e6-9722-e0681b64c16f,3.0,New Gregorymouth,2024.0
+fb738ed1-2b46-406e-99b5-46e09ce46c2c,4.0,Chelseastad,2020.0
+cc87bdd5-7258-42ea-96d1-dc67f18699e7,3.0,West Karlahaven,2024.0
+d83981f6-fafd-4c2e-8ea8-d5e1d54c8706,3.0,Lake Lisaburgh,2022.0
+b7788216-2269-449f-9186-fc621661d8bd,5.0,East Peggytown,2023.0
+0dffb03e-976b-4521-aa33-eaa88eede850,3.0,New Rhonda,2022.0
+e122c46a-1fdb-4f69-8a5c-e940787ebf59,7.0,East Chad,2024.0
+212e60fb-3654-4098-9c95-5e3073a1ac9f,3.0,Alexanderton,2019.0
+c2d6a705-4038-4caf-8d30-05dbd003dac5,3.0,Sextonside,2023.0
+7977102e-97a2-424e-8cf9-ab8a2e0d1e7d,4.0,South Yvonne,2021.0
+4e517068-5585-4f5b-8150-02669ea1aff4,5.0,South Joshua,2023.0
+fecca1a9-d5c3-45db-8027-e00c04971330,3.0,Lake Damon,2021.0
+dc639b9a-662d-47dd-8722-d0f135de0569,5.0,Christopherborough,2021.0
+1bb7ea29-7932-45e6-8ada-6ac80e40c589,4.0,Lake Charlesland,2002.0
+52e4c383-84d7-49ad-bf51-4f443097ac5a,4.0,Lisaborough,2023.0
+6bce3608-2a6d-4e04-bb18-c7fc11fe2112,4.0,Wendyhaven,2022.0
+4487ba4e-6e30-4a56-89ac-a472b1b4c38f,3.0,Jamesberg,2022.0
+d5475651-5feb-4a7b-a596-2af2a93b98c0,9.0,Port Travis,2023.0
+68a07bb5-3183-4d34-a370-01723a15b8fb,3.0,Warrenhaven,2018.0
+21926752-261a-47a3-baa2-f7310d1d9090,4.0,Josephshire,2020.0
+beb01766-b020-4cea-8786-040735a27362,4.0,Lake Brentborough,2021.0
+0df36610-e8fc-4db7-a4f0-83b25de11ee3,3.0,Buchananstad,2022.0
+d650d0d0-730f-4e1f-a34b-cea4194af98e,3.0,Lake Karenland,2009.0
+6c8b70a9-320d-49c1-9bd5-271114c5b314,9.0,South Michael,2024.0
+057dfa3c-6664-4d96-9f8d-22f34177969d,3.0,South Austin,2019.0
+7292ced0-cb27-4b87-a3b3-a1aea7c6d3fd,3.0,Garyburgh,2023.0
+c69892ba-d6bb-4feb-b0c4-3c762b372faf,3.0,South Mitchellbury,2018.0
+d2a1f19a-5a1d-4c78-8258-54aa49f12e0f,3.0,East Michael,2009.0
+358e966d-bee1-4b9c-8caf-3e556a25faf9,4.0,Wrightstad,2023.0
+28425e87-33ff-41e8-ac1c-b4a96d4af122,5.0,Lake Briannastad,2024.0
+dbbf3d90-63ce-49d1-a86c-e93afae9bd6f,3.0,Davismouth,2015.0
+2daf4a4b-f14d-449b-b9ea-f59a9604fe6e,3.0,Williambury,2024.0
+815531b2-ff2c-4663-a458-4b91ef5b4971,3.0,Cynthiastad,2024.0
+4bd12425-6512-400d-8824-af58710fcf41,4.0,South Paul,2021.0
+1d6cd3db-13bd-4088-8483-7217e32d71b0,5.0,Sheppardchester,2020.0
+fdeb3976-0293-4836-b162-8bf4fcfb2bee,3.0,Ashleymouth,2023.0
+00a2225c-3a16-4867-914f-354bb11b069d,3.0,South Donald,2022.0
+947f1870-022f-4618-8f23-68e730798dbb,4.0,East Mariastad,2024.0
+6be274ce-7849-4f0b-9936-1626c9f9e027,3.0,Gonzalezton,2017.0
+07c9a8ad-bcd7-4c65-98fa-020cc190ff5a,3.0,Kathybury,2022.0
+a1c0a6e5-5e15-423f-b3f7-5c2378ea7c40,4.0,Kentville,2023.0
+0486c79f-d23a-4fc9-baa7-3ed4b2aeeb86,9.0,East Jasmine,2022.0
+73445bba-85c7-4905-8c99-f861aa2c9097,3.0,West Kathymouth,2022.0
+c0c60f66-0c77-43e9-8e01-b5b05514b519,5.0,South Jonathanstad,2023.0
+d9a34c01-81aa-4c75-8e70-5ee710862774,4.0,Brookston,2023.0
+e660000e-d739-4ac1-a3ed-25923aa7f5d6,8.0,Christopherfort,2023.0
+2e42e71c-9c18-425d-b601-47deceab3b7e,3.0,Lake Laura,2022.0
+5ee9556f-2c64-4840-8a2a-0af335ce494b,3.0,Port Marcoberg,2024.0
+7f5b5cd4-9b44-46dd-8f2a-7e88c03f8c44,3.0,South Allenbury,2022.0
+5eb57050-5e5c-417f-9748-20dc989a98e5,4.0,Amandaview,2023.0
+5e1a45d8-f44e-4355-a32f-6f201327e648,4.0,Johnstad,2020.0
+f31bda24-e03a-46cc-8f15-a73cb155d589,3.0,Lake Carolyntown,2012.0
+7664ed99-bc0c-47e1-8152-a50e6143ac81,6.0,Leeborough,2021.0
+041fc326-8a49-439d-aa9f-78acb6685ce9,5.0,Patrickfurt,2022.0
+45ec0159-dcba-4ab7-9a17-2b39bfe9cf2b,5.0,Robinsonhaven,2020.0
+64d0af87-97ec-4e49-b187-a6ef94c269f1,3.0,New Thomas,2024.0
+981750e9-9f19-4b2e-bea6-93ffbc6c1a36,3.0,East Meghan,2024.0
+df7b5d5b-ae48-44be-9c53-f2c781eed79e,6.0,Teresafurt,2022.0
+53fafd31-2296-4699-8b0a-ebb80fd6960b,7.0,New Bradley,2023.0
+e3a93dea-1849-47b4-b85c-eb2e4691b7cd,3.0,North Mary,2024.0
+ee24d741-5ba0-411d-8653-9dafb48caebd,3.0,South Wendyberg,2020.0
+1a507cb6-2182-4b63-aa3e-f995dff499d2,3.0,North Davidland,2023.0
+ed73bb3a-d762-4f5c-80ec-74fadd72d95a,3.0,South Steven,2016.0
+84aaa191-49c6-4de8-b2c4-046c49d16b76,5.0,North Deniseton,2020.0
+52935035-626a-46f8-9e40-4e494411217a,4.0,Andersonbury,2024.0
+595a97b1-e1b3-4a25-aba6-f102aadec723,3.0,Garciaside,2022.0
+85abcdcd-74dd-4a97-8133-1746f446642b,4.0,Youngbury,2024.0
+d837135a-eea6-4c0a-ad9e-0ffdbb395f44,3.0,Lake Josefurt,2019.0
+44958ad7-a8e0-4198-bfe9-929f2c7197c7,3.0,Lindsayview,2023.0
+b417a832-1b32-4e58-bdf5-ad98a1669cd4,3.0,West Daisyberg,2019.0
+6946fb0d-d821-4a13-a264-60142b078d59,3.0,Milesborough,2017.0
+c5b87374-ca43-4afe-929d-7219d1d0d12a,3.0,New Albertborough,2017.0
+0b9fda76-c9a0-482f-8e07-04b8b488bf9c,6.0,Edwintown,2023.0
+090fc0f3-f296-4c06-9143-2f5432dfaeac,4.0,Lake Tiffany,2019.0
+ea57ac13-f9ba-49e9-baa2-d89b503baa40,4.0,Debbiemouth,2023.0
+25149804-bf1d-42c0-a600-0fe7c04e4f0a,3.0,Youngmouth,2019.0
+c63f07a9-ee53-41e7-8653-1a220f10aecf,5.0,Mosleyshire,2019.0
+a1a6bf6d-441a-4ebb-baa8-e086fe195cbf,3.0,East Susan,2021.0
+5bf14905-36fc-4e02-a382-74d6b39e815e,7.0,Port Jessica,2022.0
+884d4403-1f79-47f5-a2f6-03173b6431f1,4.0,Murilloton,2018.0
+a2d03cdb-a34c-48fc-9041-265932108fd1,4.0,Pruittberg,2016.0
+7fe537ee-d674-40ad-b144-8f7453ecfb14,3.0,Smithchester,2023.0
+5a51faec-b76b-4668-b195-400c5cb551de,3.0,East Kathryntown,2022.0
+9f1faf29-fa63-42ef-845a-631f400cbc10,3.0,East Lisa,2019.0
+cdc3b43a-d3fb-400e-9e9c-d0049c2b5027,4.0,Marshallhaven,2023.0
+93886f87-b16a-4a5c-af78-e4407937f107,3.0,New Pamelaburgh,2022.0
+33d74924-9a4c-4807-b924-631a197ba510,3.0,New Nathanville,2018.0
+c27dd6e0-becc-45b2-8b1b-6d70964e6a13,3.0,Cannonville,2023.0
+9cd11409-d282-4a83-aba4-4ae69e8ddf67,3.0,Kevinborough,2017.0
+8cf26103-4bc2-4f03-a829-f79ab8b2b858,3.0,Hoodview,2024.0
+420b2b8f-dff5-4eee-ba66-1974f3ef7535,6.0,Lake Grant,2021.0
+68358002-d92f-4b35-91b8-fbf58d7c59b4,4.0,East Kara,2021.0
+8cd67300-05fa-40ff-8815-86bbf12adcbf,4.0,Thomasview,2021.0
+25d19461-a522-4ac1-bee8-c666b2cad021,3.0,Brockchester,2024.0
+6f7cedc7-865c-46bb-9637-8d5b32832b41,3.0,Hartfurt,2020.0
+084ac2d8-6226-42f2-a9f5-d2b7afc38339,5.0,Lake Patriciaburgh,2022.0
+0964aa5f-0a8d-49a3-9f27-a140d336652f,3.0,East Cassandratown,2022.0
+0623bd9c-893a-4cab-9552-3eebe4f99aa8,3.0,Port Kristy,2018.0
+eca0f2c0-a076-4544-a645-6d771e1d64ca,3.0,Lake Steven,2018.0
+ddc43bdc-5a00-4f27-bc0e-18857ba69401,4.0,West Christophermouth,2019.0
+d01e0f1d-3da1-4df1-bf18-5ff15981623a,3.0,North Alishaview,2023.0
+436c923a-e101-4143-8bbe-5e5e03da2993,3.0,Lake Gina,2022.0
+60a593c2-63d8-4b33-957a-b267f554e5b3,3.0,East Parkertown,2017.0
+4c073de7-1f84-42b7-9751-b279f9c4c416,3.0,Coxchester,2021.0
+8ffb94e9-5c4f-4e3e-8266-02a66c69effd,4.0,South Davidhaven,2024.0
+1344d4f3-4595-4873-b1ee-a2e9941421e6,3.0,Christopherside,2018.0
+0553dff5-20df-4b86-a3ea-58cf37551644,6.0,New Charlesbury,2019.0
+e698e6c0-82a5-4237-9f2d-a98e344b6e8d,5.0,Port Adriennefort,2019.0
+0fb606d2-0c0c-4b3a-bfa4-4b8eb555b861,3.0,West Samantha,2019.0
+1795af83-c094-4209-a663-76608287e613,3.0,Hunterbury,2020.0
+463742cd-784e-4248-b0f9-1171d649b4a8,5.0,Josephchester,2022.0
+c8dd6a3d-24bc-4bbc-b21f-b475470ab084,3.0,South Lauriehaven,2024.0
+549148fc-76c7-45e5-aedb-ab43c706c952,5.0,Madelinehaven,2023.0
+974c7e9d-088b-4069-b1f0-0133ad1e3d62,7.0,Robertsonfort,2024.0
+1407e35c-3d53-4745-98da-d133b25cf6d7,10.0,Paulaberg,2023.0
+4cff9dd4-dc66-490b-8163-6ce91c186bce,4.0,Clarkside,2021.0
+39120fd4-9b19-4584-a535-907d46da7a4a,5.0,Robinsonmouth,2024.0
+19430091-f067-41d3-90c2-1c8bd254363a,3.0,North Robert,2024.0
+9bd96764-81c0-4708-b0d3-491c6cbc9e4d,3.0,Brianstad,2020.0
+5ae8a743-04cf-44ce-8fdd-fe0ad5a38242,3.0,New Patriciafort,2020.0
+ca0c43d6-246e-4bba-86dd-f00e562b218e,9.0,North Dennis,2022.0
+7b36694a-75a1-4a86-9e91-4bf278382aba,4.0,Port Marieview,2020.0
+13026566-07ac-46bc-9a2b-c4598daa510d,4.0,Dickersonton,2016.0
+0020c2cb-8826-4e18-a897-ccf65a67b74b,4.0,Johnside,2015.0
+12db3b5f-ba12-4b9e-a10e-d80ab7b9c778,3.0,Cruzton,2018.0
+47de451d-8543-4293-8af8-fee3209da497,3.0,East Elijahchester,2020.0
+8dbda54e-38e9-4020-b2a1-dfff35d9b4b8,3.0,Larachester,2024.0
+931b3e21-43b0-4fee-95fc-a456675b8cc9,3.0,Melindaport,2017.0
+06754b15-cae7-48ad-a888-7bc05424de3a,3.0,Turnerchester,2021.0
+a4e168f4-83db-4b69-b473-877a2b723733,5.0,South Jamesside,2020.0
+831fb936-8fe7-4bda-8c41-ff9160888cf6,5.0,Landrytown,2021.0
+9e5647bf-b413-443a-a4ec-ee0096a77cb7,3.0,South Lori,2023.0
+af1c7862-ce94-4348-8cb9-b8f637a16dea,3.0,Brandonview,2016.0
+21721f79-7e12-449e-aefd-255ea9da160d,3.0,East Jamie,2017.0
+776f044f-3a95-4ec0-98c6-972b4da32f2c,3.0,Ericfurt,2022.0
+d88ff4d3-f5a3-42d9-954f-3bb4836def81,3.0,Campbellton,2014.0
+5c619090-7fa0-4923-b152-337cb5a9cca6,4.0,East Kimberly,2023.0
+174f546b-1b7b-48e9-b141-7e5cda1269b2,3.0,Port Sara,2019.0
+86e7596a-57f1-4716-a2cb-5613d7124f67,4.0,Lake Joel,2025.0
+6533d774-9771-48ba-a1ff-bccb9078c161,5.0,Jaredbury,2022.0
+c2e0b332-e0b5-4f0a-8596-d87f79a4c15a,3.0,Port Patrickton,2017.0
+0d3dafbe-df06-4413-8756-c9a38481cd17,3.0,Jenniferchester,2024.0
+989e2064-3875-4703-957f-41831ef033fc,3.0,New Tiffanyburgh,2023.0
+1b069faf-0b2b-43ad-b42c-bee75c1e561c,4.0,New Julieville,2020.0
+c958a6a0-c401-462a-a101-75dda32310bc,5.0,Thompsonfurt,2024.0
+5c216b40-816d-4020-a6af-870e55957928,3.0,Meghanside,2017.0
+3bb0553d-3bc1-4205-9aaa-07be333ffb33,3.0,Richardsonmouth,2018.0
+788956cc-791a-4deb-8e70-b9da2f2abb6a,3.0,Solismouth,2025.0
+ea775575-5cbf-4aee-8ad7-f8021af38140,3.0,Amandachester,2019.0
+ebe37ec2-022e-4656-93aa-24330ba618eb,3.0,South Gary,2024.0
+509d1ae8-4e5a-42e0-816c-08f82217465c,3.0,East John,2018.0
+56968c16-fa94-4cf8-b608-514d828c44ed,5.0,South Lisamouth,2025.0
+a909951e-0864-41d7-9c13-43cedfe17bee,4.0,East Marcland,2017.0
+692fa6c0-cb53-4d37-b1e1-6857fbf533f6,5.0,West Sue,2023.0
+b43df672-3114-47ed-b4cc-81923055001f,4.0,Murraymouth,2022.0
+d1b58015-429b-4a7f-b35a-9e9602ee64e2,4.0,North Jacquelineland,2022.0
+0c857f17-fb2d-4e8e-aa12-a56843884cc0,3.0,Donnaville,2018.0
+cea1817f-c2e5-4891-a231-ee30af61228b,3.0,South Michele,2019.0
+8924453a-adbe-4762-acba-2177fac326a7,3.0,Jessicafurt,2019.0
+938337cb-04cf-4960-9605-faf412ff28ca,6.0,East Joshua,2022.0
+402b0486-6175-4c59-b2ba-16abbfadf9b2,3.0,South Christopher,2022.0
+6e6e28a4-48b6-4b58-8ba7-17b575793b0b,3.0,Loganhaven,2021.0
+4b9f43e2-5ec8-4ca7-91f3-483862b617b5,3.0,East Brianmouth,2019.0
+0377dae3-8ea4-47c9-996c-c35181283846,3.0,East Billy,2020.0
+23a07403-3f7b-40a5-8ae9-4549479025c9,3.0,Joyhaven,2024.0
+f85a6188-85d7-4135-a6f2-e8db83913eae,3.0,New Savannahshire,2023.0
+67b435bc-de27-4e55-9683-7acea5573c84,4.0,Port Ralph,2018.0
+f7bcdc29-5133-4466-940b-5017201a84a3,3.0,Saraborough,2017.0
+29b6a0c4-f13e-4aa3-b644-c90618a1b22b,4.0,Taylorside,2019.0
+e4b9d9e8-e975-4f6d-bad3-df1b5075c23f,3.0,Edwardshaven,2020.0
+ffec18ba-8662-4910-ad22-8525d054261b,3.0,South Christine,2017.0
+5f3f2935-5752-4fc7-b778-d8a5593c594f,7.0,Johnville,2024.0
+45580a76-e752-4fdb-a708-237502eb388c,3.0,Paulland,2016.0
+e5e613f1-165a-468d-9915-f853237c8aa0,3.0,Lake Jessica,2019.0
+e5406f55-ad3b-471d-a76b-e2faa934f5ea,3.0,East Pamela,2019.0
+89d9ead6-b118-4808-8638-218f7baf9c53,6.0,Kevinstad,2024.0
+2fa12601-b693-47c6-bdad-63abfb593721,4.0,Isaacmouth,2023.0
+da6c6ad5-80d4-4fad-9a18-cc53eeafafb8,6.0,Zimmermanton,2024.0
+1bfda4c3-1a24-4950-a21b-1647dc473674,3.0,Johnmouth,2020.0
+db6a453f-0070-425a-8923-3c50a60dc117,5.0,East Lindamouth,2022.0
+67154758-5d28-4261-8997-849dcb842716,4.0,New Kayla,2020.0
+a56033b7-3dda-4d76-a38b-4935d899113a,5.0,Lake Morganside,2022.0
+5e7d7dda-94df-40d7-980d-2b9830a0a69e,4.0,North Cameron,2019.0
+1280eb2d-aa3c-4ef3-8cdb-d8904a4f96bb,3.0,Port Crystal,2020.0
+97f4f201-4b42-487b-82c8-baa150e19fba,3.0,Williechester,2018.0
+a2d4442f-f5f1-48d7-a18a-6c4b8eb274f4,3.0,North Nicholas,2020.0
+ef4dcca4-9497-4368-944c-9faf9b22f8a5,4.0,North Mary,2019.0
+a9c2539b-90ed-429b-aa08-e18bb6810562,7.0,Frankberg,2022.0
+758292b0-b817-4669-ba05-ac0055de545b,3.0,Grahamland,2023.0
+4cb6d7da-098a-4ec8-bf81-a52ec6292576,3.0,Evansshire,2017.0
+d3e78ee9-94e3-4f24-8446-85c28e4fb7f5,3.0,Watsonland,2018.0
+1e4e780a-e78c-44b2-b5ba-257656aa30b1,3.0,Pagebury,2019.0
+690e6582-488f-4e47-96dd-0cd70e168249,3.0,Frankside,2017.0
+73946cb6-4989-4c60-b287-29041dbe21c9,4.0,Lake Bradley,2023.0
+309e5c53-98a1-4cb8-ada1-38e976f53ff0,4.0,South Brian,2018.0
+8aa328e2-1b46-42ed-a4b5-fd761a4da03f,4.0,Justinland,2023.0
+13a9008e-158d-4496-8765-b35b3343204e,3.0,South Courtney,2022.0
+537eea80-abdd-4495-92e4-29401147886c,3.0,Garciamouth,2023.0
+8e5656d1-bd79-49fe-885a-ecb24cba3608,3.0,West Nathanview,2019.0
+5ba85436-465b-49b9-b509-7483ec87e4fb,3.0,West Jonathan,2020.0
+2957fcff-3d81-4a5d-9697-7d696d3714fd,3.0,Dakotafurt,2005.0
+ec8b6455-7193-4c8f-a904-2ad6c6aadb64,3.0,West Tammy,2005.0
+734adf7d-9b14-47c7-8ddb-d86160aa1acb,3.0,Jeffreytown,2018.0
+6d91b4f2-f121-4ce0-a0b6-76ac80217468,3.0,Kathyland,2012.0
+1bda9c1a-c139-463b-afa7-3b986938e1f9,3.0,Jeremybury,2021.0
+489e298b-3e09-4149-b803-3818f042b5d3,3.0,South Ryanport,2012.0
+f4fcdfc0-b793-414d-840e-c3fd1df4de43,3.0,East Caseyfort,2012.0
+510757f5-f48d-4ea5-a3ca-1c9a175780bc,3.0,Port Haley,2017.0
+804b45d5-0b0d-4a8a-8fde-28909a5ca21d,3.0,Mckayhaven,2013.0
+83a96c05-e68b-4380-af86-1429c981b2e5,3.0,Lake Nicoleview,2009.0
+84b00e45-b877-4282-9559-acc94cb909b2,3.0,North Stephen,2006.0
+83057a4b-6d34-4618-9c9d-3a08707898bc,4.0,Lake Amandamouth,2016.0
+fcdbf893-cb99-41db-a066-5a6abe8c87f2,4.0,Robertburgh,2021.0
+76cd971c-1485-4881-83c7-b2b27378b975,3.0,Port Ronaldmouth,2000.0
+d2dfe279-b7d0-4695-ab86-ba879c7ad603,3.0,Gutierrezview,2014.0
+47c17a7a-b7f1-427c-9e57-9968b9cbbda8,3.0,East William,2015.0
+af2a80b1-9f63-4b8a-877c-ab93bc154422,3.0,Paulton,2010.0
+81ce20da-3bd3-4ffb-b3a2-8f38ce25e01d,4.0,West Katieberg,2022.0
+1dfca9e3-66c6-4d6b-936f-9b6a68f16e50,3.0,Masonview,2016.0
+7f23f0db-4d0f-4ece-ad99-018f0a341f81,3.0,Jonesville,2022.0
+9224c235-38e9-4e10-8566-cdf8a3986912,4.0,Davetown,2019.0
+bab72775-6e3f-42a1-b703-2efa4a07844f,3.0,Fernandezton,2020.0
+86e4280b-b9f3-45ba-ace5-11ab5b04179d,3.0,Allenfort,2018.0
+fa6e68d9-5737-4536-8a63-50826413c857,3.0,Zacharyton,2017.0
+f027c49b-0efd-4338-a5b2-b3e1420d90fd,4.0,Keithstad,2019.0
+c015b907-fbbd-40bb-8e86-869bd81f5b43,3.0,South Melissaview,2018.0
+5646dd0b-8476-4855-93eb-e5d5a6d7613b,5.0,Adamsbury,2019.0
+2305a5c0-94b8-4e43-a8ef-8cd8e72fc0b1,3.0,Aprilmouth,2018.0
+a8b48f73-0688-4169-a2ba-ba520ba64187,3.0,South Sarahton,2017.0
+25d30e1a-bc82-4497-a503-c11e2be94527,4.0,Crawfordmouth,2021.0
+b67089fc-e622-43a2-9220-3717f5ab5a93,3.0,Rachelview,2017.0
+af3010d2-c23c-4344-8761-ce01fb19f0d0,3.0,Port Justin,2016.0
+f5fe4ee0-8881-4d79-9e0b-15af23f317e8,4.0,East Kristinastad,2020.0
+753cd0cb-86de-41cc-a937-e6ed25fc9555,3.0,North Adamland,2016.0
+2016505d-8e1c-4050-b968-9ee778a022de,3.0,Stephaniehaven,2018.0
+cb4dc776-7788-46b7-a750-8056dd8addfd,3.0,North Heathermouth,2017.0
+dd089645-252b-46bf-ae33-c17e82440066,4.0,Marcialand,2023.0
+113f6c37-03f9-438e-8b8c-c9190339d9d0,3.0,East Nicole,2015.0
+e68f5015-b8c0-4522-89b9-1ffd510687d4,3.0,West Elizabethstad,2022.0
+85377d69-c452-4fa4-acab-8b8ef92fdd7f,3.0,Erikville,2015.0
+d94d5388-bd94-4d79-980d-65becb27697c,3.0,Danielton,2015.0
+c70535db-9e16-4c43-9a42-f2ec9c3984c3,4.0,Taylorchester,2020.0
+e3c9b81a-1c6a-4f85-a9f0-a3c0cc79b690,3.0,Port Deborah,2021.0
+997f6ee6-b6d4-430c-9c26-71a7124e63d5,3.0,Aaronport,2023.0
+689b275d-dd40-4096-89cd-889325b45f19,3.0,Keithhaven,2007.0
+243eb859-ec2b-4baf-96f1-0c3952862b59,3.0,Hansenville,2019.0
+cb1c5b6e-60ee-4553-999d-f1e4dcd53c3d,3.0,South Stacyborough,2019.0
+53a84fd3-122d-4bb4-ab70-bc9d29727e47,3.0,Ryanhaven,2017.0
+e2769310-43c5-4b41-b723-226f17256a17,4.0,Kathrynville,2018.0
+c52e3aa7-a075-4116-9504-d56209450a05,3.0,Kellyview,2019.0
+a4ddd1fa-3bd4-443d-9114-1777406288fd,3.0,Mariaport,2013.0
+e4a094a7-0bda-474e-be31-2b29fc31eafd,3.0,South Kaitlynport,2015.0
+3135805a-be53-43ce-8c8d-1d5fd1f40766,3.0,Barbarabury,2015.0
+d3b9ad29-ac23-45de-8fe4-a11b88b76e3d,3.0,Trujillostad,2017.0
+3730a5c0-b4af-4998-90d3-7281c6b3ee53,3.0,New Jennifermouth,2014.0
+0f7315bd-2920-4d7b-8914-5740d3e2879f,3.0,Toddland,2015.0
+4f526a03-e50c-4d7f-941a-e22635666a31,3.0,Lake Wesleyport,2021.0
+694f4970-a344-484a-88d6-0332df338c4a,3.0,Lake Brandon,2015.0
+c9af3ef2-5b99-4121-96fc-0c37f3676c8f,3.0,Mooreside,2013.0
+6e944531-7db3-48d0-8fb0-8f6e25d4426f,3.0,Port Ashley,2015.0
+d46a05f1-a514-40ce-b824-8cb4e317dd8b,4.0,Beverlyburgh,2015.0
+872ca77b-545f-4db7-a9e5-8b9ceb2caf52,3.0,Youngport,2016.0
+cda48e65-a301-4fdd-ae68-093e1471bc69,5.0,Port Heatherfurt,2019.0
+be6ce123-2e5f-480a-b881-e2059d3cae32,3.0,New Adrianville,2016.0
+c8c16b58-d95d-4879-ac8e-a04d82223318,3.0,South Laurenside,2020.0
+bd0f06cf-c7b6-464b-a575-d6bb65855416,3.0,Port Heatherport,2015.0
+2bd4cc4d-9c0a-4337-87a5-daea11d74fe0,3.0,New Jeanchester,2017.0
+191f831f-d26e-47d3-a5e1-8c75af411a88,4.0,Port Eric,2020.0
+76a2ae86-18f9-44dc-93a4-cfdec627b0a9,3.0,Nicholasmouth,2018.0
+9c4e9b9f-c02a-4309-a9b0-dc34c16780cf,3.0,West Maryshire,2015.0
+d3e6aa5a-0155-40ba-8a2a-2259c428ba0a,3.0,Flowersmouth,2014.0
+4a90c623-b116-456c-9585-38ba21899e0b,4.0,South Anna,2016.0
+9019fa5f-2227-47d9-a3b1-f77b524975f6,3.0,Leehaven,2015.0
+60cd578b-3b56-4438-8c90-b1e1fe7bdc51,3.0,West Danielton,2014.0
+94784ca4-2586-402e-8885-731747d05876,3.0,South Connorville,2019.0
+def14f48-ac58-4119-a6fb-095033ceb313,3.0,North Staceyfurt,2017.0
