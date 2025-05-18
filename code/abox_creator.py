@@ -1,471 +1,677 @@
 import pandas as pd
-import numpy as np
+import uuid
+from rdflib import Graph, Namespace, Literal, URIRef, XSD
+from rdflib.namespace import RDF, RDFS
 import os
-import random
 from pathlib import Path
-import rdflib
-from rdflib import Graph, Namespace, URIRef, Literal, BNode
-from rdflib.namespace import RDF, RDFS, XSD, OWL, FOAF
-import re
 
 # Set data directories
 DATA_DIR = Path("../data")
-GEN_DATA_DIR = Path("../data_generated")
+GEN_DATA_DIR = Path("../data_generated")  # Added generated data directory
 OUTPUT_DIR = Path("../resources")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-# Initialize the RDF graph
+# Create a new RDF graph
 g = Graph()
 
-# Parse existing TBOX
+# Import TBOX definition
 g.parse("../resources/tbox.ttl", format="turtle")
 
 # Define namespaces
-BASE = Namespace("http://example.org/academicworld#")
-g.bind("base", BASE)
-g.bind("foaf", FOAF)
+RESEARCH = Namespace("http://example.org/research#")
+RESOURCE = Namespace("http://example.org/resource/")
+g.bind("research", RESEARCH)
+g.bind("resource", RESOURCE)
 
-# Processing functions
-def clean_string(s):
-    """Clean a string for use in URIs"""
-    if not isinstance(s, str):
-        return str(s)
-    # Replace spaces and special characters
-    s = re.sub(r'[^\w\s]', '', s)
-    s = re.sub(r'\s+', '_', s)
-    return s
+# Create resource URI function
+def create_uri(resource_type, identifier):
+    return RESOURCE[f"{resource_type}/{str(identifier)}"]
 
-def create_uri(entity_type, identifier):
-    """Create a URI for an entity"""
-    if isinstance(identifier, str):
-        clean_id = clean_string(identifier)
-    else:
-        clean_id = str(identifier)
-    return URIRef(BASE + entity_type + "/" + clean_id)
-
-def load_csv(filepath):
-    """Load a CSV file as DataFrame"""
+# Load CSV data
+def load_csv(filename, generated=False):
     try:
-        return pd.read_csv(filepath, dtype=str)
+        if generated:
+            return pd.read_csv(GEN_DATA_DIR / filename, dtype=str)
+        else:
+            return pd.read_csv(DATA_DIR / filename, dtype=str)
     except Exception as e:
-        print(f"Error loading {filepath}: {e}")
+        print(f"Warning: Could not load {filename}: {e}")
         return pd.DataFrame()
 
-# Process Author data
-def process_authors():
-    print("Processing Authors...")
+# Add Paper instances
+def add_papers():
+    print("Adding Paper instances...")
+    papers_df = load_csv("paper.csv")
+    
+    # Process page numbers from paper_publishedIn_volume.csv
+    vol_pages_df = load_csv("paper_publishedIn_volume.csv")
+    vol_pages_dict = dict(zip(vol_pages_df['paperId'], vol_pages_df['pages']))
+    
+    # Process page numbers from paper_publishedIn_edition.csv
+    ed_pages_df = load_csv("paper_publishedIn_edition.csv")
+    ed_pages_dict = dict(zip(ed_pages_df['paperId'], ed_pages_df['pages']))
+    
     count = 0
-    df = load_csv(DATA_DIR / "author.csv")
-    
-    for _, row in df.iterrows():
-        author_uri = create_uri("Author", row['authorId'])
-        g.add((author_uri, RDF.type, BASE.Author))
+    for _, row in papers_df.iterrows():
+        paper_uri = create_uri("paper", row['paperId'])
+        g.add((paper_uri, RDF.type, RESEARCH.Paper))
+        g.add((paper_uri, RESEARCH.paper_id, Literal(row['paperId'])))
         
-        if 'name' in row and row['name']:
-            g.add((author_uri, FOAF.name, Literal(row['name'], datatype=XSD.string)))
+        if pd.notna(row['title']):
+            g.add((paper_uri, RESEARCH.title, Literal(row['title'])))
         
-        if 'email' in row and row['email']:
-            g.add((author_uri, FOAF.mbox, Literal(row['email'], datatype=XSD.string)))
+        if pd.notna(row['url']):
+            g.add((paper_uri, RESEARCH.url, Literal(row['url'])))
         
+        if pd.notna(row['abstract']):
+            g.add((paper_uri, RESEARCH.abstract, Literal(row['abstract'])))
+        
+        # Add page information (moved from relationship to Paper attributes)
+        if row['paperId'] in vol_pages_dict and pd.notna(vol_pages_dict[row['paperId']]):
+            pages = vol_pages_dict[row['paperId']]
+            try:
+                if '-' in pages:
+                    start_page, end_page = pages.split('-')
+                    g.add((paper_uri, RESEARCH.start_page, Literal(int(start_page))))
+                    g.add((paper_uri, RESEARCH.end_page, Literal(int(end_page))))
+            except:
+                # Handle invalid page format
+                pass
+        
+        # If page information not found in volume, try from edition
+        elif row['paperId'] in ed_pages_dict and pd.notna(ed_pages_dict[row['paperId']]):
+            pages = ed_pages_dict[row['paperId']]
+            try:
+                if '-' in pages:
+                    start_page, end_page = pages.split('-')
+                    g.add((paper_uri, RESEARCH.start_page, Literal(int(start_page))))
+                    g.add((paper_uri, RESEARCH.end_page, Literal(int(end_page))))
+            except:
+                # Handle invalid page format
+                pass
+                
         count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} authors")
-    
-    print(f"Completed processing {count} authors")
-
-# Process Journal data
-def process_journals():
-    print("Processing Journals...")
-    count = 0
-    df = load_csv(DATA_DIR / "journal.csv")
-    
-    for _, row in df.iterrows():
-        journal_uri = create_uri("Journal", row['journalId'])
-        g.add((journal_uri, RDF.type, BASE.Journal))
-        
-        if 'name' in row and row['name']:
-            g.add((journal_uri, RDFS.label, Literal(row['name'], datatype=XSD.string)))
-        
-        count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} journals")
-    
-    print(f"Completed processing {count} journals")
-
-# Process Volume data
-def process_volumes():
-    print("Processing Volumes...")
-    count = 0
-    df = load_csv(DATA_DIR / "volume.csv")
-    
-    for _, row in df.iterrows():
-        volume_uri = create_uri("Volume", row['volumeId'])
-        g.add((volume_uri, RDF.type, BASE.Volume))
-        
-        if 'number' in row and row['number']:
-            g.add((volume_uri, BASE.number, Literal(row['number'], datatype=XSD.integer)))
-        
-        count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} volumes")
-    
-    print(f"Completed processing {count} volumes")
-
-# Process Conference data
-def process_events():
-    print("Processing Events...")
-    count = 0
-    df = load_csv(DATA_DIR / "event.csv")
-    
-    for _, row in df.iterrows():
-        event_uri = create_uri("Event", row['eventId'])
-        g.add((event_uri, RDF.type, BASE.Event))
-        
-        if 'name' in row and row['name']:
-            g.add((event_uri, RDFS.label, Literal(row['name'], datatype=XSD.string)))
-        
-        count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} events")
-    
-    print(f"Completed processing {count} events")
-
-# Process Edition data
-def process_editions():
-    print("Processing Editions...")
-    count = 0
-    df = load_csv(DATA_DIR / "edition.csv")
-    
-    for _, row in df.iterrows():
-        edition_uri = create_uri("Edition", row['editionId'])
-        g.add((edition_uri, RDF.type, BASE.Edition))
-        
-        if 'number' in row and row['number']:
-            g.add((edition_uri, BASE.number, Literal(row['number'], datatype=XSD.integer)))
-        
-        count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} editions")
-    
-    print(f"Completed processing {count} editions")
-
-# Process Paper data
-def process_papers():
-    print("Processing Papers...")
-    count = 0
-    df = load_csv(DATA_DIR / "paper.csv")
-    
-    for _, row in df.iterrows():
-        paper_uri = create_uri("Paper", row['paperId'])
-        g.add((paper_uri, RDF.type, BASE.Paper))
-        
-        if 'title' in row and row['title']:
-            g.add((paper_uri, RDFS.label, Literal(row['title'], datatype=XSD.string)))
-        
-        if 'year' in row and row['year'] and row['year'] != 'nan':
-            g.add((paper_uri, BASE.year, Literal(row['year'], datatype=XSD.integer)))
-        
-        count += 1
-        if count % 100 == 0:
+        if count % 1000 == 0:
             print(f"Processed {count} papers")
     
-    print(f"Completed processing {count} papers")
+    print(f"Added a total of {count} papers")
 
-# Process relationships
-def process_paper_authors():
-    print("Processing Paper-Author relationships...")
+# Add Person class and Author instances
+def add_authors():
+    print("Adding Author instances...")
+    authors_df = load_csv("author.csv")
     count = 0
-    df = load_csv(DATA_DIR / "paper_hasAuthor_author.csv")
-    
-    for _, row in df.iterrows():
-        paper_uri = create_uri("Paper", row['paperId'])
-        author_uri = create_uri("Author", row['authorId'])
+    for _, row in authors_df.iterrows():
+        author_uri = create_uri("author", row['authorId'])
+        # Add both Person and Author types
+        g.add((author_uri, RDF.type, RESEARCH.Person))
+        g.add((author_uri, RDF.type, RESEARCH.Author))
+        g.add((author_uri, RESEARCH.author_id, Literal(row['authorId'])))
         
-        g.add((paper_uri, BASE.hasAuthor, author_uri))
+        if pd.notna(row['name']):
+            g.add((author_uri, RESEARCH.name, Literal(row['name'])))
         
         count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} paper-author relationships")
+        if count % 1000 == 0:
+            print(f"Processed {count} authors")
     
-    print(f"Completed processing {count} paper-author relationships")
+    print(f"Added a total of {count} authors")
 
-def process_volume_papers():
-    print("Processing Volume-Paper relationships...")
+# Add JournalEditor instances
+def add_journal_editors():
+    print("Adding JournalEditor instances...")
+    editors_df = load_csv("journal_editor.csv", generated=True)
     count = 0
-    df = load_csv(DATA_DIR / "volume_hasPaper_paper.csv")
     
-    for _, row in df.iterrows():
-        volume_uri = create_uri("Volume", row['volumeId'])
-        paper_uri = create_uri("Paper", row['paperId'])
-        
-        g.add((volume_uri, BASE.hasPaper, paper_uri))
-        
-        count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} volume-paper relationships")
+    if len(editors_df) == 0:
+        print("Could not find journal_editor.csv, skipping JournalEditor instances")
+        return
     
-    print(f"Completed processing {count} volume-paper relationships")
-
-def process_journal_volumes():
-    print("Processing Journal-Volume relationships...")
-    count = 0
-    df = load_csv(DATA_DIR / "journal_hasVolume_volume.csv")
-    
-    for _, row in df.iterrows():
-        journal_uri = create_uri("Journal", row['journalId'])
-        volume_uri = create_uri("Volume", row['volumeId'])
+    for _, row in editors_df.iterrows():
+        editor_uri = create_uri("editor", row['editorId'])
+        # Add both Person and JournalEditor types
+        g.add((editor_uri, RDF.type, RESEARCH.Person))
+        g.add((editor_uri, RDF.type, RESEARCH.JournalEditor))
+        g.add((editor_uri, RESEARCH.editor_id, Literal(row['editorId'])))
         
-        g.add((journal_uri, BASE.hasVolume, volume_uri))
+        if pd.notna(row['name']):
+            g.add((editor_uri, RESEARCH.name, Literal(row['name'])))
         
-        count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} journal-volume relationships")
-    
-    print(f"Completed processing {count} journal-volume relationships")
-
-def process_edition_papers():
-    print("Processing Edition-Paper relationships...")
-    count = 0
-    df = load_csv(DATA_DIR / "edition_hasPaper_paper.csv")
-    
-    for _, row in df.iterrows():
-        edition_uri = create_uri("Edition", row['editionId'])
-        paper_uri = create_uri("Paper", row['paperId'])
-        
-        g.add((edition_uri, BASE.hasPaper, paper_uri))
-        
-        count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} edition-paper relationships")
-    
-    print(f"Completed processing {count} edition-paper relationships")
-
-def process_event_editions():
-    print("Processing Event-Edition relationships...")
-    count = 0
-    df = load_csv(DATA_DIR / "event_hasEdition_edition.csv")
-    
-    for _, row in df.iterrows():
-        event_uri = create_uri("Event", row['eventId'])
-        edition_uri = create_uri("Edition", row['editionId'])
-        
-        g.add((event_uri, BASE.hasEdition, edition_uri))
-        
-        count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} event-edition relationships")
-    
-    print(f"Completed processing {count} event-edition relationships")
-
-# Process generated data
-def process_journal_editors():
-    print("Processing JournalEditor data...")
-    count = 0
-    df = load_csv(GEN_DATA_DIR / "journal_editor.csv")
-    
-    for _, row in df.iterrows():
-        editor_uri = create_uri("JournalEditor", row['editorId'])
-        g.add((editor_uri, RDF.type, BASE.JournalEditor))
-        
-        if 'name' in row and row['name']:
-            g.add((editor_uri, FOAF.name, Literal(row['name'], datatype=XSD.string)))
-        
-        if 'email' in row and row['email']:
-            g.add((editor_uri, FOAF.mbox, Literal(row['email'], datatype=XSD.string)))
+        if pd.notna(row['email']):
+            g.add((editor_uri, RESEARCH.email, Literal(row['email'])))
         
         count += 1
         if count % 100 == 0:
             print(f"Processed {count} journal editors")
     
-    print(f"Completed processing {count} journal editors")
+    print(f"Added a total of {count} journal editors")
 
-def process_conference_chairs():
-    print("Processing ConferenceChair data...")
+# Add ConferenceChair instances
+def add_conference_chairs():
+    print("Adding ConferenceChair instances...")
+    chairs_df = load_csv("conference_chair.csv", generated=True)
     count = 0
-    df = load_csv(GEN_DATA_DIR / "conference_chair.csv")
     
-    for _, row in df.iterrows():
-        chair_uri = create_uri("ConferenceChair", row['chairId'])
-        g.add((chair_uri, RDF.type, BASE.ConferenceChair))
+    if len(chairs_df) == 0:
+        print("Could not find conference_chair.csv, skipping ConferenceChair instances")
+        return
+    
+    for _, row in chairs_df.iterrows():
+        chair_uri = create_uri("chair", row['chairId'])
+        # Add both Person and ConferenceChair types
+        g.add((chair_uri, RDF.type, RESEARCH.Person))
+        g.add((chair_uri, RDF.type, RESEARCH.ConferenceChair))
+        g.add((chair_uri, RESEARCH.chair_id, Literal(row['chairId'])))
         
-        if 'name' in row and row['name']:
-            g.add((chair_uri, FOAF.name, Literal(row['name'], datatype=XSD.string)))
+        if pd.notna(row['name']):
+            g.add((chair_uri, RESEARCH.name, Literal(row['name'])))
         
-        if 'email' in row and row['email']:
-            g.add((chair_uri, FOAF.mbox, Literal(row['email'], datatype=XSD.string)))
+        if pd.notna(row['email']):
+            g.add((chair_uri, RESEARCH.email, Literal(row['email'])))
         
         count += 1
         if count % 100 == 0:
             print(f"Processed {count} conference chairs")
     
-    print(f"Completed processing {count} conference chairs")
+    print(f"Added a total of {count} conference chairs")
 
-def process_volume_editors():
-    print("Processing Volume-JournalEditor relationships...")
+# Add Journal instances
+def add_journals():
+    print("Adding Journal instances...")
+    journals_df = load_csv("journal.csv")
     count = 0
-    df = load_csv(GEN_DATA_DIR / "volume_hasJournalEditor_editor.csv")
-    
-    for _, row in df.iterrows():
-        volume_uri = create_uri("Volume", row['volumeId'])
-        editor_uri = create_uri("JournalEditor", row['editorId'])
+    for _, row in journals_df.iterrows():
+        journal_uri = create_uri("journal", row['journalId'])
+        g.add((journal_uri, RDF.type, RESEARCH.Journal))
+        g.add((journal_uri, RESEARCH.journal_id, Literal(row['journalId'])))
         
-        g.add((volume_uri, BASE.hasJournalEditor, editor_uri))
+        if pd.notna(row['name']):
+            g.add((journal_uri, RESEARCH.name, Literal(row['name'])))
+        
+        if pd.notna(row['ISSN']):
+            g.add((journal_uri, RESEARCH.issn, Literal(row['ISSN'])))
+        
+        if pd.notna(row['url']):
+            g.add((journal_uri, RESEARCH.url, Literal(row['url'])))
         
         count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} volume-editor relationships")
+        if count % 1000 == 0:
+            print(f"Processed {count} journals")
     
-    print(f"Completed processing {count} volume-editor relationships")
+    print(f"Added a total of {count} journals")
 
-def process_edition_chairs():
-    print("Processing Edition-ConferenceChair relationships...")
+# Add Event instances
+def add_events():
+    print("Adding Event instances...")
+    events_df = load_csv("event.csv")
     count = 0
-    df = load_csv(GEN_DATA_DIR / "edition_hasConferenceChair_chair.csv")
-    
-    for _, row in df.iterrows():
-        edition_uri = create_uri("Edition", row['editionId'])
-        chair_uri = create_uri("ConferenceChair", row['chairId'])
+    for _, row in events_df.iterrows():
+        event_uri = create_uri("event", row['eventId'])
         
-        g.add((edition_uri, BASE.hasConferenceChair, chair_uri))
+        # Determine if it's a Conference or Workshop based on type
+        if row['type'] == 'Conference':
+            g.add((event_uri, RDF.type, RESEARCH.Conference))
+        elif row['type'] == 'Workshop':
+            g.add((event_uri, RDF.type, RESEARCH.Workshop))
+        else:
+            g.add((event_uri, RDF.type, RESEARCH.Event))
+        
+        g.add((event_uri, RESEARCH.event_id, Literal(row['eventId'])))
+        
+        if pd.notna(row['name']):
+            g.add((event_uri, RESEARCH.name, Literal(row['name'])))
+        
+        if pd.notna(row['ISSN']):
+            g.add((event_uri, RESEARCH.issn, Literal(row['ISSN'])))
+        
+        if pd.notna(row['url']):
+            g.add((event_uri, RESEARCH.url, Literal(row['url'])))
         
         count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} edition-chair relationships")
+        if count % 500 == 0:
+            print(f"Processed {count} events")
     
-    print(f"Completed processing {count} edition-chair relationships")
+    print(f"Added a total of {count} events")
 
-def process_editor_journals():
-    print("Processing JournalEditor-Journal relationships...")
+# Add Edition instances
+def add_editions():
+    print("Adding Edition instances...")
+    editions_df = load_csv("edition.csv")
     count = 0
-    df = load_csv(GEN_DATA_DIR / "journalEditor_editsJournal_journal.csv")
-    
-    for _, row in df.iterrows():
-        editor_uri = create_uri("JournalEditor", row['editorId'])
-        journal_uri = create_uri("Journal", row['journalId'])
+    for _, row in editions_df.iterrows():
+        edition_uri = create_uri("edition", row['editionId'])
+        g.add((edition_uri, RDF.type, RESEARCH.Edition))
+        g.add((edition_uri, RESEARCH.edition_id, Literal(row['editionId'])))
         
-        g.add((editor_uri, BASE.editsJournal, journal_uri))
+        if pd.notna(row['edition']):
+            g.add((edition_uri, RESEARCH.edition, Literal(int(float(row['edition'])))))
+        
+        if pd.notna(row['location']):
+            g.add((edition_uri, RESEARCH.location, Literal(row['location'])))
+        
+        if pd.notna(row['year']):
+            g.add((edition_uri, RESEARCH.year, Literal(int(float(row['year'])), datatype=XSD.gYear)))
         
         count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} editor-journal relationships")
+        if count % 500 == 0:
+            print(f"Processed {count} editions")
     
-    print(f"Completed processing {count} editor-journal relationships")
+    print(f"Added a total of {count} editions")
 
-def process_chair_events():
-    print("Processing ConferenceChair-Event relationships...")
+# Add Volume instances
+def add_volumes():
+    print("Adding Volume instances...")
+    volumes_df = load_csv("volume.csv")
     count = 0
-    df = load_csv(GEN_DATA_DIR / "conferenceChair_chairsEvent_event.csv")
-    
-    for _, row in df.iterrows():
-        chair_uri = create_uri("ConferenceChair", row['chairId'])
-        event_uri = create_uri("Event", row['eventId'])
+    for _, row in volumes_df.iterrows():
+        volume_uri = create_uri("volume", row['volumeId'])
+        g.add((volume_uri, RDF.type, RESEARCH.Volume))
+        g.add((volume_uri, RESEARCH.volume_id, Literal(row['volumeId'])))
         
-        g.add((chair_uri, BASE.chairsEvent, event_uri))
+        if pd.notna(row['number']):
+            g.add((volume_uri, RESEARCH.number, Literal(int(float(row['number'])) if row['number'].replace('.', '', 1).isdigit() else row['number'])))
+        
+        if pd.notna(row['year']):
+            g.add((volume_uri, RESEARCH.year, Literal(int(row['year']), datatype=XSD.gYear)))
         
         count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} chair-event relationships")
+        if count % 1000 == 0:
+            print(f"Processed {count} volumes")
     
-    print(f"Completed processing {count} chair-event relationships")
+    print(f"Added a total of {count} volumes")
 
-def process_reviews():
-    print("Processing Reviews...")
+# Add Keyword instances
+def add_keywords():
+    print("Adding Keyword instances...")
+    keywords_df = load_csv("keyword.csv")
     count = 0
+    for _, row in keywords_df.iterrows():
+        keyword_uri = create_uri("keyword", row['keywordId'])
+        g.add((keyword_uri, RDF.type, RESEARCH.Keyword))
+        g.add((keyword_uri, RESEARCH.keyword_id, Literal(row['keywordId'])))
+        
+        if pd.notna(row['keyword']):
+            g.add((keyword_uri, RESEARCH.keyword, Literal(row['keyword'])))
+        
+        count += 1
+        if count % 1000 == 0:
+            print(f"Processed {count} keywords")
     
-    # Try the standard reviews file first
-    reviews_df = load_csv(DATA_DIR / "review.csv")
+    print(f"Added a total of {count} keywords")
+
+# Add Affiliation instances
+def add_affiliations():
+    print("Adding Affiliation instances...")
+    affiliations_df = load_csv("affiliation.csv")
+    count = 0
+    for _, row in affiliations_df.iterrows():
+        affiliation_uri = create_uri("affiliation", row['affId'])
+        g.add((affiliation_uri, RDF.type, RESEARCH.Affiliation))
+        g.add((affiliation_uri, RESEARCH.affiliation_id, Literal(row['affId'])))
+        
+        if pd.notna(row['name']):
+            g.add((affiliation_uri, RESEARCH.name, Literal(row['name'])))
+        
+        count += 1
+        if count % 500 == 0:
+            print(f"Processed {count} affiliations")
     
-    # If standard file doesn't exist or is empty, try the generated one
-    if len(reviews_df) == 0:
-        reviews_df = load_csv(GEN_DATA_DIR / "review_generated.csv")
-    
+    print(f"Added a total of {count} affiliations")
+
+# Add Review instances - After model change, moved from edge properties to entity class
+def add_reviews():
+    print("Adding Review instances...")
+    # Using review_relations.csv instead of review.csv, as it contains reviewer, paper and review content
+    reviews_df = load_csv("review_relations.csv")
+    count = 0
     for _, row in reviews_df.iterrows():
-        review_uri = create_uri("Review", row['reviewId'])
-        g.add((review_uri, RDF.type, BASE.Review))
+        # Create a unique reviewId (may not exist in original data)
+        review_id = f"rev_{row['authorId']}_{row['paperId']}"
+        review_uri = create_uri("review", review_id)
         
-        if 'comments' in row and row['comments']:
-            g.add((review_uri, BASE.comments, Literal(row['comments'], datatype=XSD.string)))
+        g.add((review_uri, RDF.type, RESEARCH.Review))
+        g.add((review_uri, RESEARCH.review_id, Literal(review_id)))
         
-        if 'vote' in row and row['vote']:
-            g.add((review_uri, BASE.vote, Literal(row['vote'], datatype=XSD.integer)))
+        if pd.notna(row['comments']):
+            g.add((review_uri, RESEARCH.comments, Literal(row['comments'])))
+        
+        if pd.notna(row['vote']):
+            try:
+                vote_value = int(row['vote'])
+                g.add((review_uri, RESEARCH.vote, Literal(vote_value)))
+            except:
+                # If vote is not a number, handle as string
+                g.add((review_uri, RESEARCH.vote, Literal(row['vote'])))
+        
+        # Add review relationships
+        author_uri = create_uri("author", row['authorId'])
+        paper_uri = create_uri("paper", row['paperId'])
+        
+        g.add((author_uri, RESEARCH.reviewed, review_uri))  # Author reviewed the review
+        g.add((review_uri, RESEARCH.reviews, paper_uri))    # Review reviews the paper
         
         count += 1
-        if count % 100 == 0:
+        if count % 1000 == 0:
             print(f"Processed {count} reviews")
     
-    print(f"Completed processing {count} reviews")
+    print(f"Added a total of {count} reviews")
 
-def process_author_reviews():
-    print("Processing Author-Review relationships...")
+# New: Add Volume and JournalEditor relationship (has_journal_editor)
+def add_volume_has_journal_editor():
+    print("Adding Volume-Editor relationships...")
+    relations_df = load_csv("volume_hasJournalEditor_editor.csv", generated=True)
     count = 0
-    df = load_csv(GEN_DATA_DIR / "author_reviewed_review.csv")
     
-    for _, row in df.iterrows():
-        author_uri = create_uri("Author", row['authorId'])
-        review_uri = create_uri("Review", row['reviewId'])
+    if len(relations_df) == 0:
+        print("Could not find volume_hasJournalEditor_editor.csv, skipping Volume-Editor relationships")
+        return
+    
+    for _, row in relations_df.iterrows():
+        volume_uri = create_uri("volume", row['volumeId'])
+        editor_uri = create_uri("editor", row['editorId'])
         
-        g.add((author_uri, BASE.reviewed, review_uri))
+        g.add((volume_uri, RESEARCH.has_journal_editor, editor_uri))
         
         count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} author-review relationships")
+        if count % 1000 == 0:
+            print(f"Processed {count} volume-editor relationships")
     
-    print(f"Completed processing {count} author-review relationships")
+    print(f"Added a total of {count} volume-editor relationships")
 
-def process_review_papers():
-    print("Processing Review-Paper relationships...")
+# New: Add Edition and ConferenceChair relationship (has_conference_chair)
+def add_edition_has_conference_chair():
+    print("Adding Edition-Chair relationships...")
+    relations_df = load_csv("edition_hasConferenceChair_chair.csv", generated=True)
     count = 0
-    df = load_csv(GEN_DATA_DIR / "review_reviews_paper.csv")
     
-    for _, row in df.iterrows():
-        review_uri = create_uri("Review", row['reviewId'])
-        paper_uri = create_uri("Paper", row['paperId'])
+    if len(relations_df) == 0:
+        print("Could not find edition_hasConferenceChair_chair.csv, skipping Edition-Chair relationships")
+        return
+    
+    for _, row in relations_df.iterrows():
+        edition_uri = create_uri("edition", row['editionId'])
+        chair_uri = create_uri("chair", row['chairId'])
         
-        g.add((review_uri, BASE.reviews, paper_uri))
+        g.add((edition_uri, RESEARCH.has_conference_chair, chair_uri))
         
         count += 1
-        if count % 100 == 0:
-            print(f"Processed {count} review-paper relationships")
+        if count % 500 == 0:
+            print(f"Processed {count} edition-chair relationships")
     
-    print(f"Completed processing {count} review-paper relationships")
+    print(f"Added a total of {count} edition-chair relationships")
 
-# Main process
-def create_abox():
-    print("Starting ABOX creation process...")
+# New: Add JournalEditor and Journal relationship (edits_journal)
+def add_editor_edits_journal():
+    print("Adding Editor-Journal relationships...")
+    relations_df = load_csv("journalEditor_editsJournal_journal.csv", generated=True)
+    count = 0
     
-    # Process entities
-    process_authors()
-    process_journals()
-    process_volumes()
-    process_events()
-    process_editions()
-    process_papers()
+    if len(relations_df) == 0:
+        print("Could not find journalEditor_editsJournal_journal.csv, skipping Editor-Journal relationships")
+        return
     
-    # Process base relationships
-    process_paper_authors()
-    process_volume_papers()
-    process_journal_volumes()
-    process_edition_papers()
-    process_event_editions()
+    for _, row in relations_df.iterrows():
+        editor_uri = create_uri("editor", row['editorId'])
+        journal_uri = create_uri("journal", row['journalId'])
+        
+        g.add((editor_uri, RESEARCH.edits_journal, journal_uri))
+        
+        count += 1
+        if count % 500 == 0:
+            print(f"Processed {count} editor-journal relationships")
     
-    # Process generated data
-    process_journal_editors()
-    process_conference_chairs()
-    process_volume_editors()
-    process_edition_chairs()
-    process_editor_journals()
-    process_chair_events()
+    print(f"Added a total of {count} editor-journal relationships")
+
+# New: Add ConferenceChair and Event relationship (chairs_event)
+def add_chair_chairs_event():
+    print("Adding Chair-Event relationships...")
+    relations_df = load_csv("conferenceChair_chairsEvent_event.csv", generated=True)
+    count = 0
     
-    # Process reviews
-    process_reviews()
-    process_author_reviews()
-    process_review_papers()
+    if len(relations_df) == 0:
+        print("Could not find conferenceChair_chairsEvent_event.csv, skipping Chair-Event relationships")
+        return
     
-    # Save the results
+    for _, row in relations_df.iterrows():
+        chair_uri = create_uri("chair", row['chairId'])
+        event_uri = create_uri("event", row['eventId'])
+        
+        g.add((chair_uri, RESEARCH.chairs_event, event_uri))
+        
+        count += 1
+        if count % 500 == 0:
+            print(f"Processed {count} chair-event relationships")
+    
+    print(f"Added a total of {count} chair-event relationships")
+
+# Add Author-Paper relationship (wrote)
+def add_author_wrote_paper():
+    print("Adding Author-Paper relationships...")
+    relations_df = load_csv("author_wrote_paper.csv")
+    count = 0
+    for _, row in relations_df.iterrows():
+        author_uri = create_uri("author", row['authorId'])
+        paper_uri = create_uri("paper", row['paperId'])
+        
+        g.add((author_uri, RESEARCH.wrote, paper_uri))
+        
+        count += 1
+        if count % 1000 == 0:
+            print(f"Processed {count} author-paper relationships")
+    
+    print(f"Added a total of {count} author-paper relationships")
+
+# Add Paper-Author relationship (corresponded_by)
+def add_paper_corresponded_by_author():
+    print("Adding Paper-Corresponding Author relationships...")
+    relations_df = load_csv("paper_correspondedBy_author.csv")
+    count = 0
+    for _, row in relations_df.iterrows():
+        paper_uri = create_uri("paper", row['paperId'])
+        author_uri = create_uri("author", row['authorId'])
+        
+        g.add((paper_uri, RESEARCH.corresponded_by, author_uri))
+        
+        count += 1
+        if count % 1000 == 0:
+            print(f"Processed {count} paper-corresponding author relationships")
+    
+    print(f"Added a total of {count} paper-corresponding author relationships")
+
+# Add Author-Affiliation relationship (affiliated_with)
+def add_author_affiliated_with_affiliation():
+    print("Adding Author-Affiliation relationships...")
+    relations_df = load_csv("author_affiliatedWith_affiliation.csv")
+    count = 0
+    for _, row in relations_df.iterrows():
+        author_uri = create_uri("author", row['authorId'])
+        affiliation_uri = create_uri("affiliation", row['affId'])
+        
+        g.add((author_uri, RESEARCH.affiliated_with, affiliation_uri))
+        
+        count += 1
+        if count % 500 == 0:
+            print(f"Processed {count} author-affiliation relationships")
+    
+    print(f"Added a total of {count} author-affiliation relationships")
+
+# Add Paper-Paper relationship (cited_in)
+def add_paper_cited_in_paper():
+    print("Adding Paper Citation relationships...")
+    relations_df = load_csv("paper_citedIn_paper.csv")
+    count = 0
+    for _, row in relations_df.iterrows():
+        paper_uri = create_uri("paper", row['paperId'])
+        citing_paper_uri = create_uri("paper", row['citingPaperId'])
+        
+        g.add((paper_uri, RESEARCH.cited_in, citing_paper_uri))
+        
+        count += 1
+        if count % 1000 == 0:
+            print(f"Processed {count} paper citation relationships")
+    
+    print(f"Added a total of {count} paper citation relationships")
+
+# Add Paper-Keyword relationship (related_to)
+def add_paper_related_to_keyword():
+    print("Adding Paper-Keyword relationships...")
+    relations_df = load_csv("paper_isRelatedTo_keyword.csv")
+    count = 0
+    for _, row in relations_df.iterrows():
+        paper_uri = create_uri("paper", row['paperId'])
+        keyword_uri = create_uri("keyword", row['keywordId'])
+        
+        g.add((paper_uri, RESEARCH.related_to, keyword_uri))
+        
+        count += 1
+        if count % 1000 == 0:
+            print(f"Processed {count} paper-keyword relationships")
+    
+    print(f"Added a total of {count} paper-keyword relationships")
+
+# Add Paper-Edition relationship (published_in)
+def add_paper_published_in_edition():
+    print("Adding Paper-Edition relationships...")
+    relations_df = load_csv("paper_publishedIn_edition.csv")
+    count = 0
+    for _, row in relations_df.iterrows():
+        paper_uri = create_uri("paper", row['paperId'])
+        edition_uri = create_uri("edition", row['editionId'])
+        
+        g.add((paper_uri, RESEARCH.published_in, edition_uri))
+        
+        count += 1
+        if count % 500 == 0:
+            print(f"Processed {count} paper-edition relationships")
+    
+    print(f"Added a total of {count} paper-edition relationships")
+
+# Add Paper-Volume relationship (published_in)
+def add_paper_published_in_volume():
+    print("Adding Paper-Volume relationships...")
+    relations_df = load_csv("paper_publishedIn_volume.csv")
+    count = 0
+    for _, row in relations_df.iterrows():
+        paper_uri = create_uri("paper", row['paperId'])
+        volume_uri = create_uri("volume", row['volumeId'])
+        
+        g.add((paper_uri, RESEARCH.published_in, volume_uri))
+        
+        count += 1
+        if count % 1000 == 0:
+            print(f"Processed {count} paper-volume relationships")
+    
+    print(f"Added a total of {count} paper-volume relationships")
+
+# Add Event-Edition relationship (has_edition)
+def add_event_has_edition():
+    print("Adding Event-Edition relationships...")
+    relations_df = load_csv("event_hasEdition_edition.csv")
+    count = 0
+    for _, row in relations_df.iterrows():
+        event_uri = create_uri("event", row['eventId'])
+        edition_uri = create_uri("edition", row['editionId'])
+        
+        g.add((event_uri, RESEARCH.has_edition, edition_uri))
+        
+        count += 1
+        if count % 500 == 0:
+            print(f"Processed {count} event-edition relationships")
+    
+    print(f"Added a total of {count} event-edition relationships")
+
+# Add Journal-Volume relationship (has_volume)
+def add_journal_has_volume():
+    print("Adding Journal-Volume relationships...")
+    relations_df = load_csv("journal_hasVolume_volume.csv")
+    count = 0
+    for _, row in relations_df.iterrows():
+        journal_uri = create_uri("journal", row['journalId'])
+        volume_uri = create_uri("volume", row['volumeId'])
+        
+        g.add((journal_uri, RESEARCH.has_volume, volume_uri))
+        
+        count += 1
+        if count % 1000 == 0:
+            print(f"Processed {count} journal-volume relationships")
+    
+    print(f"Added a total of {count} journal-volume relationships")
+
+# Main function
+def main():
+    print("Starting ABOX creation...")
+    
+    # Add entities
+    add_papers()
+    add_authors()
+    add_journal_editors()  # New
+    add_conference_chairs()  # New
+    add_journals()
+    add_events()
+    add_editions()
+    add_volumes()
+    add_keywords()
+    add_affiliations()
+    add_reviews()
+    
+    # Add relationships
+    add_author_wrote_paper()
+    add_paper_corresponded_by_author()
+    add_author_affiliated_with_affiliation()
+    add_paper_cited_in_paper()
+    add_paper_related_to_keyword()
+    add_paper_published_in_edition()
+    add_paper_published_in_volume()
+    add_event_has_edition()
+    add_journal_has_volume()
+    
+    # New relationships
+    add_volume_has_journal_editor()  # New
+    add_edition_has_conference_chair()  # New
+    add_editor_edits_journal()  # New
+    add_chair_chairs_event()  # New
+    
+    # Save ABOX
     output_file = OUTPUT_DIR / "abox.ttl"
-    g.serialize(destination=output_file, format="turtle")
-    print(f"ABOX has been saved to {output_file}")
-    print(f"Total triples: {len(g)}")
+    print(f"Saving ABOX to {output_file}...")
+    g.serialize(destination=str(output_file), format="turtle")
+    
+    # Print statistics
+    print("\n==== ABOX Statistics ====")
+    class_counts = {}
+    for cls in [RESEARCH.Paper, RESEARCH.Person, RESEARCH.Author, RESEARCH.JournalEditor, RESEARCH.ConferenceChair,
+                RESEARCH.Journal, RESEARCH.Conference, RESEARCH.Workshop, RESEARCH.Edition, 
+                RESEARCH.Volume, RESEARCH.Keyword, RESEARCH.Affiliation, RESEARCH.Review]:
+        count = len(list(g.subjects(RDF.type, cls)))
+        class_name = cls.split('#')[-1]
+        class_counts[class_name] = count
+        print(f"Class {class_name}: {count} instances")
+    
+    property_counts = {}
+    for prop in [RESEARCH.wrote, RESEARCH.corresponded_by, RESEARCH.cited_in,
+                 RESEARCH.related_to, RESEARCH.published_in, RESEARCH.has_edition,
+                 RESEARCH.has_volume, RESEARCH.affiliated_with, RESEARCH.reviewed,
+                 RESEARCH.reviews, RESEARCH.has_journal_editor, RESEARCH.has_conference_chair,
+                 RESEARCH.edits_journal, RESEARCH.chairs_event]:
+        count = len(list(g.triples((None, prop, None))))
+        prop_name = prop.split('#')[-1]
+        property_counts[prop_name] = count
+        print(f"Relationship {prop_name}: {count} triples")
+    
+    total_triples = len(g)
+    print(f"\nTotal number of triples: {total_triples}")
+    
+    # Save statistics to JSON file
+    import json
+    stats = {
+        "classes": class_counts,
+        "properties": property_counts,
+        "total_triples": total_triples
+    }
+    with open(OUTPUT_DIR / "abox_stats.json", "w") as f:
+        json.dump(stats, f, indent=2)
+    
+    print("ABOX creation completed!")
 
 if __name__ == "__main__":
-    create_abox() 
+    main() 
