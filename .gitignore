@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc 
+data
+data_generated
+submissionBDMA12LSushmakarYuan
+*.zip

@@ -1,0 +1,15 @@
+PREFIX research: <http://example.org/research#>
+PREFIX rdfs : < http :// www . w3 . org /2000/01/ rdf-schema# >
+PREFIX xsd : < http :// www . w3 . org /2001/ XMLSchema # >
+PREFIX rdf : < http :// www . w3 . org /1999/02/22-rdf-syntax-ns# >
+SELECT ?affiliationName (COUNT(DISTINCT ?author) AS ?researchers)
+(GROUP_CONCAT(DISTINCT ?coAuthor; SEPARATOR="; ") AS ?collaborators)
+WHERE {
+?author research:affiliated_with ?affiliation ;
+research:wrote ?paper .
+?coAuthor research:wrote ?paper ;
+research:affiliated_with ?affiliation .
+?affiliation research:name ?affiliationName .
+FILTER (?author != ?coAuthor)
+}
+GROUP BY ?affiliation ?affiliationName
